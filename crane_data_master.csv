@@ -1,0 +1,2653 @@
+crane,boom,cwt,radius,lift,capacity,location
+7T Tadpole,21m,,1.0,,7,Launceston
+13T Kato,24m,,1.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,1.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,1.0,,40,Launceston
+55T Grove,43m,6.6T,1.0,,55,Launceston
+,43m,11.5T C/W,1.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,1.0,,100,Launceston
+,60m,26.2T,1.0,,9999,Unknown
+150T Grove,60m,1T,1.0,,150,Launceston
+150T Grove,60m,26.3T,1.0,,150,Launceston
+150T Grove,60m,44.56T,1.0,,150,Launceston
+250T Grove,78.5m,0T,1.0,,250,Launceston
+250T Grove,78.5m,16.5T,1.0,,250,Launceston
+250T Grove,78.5m,40T,1.0,,250,Launceston
+250T Grove,78.5m,50T,1.0,,250,Launceston
+250T Grove,78.5,70T,1.0,,250,Launceston
+250T Grove,78.5m,80T,1.0,,250,Launceston
+300T Grove,80m,16.5T,1.0,,300,Launceston
+300T Grove,80m,35.5T,1.0,,300,Launceston
+300T Grove,80m,54.5T,1.0,,300,Launceston
+300T Grove,80m,74.5T,1.0,,300,Launceston
+300T Grove,80m,92.5T,1.0,,300,Launceston
+,,,1.0,,9999,Unknown
+2.8T Maeda,8.5m,0,1.0,,2,Hobart
+4T Maeda,16.4m,0,1.0,,4,Hobart
+13T Kato,24m,0,1.0,,13,Launceston
+25T    Kato,31m,0,1.0,,25,Hobart
+25T Kato City,29m,0,1.0,,25,Hobart
+35T Demag,37.4m,2.5T,1.0,,35,Hobart
+35T Demag,37.4m,5.5T,1.0,,35,Hobart
+40T Franna,Static,,1.0,35.0,40,Hobart
+40T Franna,Mobile,,1.0,35.0,40,Hobart
+40T Franna,,,1.0,35.0,40,Hobart
+60T Demag,44m,4.6T,1.0,,60,Hobart
+60T Demag,44m,11.6T,1.0,,60,Hobart
+60T Demag #2,50m,4.7T,1.0,,60,Hobart
+60T Demag #2,50m,12.1T,1.0,,60,Hobart
+100T Liehbherr,52m,11.5T,1.0,,100,Hobart
+100T Liehbherr,52m,35T,1.0,,100,Hobart
+220T Tadano,68m,0T,1.0,,220,Hobart
+220T Tadano,68m,23.5T,1.0,,220,Hobart
+220T Tadano,68m,47T,1.0,,220,Hobart
+220T Tadano,68m,71T,1.0,,220,Hobart
+250T Grove #2,70m,0T,1.0,,250,Hobart
+250T Grove #2,70m,16.5T,1.0,,250,Hobart
+250T Grove #2,70m,40T,1.0,,250,Hobart
+250T Grove #2,70m,80T,1.0,,250,Hobart
+300T Grove,80m,16.5T,1.0,,300,Launceston
+300T Grove,80m,35.5T,1.0,,300,Launceston
+300T Grove,80m,54.5T,1.0,,300,Launceston
+300T Grove,80m,74.5T,1.0,,300,Launceston
+300T Grove,80m,92.5T,1.0,,300,Launceston
+7T Tadpole,21m,,2.0,4.9,7,Launceston
+13T Kato,24m,,2.0,12.0,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,2.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,2.0,,40,Launceston
+55T Grove,43m,6.6T,2.0,,55,Launceston
+,43m,11.5T C/W,2.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,2.0,,100,Launceston
+,60m,26.2T,2.0,,9999,Unknown
+150T Grove,60m,1T,2.0,,150,Launceston
+150T Grove,60m,26.3T,2.0,,150,Launceston
+150T Grove,60m,44.56T,2.0,,150,Launceston
+250T Grove,78.5m,0T,2.0,,250,Launceston
+250T Grove,78.5m,16.5T,2.0,,250,Launceston
+250T Grove,78.5m,40T,2.0,,250,Launceston
+250T Grove,78.5m,50T,2.0,,250,Launceston
+250T Grove,78.5,70T,2.0,,250,Launceston
+250T Grove,78.5m,80T,2.0,,250,Launceston
+300T Grove,80m,16.5T,2.0,,300,Launceston
+300T Grove,80m,35.5T,2.0,,300,Launceston
+300T Grove,80m,54.5T,2.0,,300,Launceston
+300T Grove,80m,74.5T,2.0,,300,Launceston
+300T Grove,80m,92.5T,2.0,,300,Launceston
+,,,2.0,,9999,Unknown
+2.8T Maeda,8.5m,0,2.0,1.92,2,Hobart
+4T Maeda,16.4m,0,2.0,,4,Hobart
+13T Kato,24m,0,2.0,12.0,13,Launceston
+25T    Kato,31m,0,2.0,,25,Hobart
+25T Kato City,29m,0,2.0,,25,Hobart
+35T Demag,37.4m,2.5T,2.0,,35,Hobart
+35T Demag,37.4m,5.5T,2.0,,35,Hobart
+40T Franna,Static,,2.0,35.0,40,Hobart
+40T Franna,Mobile,,2.0,34.3,40,Hobart
+40T Franna,,,2.0,30.6,40,Hobart
+60T Demag,44m,4.6T,2.0,,60,Hobart
+60T Demag,44m,11.6T,2.0,,60,Hobart
+60T Demag #2,50m,4.7T,2.0,,60,Hobart
+60T Demag #2,50m,12.1T,2.0,,60,Hobart
+100T Liehbherr,52m,11.5T,2.0,,100,Hobart
+100T Liehbherr,52m,35T,2.0,,100,Hobart
+220T Tadano,68m,0T,2.0,,220,Hobart
+220T Tadano,68m,23.5T,2.0,,220,Hobart
+220T Tadano,68m,47T,2.0,,220,Hobart
+220T Tadano,68m,71T,2.0,,220,Hobart
+250T Grove #2,70m,0T,2.0,,250,Hobart
+250T Grove #2,70m,16.5T,2.0,,250,Hobart
+250T Grove #2,70m,40T,2.0,,250,Hobart
+250T Grove #2,70m,80T,2.0,,250,Hobart
+300T Grove,80m,16.5T,2.0,,300,Launceston
+300T Grove,80m,35.5T,2.0,,300,Launceston
+300T Grove,80m,54.5T,2.0,,300,Launceston
+300T Grove,80m,74.5T,2.0,,300,Launceston
+300T Grove,80m,92.5T,2.0,,300,Launceston
+7T Tadpole,21m,,2.5,4.9,7,Launceston
+13T Kato,24m,,2.5,10.0,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,2.5,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,2.5,,40,Launceston
+55T Grove,43m,6.6T,2.5,,55,Launceston
+,43m,11.5T C/W,2.5,,9999,Unknown
+100T Grove,60m,4.5T C/W,2.5,,100,Launceston
+,60m,26.2T,2.5,,9999,Unknown
+150T Grove,60m,1T,2.5,,150,Launceston
+150T Grove,60m,26.3T,2.5,,150,Launceston
+150T Grove,60m,44.56T,2.5,,150,Launceston
+250T Grove,78.5m,0T,2.5,,250,Launceston
+250T Grove,78.5m,16.5T,2.5,,250,Launceston
+250T Grove,78.5m,40T,2.5,,250,Launceston
+250T Grove,78.5m,50T,2.5,,250,Launceston
+250T Grove,78.5,70T,2.5,,250,Launceston
+250T Grove,78.5m,80T,2.5,,250,Launceston
+300T Grove,80m,16.5T,2.5,,300,Launceston
+300T Grove,80m,35.5T,2.5,,300,Launceston
+300T Grove,80m,54.5T,2.5,,300,Launceston
+300T Grove,80m,74.5T,2.5,,300,Launceston
+300T Grove,80m,92.5T,2.5,,300,Launceston
+,,,2.5,,9999,Unknown
+2.8T Maeda,8.5m,0,2.5,1.57,2,Hobart
+4T Maeda,16.4m,0,2.5,3.83,4,Hobart
+13T Kato,24m,0,2.5,10.0,13,Launceston
+25T    Kato,31m,0,2.5,20.0,25,Hobart
+25T Kato City,29m,0,2.5,25.0,25,Hobart
+35T Demag,37.4m,2.5T,2.5,,35,Hobart
+35T Demag,37.4m,5.5T,2.5,,35,Hobart
+40T Franna,Static,,2.5,30.4,40,Hobart
+40T Franna,Mobile,,2.5,27.1,40,Hobart
+40T Franna,,,2.5,24.8,40,Hobart
+60T Demag,44m,4.6T,2.5,,60,Hobart
+60T Demag,44m,11.6T,2.5,,60,Hobart
+60T Demag #2,50m,4.7T,2.5,,60,Hobart
+60T Demag #2,50m,12.1T,2.5,60.0,60,Hobart
+100T Liehbherr,52m,11.5T,2.5,,100,Hobart
+100T Liehbherr,52m,35T,2.5,,100,Hobart
+220T Tadano,68m,0T,2.5,,220,Hobart
+220T Tadano,68m,23.5T,2.5,,220,Hobart
+220T Tadano,68m,47T,2.5,,220,Hobart
+220T Tadano,68m,71T,2.5,220.0,220,Hobart
+250T Grove #2,70m,0T,2.5,,250,Hobart
+250T Grove #2,70m,16.5T,2.5,,250,Hobart
+250T Grove #2,70m,40T,2.5,,250,Hobart
+250T Grove #2,70m,80T,2.5,,250,Hobart
+300T Grove,80m,16.5T,2.5,,300,Launceston
+300T Grove,80m,35.5T,2.5,,300,Launceston
+300T Grove,80m,54.5T,2.5,,300,Launceston
+300T Grove,80m,74.5T,2.5,,300,Launceston
+300T Grove,80m,92.5T,2.5,,300,Launceston
+7T Tadpole,21m,,3.0,4.9,7,Launceston
+13T Kato,24m,,3.0,8.2,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,3.0,31.3,40,Launceston
+40T All Terrain Tadano,35m,6.5T,3.0,32.1,40,Launceston
+55T Grove,43m,6.6T,3.0,44.5,55,Launceston
+,43m,11.5T C/W,3.0,45.0,9999,Unknown
+100T Grove,60m,4.5T C/W,3.0,75.0,100,Launceston
+,60m,26.2T,3.0,76.0,9999,Unknown
+150T Grove,60m,1T,3.0,103.0,150,Launceston
+150T Grove,60m,26.3T,3.0,106.0,150,Launceston
+150T Grove,60m,44.56T,3.0,108.0,150,Launceston
+250T Grove,78.5m,0T,3.0,140.0,250,Launceston
+250T Grove,78.5m,16.5T,3.0,140.0,250,Launceston
+250T Grove,78.5m,40T,3.0,140.0,250,Launceston
+250T Grove,78.5m,50T,3.0,140.0,250,Launceston
+250T Grove,78.5,70T,3.0,140.0,250,Launceston
+250T Grove,78.5m,80T,3.0,140.0,250,Launceston
+300T Grove,80m,16.5T,3.0,182.0,300,Launceston
+300T Grove,80m,35.5T,3.0,185.0,300,Launceston
+300T Grove,80m,54.5T,3.0,188.0,300,Launceston
+300T Grove,80m,74.5T,3.0,190.0,300,Launceston
+300T Grove,80m,92.5T,3.0,190.0,300,Launceston
+,,,3.0,,9999,Unknown
+2.8T Maeda,8.5m,0,3.0,1.22,2,Hobart
+4T Maeda,16.4m,0,3.0,,4,Hobart
+13T Kato,24m,0,3.0,8.2,13,Launceston
+25T    Kato,31m,0,3.0,20.0,25,Hobart
+25T Kato City,29m,0,3.0,22.0,25,Hobart
+35T Demag,37.4m,2.5T,3.0,35.0,35,Hobart
+35T Demag,37.4m,5.5T,3.0,35.0,35,Hobart
+40T Franna,Static,,3.0,25.0,40,Hobart
+40T Franna,Mobile,,3.0,22.3,40,Hobart
+40T Franna,,,3.0,20.3,40,Hobart
+60T Demag,44m,4.6T,3.0,50.0,60,Hobart
+60T Demag,44m,11.6T,3.0,51.5,60,Hobart
+60T Demag #2,50m,4.7T,3.0,39.5,60,Hobart
+60T Demag #2,50m,12.1T,3.0,39.5,60,Hobart
+100T Liehbherr,52m,11.5T,3.0,83.0,100,Hobart
+100T Liehbherr,52m,35T,3.0,95.0,100,Hobart
+220T Tadano,68m,0T,3.0,163.5,220,Hobart
+220T Tadano,68m,23.5T,3.0,180.0,220,Hobart
+220T Tadano,68m,47T,3.0,180.0,220,Hobart
+220T Tadano,68m,71T,3.0,180.0,220,Hobart
+250T Grove #2,70m,0T,3.0,151.0,250,Hobart
+250T Grove #2,70m,16.5T,3.0,155.0,250,Hobart
+250T Grove #2,70m,40T,3.0,158.0,250,Hobart
+250T Grove #2,70m,80T,3.0,250.0,250,Hobart
+300T Grove,80m,16.5T,3.0,182.0,300,Launceston
+300T Grove,80m,35.5T,3.0,185.0,300,Launceston
+300T Grove,80m,54.5T,3.0,188.0,300,Launceston
+300T Grove,80m,74.5T,3.0,190.0,300,Launceston
+300T Grove,80m,92.5T,3.0,90.0,300,Launceston
+7T Tadpole,21m,,3.5,4.9,7,Launceston
+13T Kato,24m,,3.5,7.0,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,3.5,28.0,40,Launceston
+40T All Terrain Tadano,35m,6.5T,3.5,29.0,40,Launceston
+55T Grove,43m,6.6T,3.5,,55,Launceston
+,43m,11.5T C/W,3.5,,9999,Unknown
+100T Grove,60m,4.5T C/W,3.5,,100,Launceston
+,60m,26.2T,3.5,,9999,Unknown
+150T Grove,60m,1T,3.5,,150,Launceston
+150T Grove,60m,26.3T,3.5,,150,Launceston
+150T Grove,60m,44.56T,3.5,,150,Launceston
+250T Grove,78.5m,0T,3.5,,250,Launceston
+250T Grove,78.5m,16.5T,3.5,,250,Launceston
+250T Grove,78.5m,40T,3.5,,250,Launceston
+250T Grove,78.5m,50T,3.5,,250,Launceston
+250T Grove,78.5,70T,3.5,,250,Launceston
+250T Grove,78.5m,80T,3.5,,250,Launceston
+300T Grove,80m,16.5T,3.5,,300,Launceston
+300T Grove,80m,35.5T,3.5,,300,Launceston
+300T Grove,80m,54.5T,3.5,,300,Launceston
+300T Grove,80m,74.5T,3.5,,300,Launceston
+300T Grove,80m,92.5T,3.5,,300,Launceston
+,,,3.5,,9999,Unknown
+2.8T Maeda,8.5m,0,3.5,0.97,2,Hobart
+4T Maeda,16.4m,0,3.5,3.03,4,Hobart
+13T Kato,24m,0,3.5,7.0,13,Launceston
+25T    Kato,31m,0,3.5,20.0,25,Hobart
+25T Kato City,29m,0,3.5,20.0,25,Hobart
+35T Demag,37.4m,2.5T,3.5,27.45,35,Hobart
+35T Demag,37.4m,5.5T,3.5,30.15,35,Hobart
+40T Franna,Static,,3.5,23.8,40,Hobart
+40T Franna,Mobile,,3.5,21.2,40,Hobart
+40T Franna,,,3.5,19.5,40,Hobart
+60T Demag,44m,4.6T,3.5,45.0,60,Hobart
+60T Demag,44m,11.6T,3.5,47.6,60,Hobart
+60T Demag #2,50m,4.7T,3.5,39.5,60,Hobart
+60T Demag #2,50m,12.1T,3.5,39.5,60,Hobart
+100T Liehbherr,52m,11.5T,3.5,77.0,100,Hobart
+100T Liehbherr,52m,35T,3.5,86.0,100,Hobart
+220T Tadano,68m,0T,3.5,141.0,220,Hobart
+220T Tadano,68m,23.5T,3.5,158.0,220,Hobart
+220T Tadano,68m,47T,3.5,169.0,220,Hobart
+220T Tadano,68m,71T,3.5,169.5,220,Hobart
+250T Grove #2,70m,0T,3.5,,250,Hobart
+250T Grove #2,70m,16.5T,3.5,,250,Hobart
+250T Grove #2,70m,40T,3.5,,250,Hobart
+250T Grove #2,70m,80T,3.5,,250,Hobart
+300T Grove,80m,16.5T,3.5,,300,Launceston
+300T Grove,80m,35.5T,3.5,,300,Launceston
+300T Grove,80m,54.5T,3.5,,300,Launceston
+300T Grove,80m,74.5T,3.5,,300,Launceston
+300T Grove,80m,92.5T,3.5,,300,Launceston
+7T Tadpole,21m,,4.0,4.55,7,Launceston
+13T Kato,24m,,4.0,6.1,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,4.0,24.9,40,Launceston
+40T All Terrain Tadano,35m,6.5T,4.0,30.6,40,Launceston
+55T Grove,43m,6.6T,4.0,37.0,55,Launceston
+,43m,11.5T C/W,4.0,37.0,9999,Unknown
+100T Grove,60m,4.5T C/W,4.0,63.0,100,Launceston
+,60m,26.2T,4.0,64.0,9999,Unknown
+150T Grove,60m,1T,4.0,85.5,150,Launceston
+150T Grove,60m,26.3T,4.0,89.5,150,Launceston
+150T Grove,60m,44.56T,4.0,91.5,150,Launceston
+250T Grove,78.5m,0T,4.0,127.0,250,Launceston
+250T Grove,78.5m,16.5T,4.0,130.0,250,Launceston
+250T Grove,78.5m,40T,4.0,134.0,250,Launceston
+250T Grove,78.5m,50T,4.0,136.0,250,Launceston
+250T Grove,78.5,70T,4.0,139.0,250,Launceston
+250T Grove,78.5m,80T,4.0,140.0,250,Launceston
+300T Grove,80m,16.5T,4.0,152.0,300,Launceston
+300T Grove,80m,35.5T,4.0,157.0,300,Launceston
+300T Grove,80m,54.5T,4.0,160.0,300,Launceston
+300T Grove,80m,74.5T,4.0,163.0,300,Launceston
+300T Grove,80m,92.5T,4.0,165.0,300,Launceston
+,,,4.0,,9999,Unknown
+2.8T Maeda,8.5m,0,4.0,0.78,2,Hobart
+4T Maeda,16.4m,0,4.0,2.58,4,Hobart
+13T Kato,24m,0,4.0,6.1,13,Launceston
+25T    Kato,31m,0,4.0,18.0,25,Hobart
+25T Kato City,29m,0,4.0,17.0,25,Hobart
+35T Demag,37.4m,2.5T,4.0,24.4,35,Hobart
+35T Demag,37.4m,5.5T,4.0,27.75,35,Hobart
+40T Franna,Static,,4.0,18.6,40,Hobart
+40T Franna,Mobile,,4.0,16.5,40,Hobart
+40T Franna,,,4.0,15.2,40,Hobart
+60T Demag,44m,4.6T,4.0,41.0,60,Hobart
+60T Demag,44m,11.6T,4.0,42.7,60,Hobart
+60T Demag #2,50m,4.7T,4.0,37.2,60,Hobart
+60T Demag #2,50m,12.1T,4.0,38.1,60,Hobart
+100T Liehbherr,52m,11.5T,4.0,69.0,100,Hobart
+100T Liehbherr,52m,35T,4.0,78.0,100,Hobart
+220T Tadano,68m,0T,4.0,122.5,220,Hobart
+220T Tadano,68m,23.5T,4.0,138.5,220,Hobart
+220T Tadano,68m,47T,4.0,154.0,220,Hobart
+220T Tadano,68m,71T,4.0,160.0,220,Hobart
+250T Grove #2,70m,0T,4.0,127.0,250,Hobart
+250T Grove #2,70m,16.5T,4.0,130.0,250,Hobart
+250T Grove #2,70m,40T,4.0,135.0,250,Hobart
+250T Grove #2,70m,80T,4.0,140.0,250,Hobart
+300T Grove,80m,16.5T,4.0,152.0,300,Launceston
+300T Grove,80m,35.5T,4.0,157.0,300,Launceston
+300T Grove,80m,54.5T,4.0,160.0,300,Launceston
+300T Grove,80m,74.5T,4.0,163.0,300,Launceston
+300T Grove,80m,92.5T,4.0,165.0,300,Launceston
+7T Tadpole,21m,,4.5,3.85,7,Launceston
+13T Kato,24m,,4.5,5.5,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,4.5,22.2,40,Launceston
+40T All Terrain Tadano,35m,6.5T,4.5,27.0,40,Launceston
+55T Grove,43m,6.6T,4.5,,55,Launceston
+,43m,11.5T C/W,4.5,,9999,Unknown
+100T Grove,60m,4.5T C/W,4.5,,100,Launceston
+,60m,26.2T,4.5,,9999,Unknown
+150T Grove,60m,1T,4.5,,150,Launceston
+150T Grove,60m,26.3T,4.5,,150,Launceston
+150T Grove,60m,44.56T,4.5,,150,Launceston
+250T Grove,78.5m,0T,4.5,,250,Launceston
+250T Grove,78.5m,16.5T,4.5,,250,Launceston
+250T Grove,78.5m,40T,4.5,,250,Launceston
+250T Grove,78.5m,50T,4.5,,250,Launceston
+250T Grove,78.5,70T,4.5,,250,Launceston
+250T Grove,78.5m,80T,4.5,,250,Launceston
+300T Grove,80m,16.5T,4.5,,300,Launceston
+300T Grove,80m,35.5T,4.5,,300,Launceston
+300T Grove,80m,54.5T,4.5,,300,Launceston
+300T Grove,80m,74.5T,4.5,,300,Launceston
+300T Grove,80m,92.5T,4.5,,300,Launceston
+,,,4.5,,9999,Unknown
+2.8T Maeda,8.5m,0,4.5,0.63,2,Hobart
+4T Maeda,16.4m,0,4.5,1.93,4,Hobart
+13T Kato,24m,0,4.5,5.5,13,Launceston
+25T    Kato,31m,0,4.5,16.3,25,Hobart
+25T Kato City,29m,0,4.5,15.0,25,Hobart
+35T Demag,37.4m,2.5T,4.5,21.8,35,Hobart
+35T Demag,37.4m,5.5T,4.5,25.0,35,Hobart
+40T Franna,Static,,4.5,,40,Hobart
+40T Franna,Mobile,,4.5,,40,Hobart
+40T Franna,,,4.5,,40,Hobart
+60T Demag,44m,4.6T,4.5,37.0,60,Hobart
+60T Demag,44m,11.6T,4.5,38.5,60,Hobart
+60T Demag #2,50m,4.7T,4.5,34.3,60,Hobart
+60T Demag #2,50m,12.1T,4.5,35.6,60,Hobart
+100T Liehbherr,52m,11.5T,4.5,62.0,100,Hobart
+100T Liehbherr,52m,35T,4.5,71.0,100,Hobart
+220T Tadano,68m,0T,4.5,108.0,220,Hobart
+220T Tadano,68m,23.5T,4.5,123.0,220,Hobart
+220T Tadano,68m,47T,4.5,137.0,220,Hobart
+220T Tadano,68m,71T,4.5,150.5,220,Hobart
+250T Grove #2,70m,0T,4.5,,250,Hobart
+250T Grove #2,70m,16.5T,4.5,,250,Hobart
+250T Grove #2,70m,40T,4.5,,250,Hobart
+250T Grove #2,70m,80T,4.5,,250,Hobart
+300T Grove,80m,16.5T,4.5,,300,Launceston
+300T Grove,80m,35.5T,4.5,,300,Launceston
+300T Grove,80m,54.5T,4.5,,300,Launceston
+300T Grove,80m,74.5T,4.5,,300,Launceston
+300T Grove,80m,92.5T,4.5,,300,Launceston
+7T Tadpole,21m,,5.0,3.25,7,Launceston
+13T Kato,24m,,5.0,5.0,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,5.0,19.7,40,Launceston
+40T All Terrain Tadano,35m,6.5T,5.0,24.1,40,Launceston
+55T Grove,43m,6.6T,5.0,30.5,55,Launceston
+,43m,11.5T C/W,5.0,31.5,9999,Unknown
+100T Grove,60m,4.5T C/W,5.0,54.0,100,Launceston
+,60m,26.2T,5.0,55.0,9999,Unknown
+150T Grove,60m,1T,5.0,67.0,150,Launceston
+150T Grove,60m,26.3T,5.0,77.0,150,Launceston
+150T Grove,60m,44.56T,5.0,78.5,150,Launceston
+250T Grove,78.5m,0T,5.0,88.5,250,Launceston
+250T Grove,78.5m,16.5T,5.0,111.0,250,Launceston
+250T Grove,78.5m,40T,5.0,116.0,250,Launceston
+250T Grove,78.5m,50T,5.0,117.0,250,Launceston
+250T Grove,78.5,70T,5.0,120.0,250,Launceston
+250T Grove,78.5m,80T,5.0,121.0,250,Launceston
+300T Grove,80m,16.5T,5.0,131.0,300,Launceston
+300T Grove,80m,35.5T,5.0,135.0,300,Launceston
+300T Grove,80m,54.5T,5.0,139.0,300,Launceston
+300T Grove,80m,74.5T,5.0,142.0,300,Launceston
+300T Grove,80m,92.5T,5.0,144.0,300,Launceston
+,,,5.0,,9999,Unknown
+2.8T Maeda,8.5m,0,5.0,0.53,2,Hobart
+4T Maeda,16.4m,0,5.0,2.03,4,Hobart
+13T Kato,24m,0,5.0,5.0,13,Launceston
+25T    Kato,31m,0,5.0,14.85,25,Hobart
+25T Kato City,29m,0,5.0,13.0,25,Hobart
+35T Demag,37.4m,2.5T,5.0,19.5,35,Hobart
+35T Demag,37.4m,5.5T,5.0,22.3,35,Hobart
+40T Franna,Static,,5.0,16.2,40,Hobart
+40T Franna,Mobile,,5.0,14.4,40,Hobart
+40T Franna,,,5.0,13.2,40,Hobart
+60T Demag,44m,4.6T,5.0,35.0,60,Hobart
+60T Demag,44m,11.6T,5.0,36.0,60,Hobart
+60T Demag #2,50m,4.7T,5.0,31.8,60,Hobart
+60T Demag #2,50m,12.1T,5.0,33.4,60,Hobart
+100T Liehbherr,52m,11.5T,5.0,56.0,100,Hobart
+100T Liehbherr,52m,35T,5.0,65.0,100,Hobart
+220T Tadano,68m,0T,5.0,96.4,220,Hobart
+220T Tadano,68m,23.5T,5.0,110.0,220,Hobart
+220T Tadano,68m,47T,5.0,123.0,220,Hobart
+220T Tadano,68m,71T,5.0,135.5,220,Hobart
+250T Grove #2,70m,0T,5.0,87.5,250,Hobart
+250T Grove #2,70m,16.5T,5.0,111.0,250,Hobart
+250T Grove #2,70m,40T,5.0,115.0,250,Hobart
+250T Grove #2,70m,80T,5.0,121.0,250,Hobart
+300T Grove,80m,16.5T,5.0,131.0,300,Launceston
+300T Grove,80m,35.5T,5.0,135.0,300,Launceston
+300T Grove,80m,54.5T,5.0,139.0,300,Launceston
+300T Grove,80m,74.5T,5.0,142.0,300,Launceston
+300T Grove,80m,92.5T,5.0,144.0,300,Launceston
+7T Tadpole,21m,,5.5,2.8,7,Launceston
+13T Kato,24m,,5.5,4.5,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,5.5,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,5.5,,40,Launceston
+55T Grove,43m,6.6T,5.5,,55,Launceston
+,43m,11.5T C/W,5.5,,9999,Unknown
+100T Grove,60m,4.5T C/W,5.5,,100,Launceston
+,60m,26.2T,5.5,,9999,Unknown
+150T Grove,60m,1T,5.5,,150,Launceston
+150T Grove,60m,26.3T,5.5,,150,Launceston
+150T Grove,60m,44.56T,5.5,,150,Launceston
+250T Grove,78.5m,0T,5.5,,250,Launceston
+250T Grove,78.5m,16.5T,5.5,,250,Launceston
+250T Grove,78.5m,40T,5.5,,250,Launceston
+250T Grove,78.5m,50T,5.5,,250,Launceston
+250T Grove,78.5,70T,5.5,,250,Launceston
+250T Grove,78.5m,80T,5.5,,250,Launceston
+300T Grove,80m,16.5T,5.5,,300,Launceston
+300T Grove,80m,35.5T,5.5,,300,Launceston
+300T Grove,80m,54.5T,5.5,,300,Launceston
+300T Grove,80m,74.5T,5.5,,300,Launceston
+300T Grove,80m,92.5T,5.5,,300,Launceston
+,,,5.5,,9999,Unknown
+2.8T Maeda,8.5m,0,5.5,0.43,2,Hobart
+4T Maeda,16.4m,0,5.5,,4,Hobart
+13T Kato,24m,0,5.5,4.5,13,Launceston
+25T    Kato,31m,0,5.5,13.65,25,Hobart
+25T Kato City,29m,0,5.5,13.0,25,Hobart
+35T Demag,37.4m,2.5T,5.5,,35,Hobart
+35T Demag,37.4m,5.5T,5.5,,35,Hobart
+40T Franna,Static,,5.5,,40,Hobart
+40T Franna,Mobile,,5.5,,40,Hobart
+40T Franna,,,5.5,,40,Hobart
+60T Demag,44m,4.6T,5.5,,60,Hobart
+60T Demag,44m,11.6T,5.5,,60,Hobart
+60T Demag #2,50m,4.7T,5.5,,60,Hobart
+60T Demag #2,50m,12.1T,5.5,,60,Hobart
+100T Liehbherr,52m,11.5T,5.5,,100,Hobart
+100T Liehbherr,52m,35T,5.5,,100,Hobart
+220T Tadano,68m,0T,5.5,,220,Hobart
+220T Tadano,68m,23.5T,5.5,,220,Hobart
+220T Tadano,68m,47T,5.5,,220,Hobart
+220T Tadano,68m,71T,5.5,,220,Hobart
+250T Grove #2,70m,0T,5.5,,250,Hobart
+250T Grove #2,70m,16.5T,5.5,,250,Hobart
+250T Grove #2,70m,40T,5.5,,250,Hobart
+250T Grove #2,70m,80T,5.5,,250,Hobart
+300T Grove,80m,16.5T,5.5,,300,Launceston
+300T Grove,80m,35.5T,5.5,,300,Launceston
+300T Grove,80m,54.5T,5.5,,300,Launceston
+300T Grove,80m,74.5T,5.5,,300,Launceston
+300T Grove,80m,92.5T,5.5,,300,Launceston
+7T Tadpole,21m,,6.0,2.45,7,Launceston
+13T Kato,24m,,6.0,4.1,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,6.0,14.2,40,Launceston
+40T All Terrain Tadano,35m,6.5T,6.0,19.6,40,Launceston
+55T Grove,43m,6.6T,6.0,24.5,55,Launceston
+,43m,11.5T C/W,6.0,26.5,9999,Unknown
+100T Grove,60m,4.5T C/W,6.0,42.5,100,Launceston
+,60m,26.2T,6.0,48.0,9999,Unknown
+150T Grove,60m,1T,6.0,47.5,150,Launceston
+150T Grove,60m,26.3T,6.0,67.5,150,Launceston
+150T Grove,60m,44.56T,6.0,69.0,150,Launceston
+250T Grove,78.5m,0T,6.0,59.0,250,Launceston
+250T Grove,78.5m,16.5T,6.0,92.5,250,Launceston
+250T Grove,78.5m,40T,6.0,101.0,250,Launceston
+250T Grove,78.5m,50T,6.0,102.0,250,Launceston
+250T Grove,78.5,70T,6.0,105.0,250,Launceston
+250T Grove,78.5m,80T,6.0,106.0,250,Launceston
+300T Grove,80m,16.5T,6.0,111.0,300,Launceston
+300T Grove,80m,35.5T,6.0,117.0,300,Launceston
+300T Grove,80m,54.5T,6.0,121.0,300,Launceston
+300T Grove,80m,74.5T,6.0,125.0,300,Launceston
+300T Grove,80m,92.5T,6.0,127.0,300,Launceston
+,,,6.0,,9999,Unknown
+2.8T Maeda,8.5m,0,6.0,0.38,2,Hobart
+4T Maeda,16.4m,0,6.0,1.68,4,Hobart
+13T Kato,24m,0,6.0,4.1,13,Launceston
+25T    Kato,31m,0,6.0,12.3,25,Hobart
+25T Kato City,29m,0,6.0,12.0,25,Hobart
+35T Demag,37.4m,2.5T,6.0,15.5,35,Hobart
+35T Demag,37.4m,5.5T,6.0,17.8,35,Hobart
+40T Franna,Static,,6.0,12.8,40,Hobart
+40T Franna,Mobile,,6.0,11.4,40,Hobart
+40T Franna,,,6.0,10.4,40,Hobart
+60T Demag,44m,4.6T,6.0,28.8,60,Hobart
+60T Demag,44m,11.6T,6.0,31.7,60,Hobart
+60T Demag #2,50m,4.7T,6.0,25.7,60,Hobart
+60T Demag #2,50m,12.1T,6.0,29.2,60,Hobart
+100T Liehbherr,52m,11.5T,6.0,45.5,100,Hobart
+100T Liehbherr,52m,35T,6.0,55.0,100,Hobart
+220T Tadano,68m,0T,6.0,68.9,220,Hobart
+220T Tadano,68m,23.5T,6.0,90.5,220,Hobart
+220T Tadano,68m,47T,6.0,102.0,220,Hobart
+220T Tadano,68m,71T,6.0,112.5,220,Hobart
+250T Grove #2,70m,0T,6.0,58.5,250,Hobart
+250T Grove #2,70m,16.5T,6.0,92.0,250,Hobart
+250T Grove #2,70m,40T,6.0,101.0,250,Hobart
+250T Grove #2,70m,80T,6.0,107.0,250,Hobart
+300T Grove,80m,16.5T,6.0,111.0,300,Launceston
+300T Grove,80m,35.5T,6.0,117.0,300,Launceston
+300T Grove,80m,54.5T,6.0,121.0,300,Launceston
+300T Grove,80m,74.5T,6.0,125.0,300,Launceston
+300T Grove,80m,92.5T,6.0,127.0,300,Launceston
+7T Tadpole,21m,,7.0,1.95,7,Launceston
+13T Kato,24m,,7.0,3.35,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,7.0,10.9,40,Launceston
+40T All Terrain Tadano,35m,6.5T,7.0,15.4,40,Launceston
+55T Grove,43m,6.6T,7.0,19.7,55,Launceston
+,43m,11.5T C/W,7.0,22.5,9999,Unknown
+100T Grove,60m,4.5T C/W,7.0,32.5,100,Launceston
+,60m,26.2T,7.0,43.0,9999,Unknown
+150T Grove,60m,1T,7.0,34.5,150,Launceston
+150T Grove,60m,26.3T,7.0,57.0,150,Launceston
+150T Grove,60m,44.56T,7.0,61.5,150,Launceston
+250T Grove,78.5m,0T,7.0,41.5,250,Launceston
+250T Grove,78.5m,16.5T,7.0,70.5,250,Launceston
+250T Grove,78.5m,40T,7.0,88.0,250,Launceston
+250T Grove,78.5m,50T,7.0,90.0,250,Launceston
+250T Grove,78.5,70T,7.0,93.0,250,Launceston
+250T Grove,78.5m,80T,7.0,94.5,250,Launceston
+300T Grove,80m,16.5T,7.0,84.5,300,Launceston
+300T Grove,80m,35.5T,7.0,104.0,300,Launceston
+300T Grove,80m,54.5T,7.0,107.0,300,Launceston
+300T Grove,80m,74.5T,7.0,111.0,300,Launceston
+300T Grove,80m,92.5T,7.0,113.0,300,Launceston
+,,,7.0,,9999,Unknown
+2.8T Maeda,8.5m,0,7.0,0.2,2,Hobart
+4T Maeda,16.4m,0,7.0,1.38,4,Hobart
+13T Kato,24m,0,7.0,3.35,13,Launceston
+25T    Kato,31m,0,7.0,10.25,25,Hobart
+25T Kato City,29m,0,7.0,10.4,25,Hobart
+35T Demag,37.4m,2.5T,7.0,11.7,35,Hobart
+35T Demag,37.4m,5.5T,7.0,14.5,35,Hobart
+40T Franna,Static,,7.0,10.5,40,Hobart
+40T Franna,Mobile,,7.0,9.3,40,Hobart
+40T Franna,,,7.0,8.5,40,Hobart
+60T Demag,44m,4.6T,7.0,21.4,60,Hobart
+60T Demag,44m,11.6T,7.0,26.9,60,Hobart
+60T Demag #2,50m,4.7T,7.0,20.1,60,Hobart
+60T Demag #2,50m,12.1T,7.0,24.4,60,Hobart
+100T Liehbherr,52m,11.5T,7.0,37.5,100,Hobart
+100T Liehbherr,52m,35T,7.0,47.0,100,Hobart
+220T Tadano,68m,0T,7.0,52.1,220,Hobart
+220T Tadano,68m,23.5T,7.0,76.4,220,Hobart
+220T Tadano,68m,47T,7.0,86.6,220,Hobart
+220T Tadano,68m,71T,7.0,96.3,220,Hobart
+250T Grove #2,70m,0T,7.0,41.0,250,Hobart
+250T Grove #2,70m,16.5T,7.0,70.0,250,Hobart
+250T Grove #2,70m,40T,7.0,88.5,250,Hobart
+250T Grove #2,70m,80T,7.0,95.0,250,Hobart
+300T Grove,80m,16.5T,7.0,84.5,300,Launceston
+300T Grove,80m,35.5T,7.0,104.0,300,Launceston
+300T Grove,80m,54.5T,7.0,107.0,300,Launceston
+300T Grove,80m,74.5T,7.0,111.0,300,Launceston
+300T Grove,80m,92.5T,7.0,113.0,300,Launceston
+7T Tadpole,21m,,8.0,1.55,7,Launceston
+13T Kato,24m,,8.0,2.7,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,8.0,8.8,40,Launceston
+40T All Terrain Tadano,35m,6.5T,8.0,12.4,40,Launceston
+55T Grove,43m,6.6T,8.0,15.9,55,Launceston
+,43m,11.5T C/W,8.0,19.3,9999,Unknown
+100T Grove,60m,4.5T C/W,8.0,25.5,100,Launceston
+,60m,26.2T,8.0,38.0,9999,Unknown
+150T Grove,60m,1T,8.0,28.0,150,Launceston
+150T Grove,60m,26.3T,8.0,49.0,150,Launceston
+150T Grove,60m,44.56T,8.0,55.5,150,Launceston
+250T Grove,78.5m,0T,8.0,33.0,250,Launceston
+250T Grove,78.5m,16.5T,8.0,54.5,250,Launceston
+250T Grove,78.5m,40T,8.0,77.0,250,Launceston
+250T Grove,78.5m,50T,8.0,80.0,250,Launceston
+250T Grove,78.5,70T,8.0,83.5,250,Launceston
+250T Grove,78.5m,80T,8.0,84.5,250,Launceston
+300T Grove,80m,16.5T,8.0,65.5,300,Launceston
+300T Grove,80m,35.5T,8.0,89.0,300,Launceston
+300T Grove,80m,54.5T,8.0,96.0,300,Launceston
+300T Grove,80m,74.5T,8.0,99.0,300,Launceston
+300T Grove,80m,92.5T,8.0,102.0,300,Launceston
+,,,8.0,,9999,Unknown
+2.8T Maeda,8.5m,0,8.0,0.15,2,Hobart
+4T Maeda,16.4m,0,8.0,1.13,4,Hobart
+13T Kato,24m,0,8.0,2.7,13,Launceston
+25T    Kato,31m,0,8.0,8.65,25,Hobart
+25T Kato City,29m,0,8.0,8.3,25,Hobart
+35T Demag,37.4m,2.5T,8.0,9.5,35,Hobart
+35T Demag,37.4m,5.5T,8.0,11.5,35,Hobart
+40T Franna,Static,,8.0,8.5,40,Hobart
+40T Franna,Mobile,,8.0,7.5,40,Hobart
+40T Franna,,,8.0,6.5,40,Hobart
+60T Demag,44m,4.6T,8.0,17.7,60,Hobart
+60T Demag,44m,11.6T,8.0,22.8,60,Hobart
+60T Demag #2,50m,4.7T,8.0,15.9,60,Hobart
+60T Demag #2,50m,12.1T,8.0,21.8,60,Hobart
+100T Liehbherr,52m,11.5T,8.0,31.5,100,Hobart
+100T Liehbherr,52m,35T,8.0,41.0,100,Hobart
+220T Tadano,68m,0T,8.0,40.1,220,Hobart
+220T Tadano,68m,23.5T,8.0,65.6,220,Hobart
+220T Tadano,68m,47T,8.0,74.9,220,Hobart
+220T Tadano,68m,71T,8.0,83.6,220,Hobart
+250T Grove #2,70m,0T,8.0,33.0,250,Hobart
+250T Grove #2,70m,16.5T,8.0,54.0,250,Hobart
+250T Grove #2,70m,40T,8.0,77.0,250,Hobart
+250T Grove #2,70m,80T,8.0,85.0,250,Hobart
+300T Grove,80m,16.5T,8.0,65.5,300,Launceston
+300T Grove,80m,35.5T,8.0,89.0,300,Launceston
+300T Grove,80m,54.5T,8.0,96.0,300,Launceston
+300T Grove,80m,74.5T,8.0,99.0,300,Launceston
+300T Grove,80m,92.5T,8.0,102.0,300,Launceston
+7T Tadpole,21m,,9.0,1.3,7,Launceston
+13T Kato,24m,,9.0,2.3,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,9.0,7.3,40,Launceston
+40T All Terrain Tadano,35m,6.5T,9.0,10.4,40,Launceston
+55T Grove,43m,6.6T,9.0,13.0,55,Launceston
+,43m,11.5T C/W,9.0,15.9,9999,Unknown
+100T Grove,60m,4.5T C/W,9.0,20.5,100,Launceston
+,60m,26.2T,9.0,34.0,9999,Unknown
+150T Grove,60m,1T,9.0,22.5,150,Launceston
+150T Grove,60m,26.3T,9.0,43.5,150,Launceston
+150T Grove,60m,44.56T,9.0,48.5,150,Launceston
+250T Grove,78.5m,0T,9.0,26.5,250,Launceston
+250T Grove,78.5m,16.5T,9.0,45.5,250,Launceston
+250T Grove,78.5m,40T,9.0,67.0,250,Launceston
+250T Grove,78.5m,50T,9.0,71.0,250,Launceston
+250T Grove,78.5,70T,9.0,75.0,250,Launceston
+250T Grove,78.5m,80T,9.0,76.5,250,Launceston
+300T Grove,80m,16.5T,9.0,54.5,300,Launceston
+300T Grove,80m,35.5T,9.0,76.5,300,Launceston
+300T Grove,80m,54.5T,9.0,86.5,300,Launceston
+300T Grove,80m,74.5T,9.0,89.0,300,Launceston
+300T Grove,80m,92.5T,9.0,91.5,300,Launceston
+,,,9.0,,9999,Unknown
+2.8T Maeda,8.5m,0,9.0,,2,Hobart
+4T Maeda,16.4m,0,9.0,0.93,4,Hobart
+13T Kato,24m,0,9.0,2.3,13,Launceston
+25T    Kato,31m,0,9.0,7.2,25,Hobart
+25T Kato City,29m,0,9.0,6.9,25,Hobart
+35T Demag,37.4m,2.5T,9.0,7.8,35,Hobart
+35T Demag,37.4m,5.5T,9.0,9.5,35,Hobart
+40T Franna,Static,,9.0,7.3,40,Hobart
+40T Franna,Mobile,,9.0,6.5,40,Hobart
+40T Franna,,,9.0,5.5,40,Hobart
+60T Demag,44m,4.6T,9.0,14.3,60,Hobart
+60T Demag,44m,11.6T,9.0,19.7,60,Hobart
+60T Demag #2,50m,4.7T,9.0,13.4,60,Hobart
+60T Demag #2,50m,12.1T,9.0,18.1,60,Hobart
+100T Liehbherr,52m,11.5T,9.0,26.1,100,Hobart
+100T Liehbherr,52m,35T,9.0,36.0,100,Hobart
+220T Tadano,68m,0T,9.0,33.1,220,Hobart
+220T Tadano,68m,23.5T,9.0,53.0,220,Hobart
+220T Tadano,68m,47T,9.0,65.8,220,Hobart
+220T Tadano,68m,71T,9.0,73.6,220,Hobart
+250T Grove #2,70m,0T,9.0,26.5,250,Hobart
+250T Grove #2,70m,16.5T,9.0,45.5,250,Hobart
+250T Grove #2,70m,40T,9.0,67.0,250,Hobart
+250T Grove #2,70m,80T,9.0,77.0,250,Hobart
+300T Grove,80m,16.5T,9.0,54.5,300,Launceston
+300T Grove,80m,35.5T,9.0,76.5,300,Launceston
+300T Grove,80m,54.5T,9.0,86.5,300,Launceston
+300T Grove,80m,74.5T,9.0,89.0,300,Launceston
+300T Grove,80m,92.5T,9.0,91.5,300,Launceston
+7T Tadpole,21m,,10.0,1.1,7,Launceston
+13T Kato,24m,,10.0,1.95,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,10.0,6.1,40,Launceston
+40T All Terrain Tadano,35m,6.5T,10.0,8.8,40,Launceston
+55T Grove,43m,6.6T,10.0,11.0,55,Launceston
+,43m,11.5T C/W,10.0,13.8,9999,Unknown
+100T Grove,60m,4.5T C/W,10.0,18.0,100,Launceston
+,60m,26.2T,10.0,30.0,9999,Unknown
+150T Grove,60m,1T,10.0,19.0,150,Launceston
+150T Grove,60m,26.3T,10.0,38.5,150,Launceston
+150T Grove,60m,44.56T,10.0,43.0,150,Launceston
+250T Grove,78.5m,0T,10.0,21.5,250,Launceston
+250T Grove,78.5m,16.5T,10.0,38.0,250,Launceston
+250T Grove,78.5m,40T,10.0,59.0,250,Launceston
+250T Grove,78.5m,50T,10.0,63.0,250,Launceston
+250T Grove,78.5,70T,10.0,67.5,250,Launceston
+250T Grove,78.5m,80T,10.0,69.5,250,Launceston
+300T Grove,80m,16.5T,10.0,45.0,300,Launceston
+300T Grove,80m,35.5T,10.0,63.5,300,Launceston
+300T Grove,80m,54.5T,10.0,77.5,300,Launceston
+300T Grove,80m,74.5T,10.0,81.0,300,Launceston
+300T Grove,80m,92.5T,10.0,83.5,300,Launceston
+,,,10.0,,9999,Unknown
+2.8T Maeda,8.5m,0,10.0,,2,Hobart
+4T Maeda,16.4m,0,10.0,0.83,4,Hobart
+13T Kato,24m,0,10.0,1.95,13,Launceston
+25T    Kato,31m,0,10.0,6.35,25,Hobart
+25T Kato City,29m,0,10.0,5.7,25,Hobart
+35T Demag,37.4m,2.5T,10.0,6.5,35,Hobart
+35T Demag,37.4m,5.5T,10.0,8.0,35,Hobart
+40T Franna,Static,,10.0,6.4,40,Hobart
+40T Franna,Mobile,,10.0,5.7,40,Hobart
+40T Franna,,,10.0,4.8,40,Hobart
+60T Demag,44m,4.6T,10.0,11.8,60,Hobart
+60T Demag,44m,11.6T,10.0,16.7,60,Hobart
+60T Demag #2,50m,4.7T,10.0,11.3,60,Hobart
+60T Demag #2,50m,12.1T,10.0,15.3,60,Hobart
+100T Liehbherr,52m,11.5T,10.0,22.4,100,Hobart
+100T Liehbherr,52m,35T,10.0,31.5,100,Hobart
+220T Tadano,68m,0T,10.0,27.2,220,Hobart
+220T Tadano,68m,23.5T,10.0,43.5,220,Hobart
+220T Tadano,68m,47T,10.0,58.2,220,Hobart
+220T Tadano,68m,71T,10.0,65.4,220,Hobart
+250T Grove #2,70m,0T,10.0,22.0,250,Hobart
+250T Grove #2,70m,16.5T,10.0,37.5,250,Hobart
+250T Grove #2,70m,40T,10.0,59.5,250,Hobart
+250T Grove #2,70m,80T,10.0,69.5,250,Hobart
+300T Grove,80m,16.5T,10.0,45.0,300,Launceston
+300T Grove,80m,35.5T,10.0,63.5,300,Launceston
+300T Grove,80m,54.5T,10.0,77.5,300,Launceston
+300T Grove,80m,74.5T,10.0,81.0,300,Launceston
+300T Grove,80m,92.5T,10.0,83.5,300,Launceston
+7T Tadpole,21m,,11.0,0.9,7,Launceston
+13T Kato,24m,,11.0,1.75,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,11.0,5.2,40,Launceston
+40T All Terrain Tadano,35m,6.5T,11.0,7.6,40,Launceston
+55T Grove,43m,6.6T,11.0,9.7,55,Launceston
+,43m,11.5T C/W,11.0,11.8,9999,Unknown
+100T Grove,60m,4.5T C/W,11.0,15.3,100,Launceston
+,60m,26.2T,11.0,27.0,9999,Unknown
+150T Grove,60m,1T,11.0,16.2,150,Launceston
+150T Grove,60m,26.3T,11.0,34.5,150,Launceston
+150T Grove,60m,44.56T,11.0,38.5,150,Launceston
+250T Grove,78.5m,0T,11.0,19.4,250,Launceston
+250T Grove,78.5m,16.5T,11.0,31.5,250,Launceston
+250T Grove,78.5m,40T,11.0,50.0,250,Launceston
+250T Grove,78.5m,50T,11.0,56.5,250,Launceston
+250T Grove,78.5,70T,11.0,61.5,250,Launceston
+250T Grove,78.5m,80T,11.0,63.0,250,Launceston
+300T Grove,80m,16.5T,11.0,39.0,300,Launceston
+300T Grove,80m,35.5T,11.0,55.5,300,Launceston
+300T Grove,80m,54.5T,11.0,70.0,300,Launceston
+300T Grove,80m,74.5T,11.0,74.0,300,Launceston
+300T Grove,80m,92.5T,11.0,76.0,300,Launceston
+,,,11.0,,9999,Unknown
+2.8T Maeda,8.5m,0,11.0,,2,Hobart
+4T Maeda,16.4m,0,11.0,0.69,4,Hobart
+13T Kato,24m,0,11.0,1.75,13,Launceston
+25T    Kato,31m,0,11.0,5.15,25,Hobart
+25T Kato City,29m,0,11.0,4.9,25,Hobart
+35T Demag,37.4m,2.5T,11.0,5.4,35,Hobart
+35T Demag,37.4m,5.5T,11.0,6.7,35,Hobart
+40T Franna,Static,,11.0,5.6,40,Hobart
+40T Franna,Mobile,,11.0,5.0,40,Hobart
+40T Franna,,,11.0,4.2,40,Hobart
+60T Demag,44m,4.6T,11.0,,60,Hobart
+60T Demag,44m,11.6T,11.0,,60,Hobart
+60T Demag #2,50m,4.7T,11.0,,60,Hobart
+60T Demag #2,50m,12.1T,11.0,,60,Hobart
+100T Liehbherr,52m,11.5T,11.0,,100,Hobart
+100T Liehbherr,52m,35T,11.0,,100,Hobart
+220T Tadano,68m,0T,11.0,,220,Hobart
+220T Tadano,68m,23.5T,11.0,39.7,220,Hobart
+220T Tadano,68m,47T,11.0,52.7,220,Hobart
+220T Tadano,68m,71T,11.0,58.6,220,Hobart
+250T Grove #2,70m,0T,11.0,19.2,250,Hobart
+250T Grove #2,70m,16.5T,11.0,32.0,250,Hobart
+250T Grove #2,70m,40T,11.0,50.5,250,Hobart
+250T Grove #2,70m,80T,11.0,63.5,250,Hobart
+300T Grove,80m,16.5T,11.0,39.0,300,Launceston
+300T Grove,80m,35.5T,11.0,55.5,300,Launceston
+300T Grove,80m,54.5T,11.0,70.0,300,Launceston
+300T Grove,80m,74.5T,11.0,74.0,300,Launceston
+300T Grove,80m,92.5T,11.0,76.0,300,Launceston
+7T Tadpole,21m,,12.0,0.78,7,Launceston
+13T Kato,24m,,12.0,1.5,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,12.0,4.5,40,Launceston
+40T All Terrain Tadano,35m,6.5T,12.0,6.7,40,Launceston
+55T Grove,43m,6.6T,12.0,8.4,55,Launceston
+,43m,11.5T C/W,12.0,10.4,9999,Unknown
+100T Grove,60m,4.5T C/W,12.0,13.3,100,Launceston
+,60m,26.2T,12.0,24.5,9999,Unknown
+150T Grove,60m,1T,12.0,14.1,150,Launceston
+150T Grove,60m,26.3T,12.0,30.5,150,Launceston
+150T Grove,60m,44.56T,12.0,35.0,150,Launceston
+250T Grove,78.5m,0T,12.0,16.8,250,Launceston
+250T Grove,78.5m,16.5T,12.0,27.5,250,Launceston
+250T Grove,78.5m,40T,12.0,43.5,250,Launceston
+250T Grove,78.5m,50T,12.0,50.0,250,Launceston
+250T Grove,78.5,70T,12.0,56.0,250,Launceston
+250T Grove,78.5m,80T,12.0,58.0,250,Launceston
+300T Grove,80m,16.5T,12.0,35.0,300,Launceston
+300T Grove,80m,35.5T,12.0,48.0,300,Launceston
+300T Grove,80m,54.5T,12.0,61.0,300,Launceston
+300T Grove,80m,74.5T,12.0,68.0,300,Launceston
+300T Grove,80m,92.5T,12.0,70.0,300,Launceston
+,,,12.0,,9999,Unknown
+2.8T Maeda,8.5m,0,12.0,,2,Hobart
+4T Maeda,16.4m,0,12.0,0.53,4,Hobart
+13T Kato,24m,0,12.0,1.5,13,Launceston
+25T    Kato,31m,0,12.0,4.65,25,Hobart
+25T Kato City,29m,0,12.0,4.15,25,Hobart
+35T Demag,37.4m,2.5T,12.0,4.8,35,Hobart
+35T Demag,37.4m,5.5T,12.0,6.0,35,Hobart
+40T Franna,Static,,12.0,5.0,40,Hobart
+40T Franna,Mobile,,12.0,4.5,40,Hobart
+40T Franna,,,12.0,3.7,40,Hobart
+60T Demag,44m,4.6T,12.0,8.5,60,Hobart
+60T Demag,44m,11.6T,12.0,12.4,60,Hobart
+60T Demag #2,50m,4.7T,12.0,8.5,60,Hobart
+60T Demag #2,50m,12.1T,12.0,11.8,60,Hobart
+100T Liehbherr,52m,11.5T,12.0,16.5,100,Hobart
+100T Liehbherr,52m,35T,12.0,25.3,100,Hobart
+220T Tadano,68m,0T,12.0,23.3,220,Hobart
+220T Tadano,68m,23.5T,12.0,35.1,220,Hobart
+220T Tadano,68m,47T,12.0,47.2,220,Hobart
+220T Tadano,68m,71T,12.0,54.0,220,Hobart
+250T Grove #2,70m,0T,12.0,16.6,250,Hobart
+250T Grove #2,70m,16.5T,12.0,28.0,250,Hobart
+250T Grove #2,70m,40T,12.0,44.0,250,Hobart
+250T Grove #2,70m,80T,12.0,58.0,250,Hobart
+300T Grove,80m,16.5T,12.0,35.0,300,Launceston
+300T Grove,80m,35.5T,12.0,48.0,300,Launceston
+300T Grove,80m,54.5T,12.0,61.0,300,Launceston
+300T Grove,80m,74.5T,12.0,68.0,300,Launceston
+300T Grove,80m,92.5T,12.0,70.0,300,Launceston
+7T Tadpole,21m,,13.0,0.7,7,Launceston
+13T Kato,24m,,13.0,1.3,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,13.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,13.0,,40,Launceston
+55T Grove,43m,6.6T,13.0,7.3,55,Launceston
+,43m,11.5T C/W,13.0,9.3,9999,Unknown
+100T Grove,60m,4.5T C/W,13.0,11.8,100,Launceston
+,60m,26.2T,13.0,22.0,9999,Unknown
+150T Grove,60m,1T,13.0,12.4,150,Launceston
+150T Grove,60m,26.3T,13.0,26.5,150,Launceston
+150T Grove,60m,44.56T,13.0,32.0,150,Launceston
+250T Grove,78.5m,0T,13.0,14.7,250,Launceston
+250T Grove,78.5m,16.5T,13.0,24.5,250,Launceston
+250T Grove,78.5m,40T,13.0,39.0,250,Launceston
+250T Grove,78.5m,50T,13.0,44.0,250,Launceston
+250T Grove,78.5,70T,13.0,51.5,250,Launceston
+250T Grove,78.5m,80T,13.0,53.0,250,Launceston
+300T Grove,80m,16.5T,13.0,30.0,300,Launceston
+300T Grove,80m,35.5T,13.0,43.0,300,Launceston
+300T Grove,80m,54.5T,13.0,53.5,300,Launceston
+300T Grove,80m,74.5T,13.0,62.5,300,Launceston
+300T Grove,80m,92.5T,13.0,64.5,300,Launceston
+,,,13.0,,9999,Unknown
+2.8T Maeda,8.5m,0,13.0,,2,Hobart
+4T Maeda,16.4m,0,13.0,0.43,4,Hobart
+13T Kato,24m,0,13.0,1.3,13,Launceston
+25T    Kato,31m,0,13.0,,25,Hobart
+25T Kato City,29m,0,13.0,3.55,25,Hobart
+35T Demag,37.4m,2.5T,13.0,4.0,35,Hobart
+35T Demag,37.4m,5.5T,13.0,5.2,35,Hobart
+40T Franna,Static,,13.0,4.5,40,Hobart
+40T Franna,Mobile,,13.0,4.0,40,Hobart
+40T Franna,,,13.0,3.4,40,Hobart
+60T Demag,44m,4.6T,13.0,,60,Hobart
+60T Demag,44m,11.6T,13.0,,60,Hobart
+60T Demag #2,50m,4.7T,13.0,,60,Hobart
+60T Demag #2,50m,12.1T,13.0,,60,Hobart
+100T Liehbherr,52m,11.5T,13.0,,100,Hobart
+100T Liehbherr,52m,35T,13.0,,100,Hobart
+220T Tadano,68m,0T,13.0,,220,Hobart
+220T Tadano,68m,23.5T,13.0,,220,Hobart
+220T Tadano,68m,47T,13.0,,220,Hobart
+220T Tadano,68m,71T,13.0,,220,Hobart
+250T Grove #2,70m,0T,13.0,14.5,250,Hobart
+250T Grove #2,70m,16.5T,13.0,25.0,250,Hobart
+250T Grove #2,70m,40T,13.0,38.5,250,Hobart
+250T Grove #2,70m,80T,13.0,53.5,250,Hobart
+300T Grove,80m,16.5T,13.0,30.0,300,Launceston
+300T Grove,80m,35.5T,13.0,43.0,300,Launceston
+300T Grove,80m,54.5T,13.0,53.5,300,Launceston
+300T Grove,80m,74.5T,13.0,62.5,300,Launceston
+300T Grove,80m,92.5T,13.0,64.5,300,Launceston
+7T Tadpole,21m,,14.0,0.6,7,Launceston
+13T Kato,24m,,14.0,1.15,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,14.0,3.4,40,Launceston
+40T All Terrain Tadano,35m,6.5T,14.0,5.2,40,Launceston
+55T Grove,43m,6.6T,14.0,6.4,55,Launceston
+,43m,11.5T C/W,14.0,8.3,9999,Unknown
+100T Grove,60m,4.5T C/W,14.0,10.5,100,Launceston
+,60m,26.2T,14.0,20.0,9999,Unknown
+150T Grove,60m,1T,14.0,10.9,150,Launceston
+150T Grove,60m,26.3T,14.0,24.0,150,Launceston
+150T Grove,60m,44.56T,14.0,29.5,150,Launceston
+250T Grove,78.5m,0T,14.0,13.0,250,Launceston
+250T Grove,78.5m,16.5T,14.0,22.0,250,Launceston
+250T Grove,78.5m,40T,14.0,34.5,250,Launceston
+250T Grove,78.5m,50T,14.0,39.0,250,Launceston
+250T Grove,78.5,70T,14.0,47.0,250,Launceston
+250T Grove,78.5m,80T,14.0,49.0,250,Launceston
+300T Grove,80m,16.5T,14.0,27.0,300,Launceston
+300T Grove,80m,35.5T,14.0,37.5,300,Launceston
+300T Grove,80m,54.5T,14.0,47.5,300,Launceston
+300T Grove,80m,74.5T,14.0,57.5,300,Launceston
+300T Grove,80m,92.5T,14.0,60.0,300,Launceston
+,,,14.0,,9999,Unknown
+2.8T Maeda,8.5m,0,14.0,,2,Hobart
+4T Maeda,16.4m,0,14.0,0.32,4,Hobart
+13T Kato,24m,0,14.0,1.15,13,Launceston
+25T    Kato,31m,0,14.0,3.6,25,Hobart
+25T Kato City,29m,0,14.0,3.05,25,Hobart
+35T Demag,37.4m,2.5T,14.0,3.4,35,Hobart
+35T Demag,37.4m,5.5T,14.0,4.6,35,Hobart
+40T Franna,Static,,14.0,4.0,40,Hobart
+40T Franna,Mobile,,14.0,3.6,40,Hobart
+40T Franna,,,14.0,3.1,40,Hobart
+60T Demag,44m,4.6T,14.0,6.4,60,Hobart
+60T Demag,44m,11.6T,14.0,9.6,60,Hobart
+60T Demag #2,50m,4.7T,14.0,6.7,60,Hobart
+60T Demag #2,50m,12.1T,14.0,9.4,60,Hobart
+100T Liehbherr,52m,11.5T,14.0,13.2,100,Hobart
+100T Liehbherr,52m,35T,14.0,20.8,100,Hobart
+220T Tadano,68m,0T,14.0,19.7,220,Hobart
+220T Tadano,68m,23.5T,14.0,27.1,220,Hobart
+220T Tadano,68m,47T,14.0,38.7,220,Hobart
+220T Tadano,68m,71T,14.0,45.1,220,Hobart
+250T Grove #2,70m,0T,14.0,12.7,250,Hobart
+250T Grove #2,70m,16.5T,14.0,22.0,250,Hobart
+250T Grove #2,70m,40T,14.0,35.0,250,Hobart
+250T Grove #2,70m,80T,14.0,48.0,250,Hobart
+300T Grove,80m,16.5T,14.0,27.0,300,Launceston
+300T Grove,80m,35.5T,14.0,37.5,300,Launceston
+300T Grove,80m,54.5T,14.0,47.5,300,Launceston
+300T Grove,80m,74.5T,14.0,57.5,300,Launceston
+300T Grove,80m,92.5T,14.0,60.0,300,Launceston
+7T Tadpole,21m,,15.0,0.52,7,Launceston
+13T Kato,24m,,15.0,1.0,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,15.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,15.0,,40,Launceston
+55T Grove,43m,6.6T,15.0,5.7,55,Launceston
+,43m,11.5T C/W,15.0,7.5,9999,Unknown
+100T Grove,60m,4.5T C/W,15.0,9.4,100,Launceston
+,60m,26.2T,15.0,17.9,9999,Unknown
+150T Grove,60m,1T,15.0,9.7,150,Launceston
+150T Grove,60m,26.3T,15.0,22.0,150,Launceston
+150T Grove,60m,44.56T,15.0,27.0,150,Launceston
+250T Grove,78.5m,0T,15.0,11.6,250,Launceston
+250T Grove,78.5m,16.5T,15.0,19.9,250,Launceston
+250T Grove,78.5m,40T,15.0,31.5,250,Launceston
+250T Grove,78.5m,50T,15.0,36.0,250,Launceston
+250T Grove,78.5,70T,15.0,43.0,250,Launceston
+250T Grove,78.5m,80T,15.0,45.0,250,Launceston
+300T Grove,80m,16.5T,15.0,24.0,300,Launceston
+300T Grove,80m,35.5T,15.0,33.5,300,Launceston
+300T Grove,80m,54.5T,15.0,44.0,300,Launceston
+300T Grove,80m,74.5T,15.0,53.0,300,Launceston
+300T Grove,80m,92.5T,15.0,55.5,300,Launceston
+,,,15.0,,9999,Unknown
+2.8T Maeda,8.5m,0,15.0,,2,Hobart
+4T Maeda,16.4m,0,15.0,0.26,4,Hobart
+13T Kato,24m,0,15.0,1.0,13,Launceston
+25T    Kato,31m,0,15.0,3.0,25,Hobart
+25T Kato City,29m,0,15.0,2.65,25,Hobart
+35T Demag,37.4m,2.5T,15.0,2.9,35,Hobart
+35T Demag,37.4m,5.5T,15.0,4.0,35,Hobart
+40T Franna,Static,,15.0,3.6,40,Hobart
+40T Franna,Mobile,,15.0,3.2,40,Hobart
+40T Franna,,,15.0,2.7,40,Hobart
+60T Demag,44m,4.6T,15.0,,60,Hobart
+60T Demag,44m,11.6T,15.0,,60,Hobart
+60T Demag #2,50m,4.7T,15.0,,60,Hobart
+60T Demag #2,50m,12.1T,15.0,,60,Hobart
+100T Liehbherr,52m,11.5T,15.0,,100,Hobart
+100T Liehbherr,52m,35T,15.0,,100,Hobart
+220T Tadano,68m,0T,15.0,,220,Hobart
+220T Tadano,68m,23.5T,15.0,,220,Hobart
+220T Tadano,68m,47T,15.0,,220,Hobart
+220T Tadano,68m,71T,15.0,,220,Hobart
+250T Grove #2,70m,0T,15.0,11.2,250,Hobart
+250T Grove #2,70m,16.5T,15.0,19.5,250,Hobart
+250T Grove #2,70m,40T,15.0,31.5,250,Hobart
+250T Grove #2,70m,80T,15.0,45.0,250,Hobart
+300T Grove,80m,16.5T,15.0,24.0,300,Launceston
+300T Grove,80m,35.5T,15.0,33.5,300,Launceston
+300T Grove,80m,54.5T,15.0,44.0,300,Launceston
+300T Grove,80m,74.5T,15.0,53.0,300,Launceston
+300T Grove,80m,92.5T,15.0,55.5,300,Launceston
+7T Tadpole,21m,,16.0,0.45,7,Launceston
+13T Kato,24m,,16.0,0.9,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,16.0,2.6,40,Launceston
+40T All Terrain Tadano,35m,6.5T,16.0,4.2,40,Launceston
+55T Grove,43m,6.6T,16.0,5.0,55,Launceston
+,43m,11.5T C/W,16.0,6.8,9999,Unknown
+100T Grove,60m,4.5T C/W,16.0,8.5,100,Launceston
+,60m,26.2T,16.0,16.6,9999,Unknown
+150T Grove,60m,1T,16.0,8.5,150,Launceston
+150T Grove,60m,26.3T,16.0,20.0,150,Launceston
+150T Grove,60m,44.56T,16.0,25.0,150,Launceston
+250T Grove,78.5m,0T,16.0,10.3,250,Launceston
+250T Grove,78.5m,16.5T,16.0,18.1,250,Launceston
+250T Grove,78.5m,40T,16.0,28.5,250,Launceston
+250T Grove,78.5m,50T,16.0,32.0,250,Launceston
+250T Grove,78.5,70T,16.0,40.0,250,Launceston
+250T Grove,78.5m,80T,16.0,42.0,250,Launceston
+300T Grove,80m,16.5T,16.0,22.0,300,Launceston
+300T Grove,80m,35.5T,16.0,31.0,300,Launceston
+300T Grove,80m,54.5T,16.0,39.5,300,Launceston
+300T Grove,80m,74.5T,16.0,48.0,300,Launceston
+300T Grove,80m,92.5T,16.0,50.5,300,Launceston
+,,,16.0,,9999,Unknown
+2.8T Maeda,8.5m,0,16.0,,2,Hobart
+4T Maeda,16.4m,0,16.0,0.21,4,Hobart
+13T Kato,24m,0,16.0,0.9,13,Launceston
+25T    Kato,31m,0,16.0,2.85,25,Hobart
+25T Kato City,29m,0,16.0,2.35,25,Hobart
+35T Demag,37.4m,2.5T,16.0,2.7,35,Hobart
+35T Demag,37.4m,5.5T,16.0,3.6,35,Hobart
+40T Franna,Static,,16.0,,40,Hobart
+40T Franna,Mobile,,16.0,,40,Hobart
+40T Franna,,,16.0,,40,Hobart
+60T Demag,44m,4.6T,16.0,5.0,60,Hobart
+60T Demag,44m,11.6T,16.0,7.6,60,Hobart
+60T Demag #2,50m,4.7T,16.0,5.4,60,Hobart
+60T Demag #2,50m,12.1T,16.0,7.7,60,Hobart
+100T Liehbherr,52m,11.5T,16.0,10.8,100,Hobart
+100T Liehbherr,52m,35T,16.0,17.4,100,Hobart
+220T Tadano,68m,0T,16.0,14.6,220,Hobart
+220T Tadano,68m,23.5T,16.0,21.8,220,Hobart
+220T Tadano,68m,47T,16.0,32.5,220,Hobart
+220T Tadano,68m,71T,16.0,38.5,220,Hobart
+250T Grove #2,70m,0T,16.0,9.9,250,Hobart
+250T Grove #2,70m,16.5T,16.0,17.7,250,Hobart
+250T Grove #2,70m,40T,16.0,28.0,250,Hobart
+250T Grove #2,70m,80T,16.0,42.0,250,Hobart
+300T Grove,80m,16.5T,16.0,22.0,300,Launceston
+300T Grove,80m,35.5T,16.0,31.0,300,Launceston
+300T Grove,80m,54.5T,16.0,39.5,300,Launceston
+300T Grove,80m,74.5T,16.0,48.0,300,Launceston
+300T Grove,80m,92.5T,16.0,51.5,300,Launceston
+7T Tadpole,21m,,17.0,0.37,7,Launceston
+13T Kato,24m,,17.0,0.8,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,17.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,17.0,,40,Launceston
+55T Grove,43m,6.6T,17.0,,55,Launceston
+,43m,11.5T C/W,17.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,17.0,,100,Launceston
+,60m,26.2T,17.0,,9999,Unknown
+150T Grove,60m,1T,17.0,,150,Launceston
+150T Grove,60m,26.3T,17.0,,150,Launceston
+150T Grove,60m,44.56T,17.0,,150,Launceston
+250T Grove,78.5m,0T,17.0,,250,Launceston
+250T Grove,78.5m,16.5T,17.0,,250,Launceston
+250T Grove,78.5m,40T,17.0,,250,Launceston
+250T Grove,78.5m,50T,17.0,,250,Launceston
+250T Grove,78.5,70T,17.0,,250,Launceston
+250T Grove,78.5m,80T,17.0,,250,Launceston
+300T Grove,80m,16.5T,17.0,,300,Launceston
+300T Grove,80m,35.5T,17.0,,300,Launceston
+300T Grove,80m,54.5T,17.0,,300,Launceston
+300T Grove,80m,74.5T,17.0,,300,Launceston
+300T Grove,80m,92.5T,17.0,,300,Launceston
+,,,17.0,,9999,Unknown
+2.8T Maeda,8.5m,0,17.0,,2,Hobart
+4T Maeda,16.4m,0,17.0,,4,Hobart
+13T Kato,24m,0,17.0,0.8,13,Launceston
+25T    Kato,31m,0,17.0,,25,Hobart
+25T Kato City,29m,0,17.0,2.05,25,Hobart
+35T Demag,37.4m,2.5T,17.0,2.2,35,Hobart
+35T Demag,37.4m,5.5T,17.0,3.2,35,Hobart
+40T Franna,Static,,17.0,,40,Hobart
+40T Franna,Mobile,,17.0,,40,Hobart
+40T Franna,,,17.0,,40,Hobart
+60T Demag,44m,4.6T,17.0,,60,Hobart
+60T Demag,44m,11.6T,17.0,,60,Hobart
+60T Demag #2,50m,4.7T,17.0,,60,Hobart
+60T Demag #2,50m,12.1T,17.0,,60,Hobart
+100T Liehbherr,52m,11.5T,17.0,,100,Hobart
+100T Liehbherr,52m,35T,17.0,,100,Hobart
+220T Tadano,68m,0T,17.0,,220,Hobart
+220T Tadano,68m,23.5T,17.0,,220,Hobart
+220T Tadano,68m,47T,17.0,,220,Hobart
+220T Tadano,68m,71T,17.0,,220,Hobart
+250T Grove #2,70m,0T,17.0,,250,Hobart
+250T Grove #2,70m,16.5T,17.0,,250,Hobart
+250T Grove #2,70m,40T,17.0,,250,Hobart
+250T Grove #2,70m,80T,17.0,,250,Hobart
+300T Grove,80m,16.5T,17.0,,300,Launceston
+300T Grove,80m,35.5T,17.0,,300,Launceston
+300T Grove,80m,54.5T,17.0,,300,Launceston
+300T Grove,80m,74.5T,17.0,,300,Launceston
+300T Grove,80m,92.5T,17.0,,300,Launceston
+7T Tadpole,21m,,18.0,0.31,7,Launceston
+13T Kato,24m,,18.0,0.68,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,18.0,2.0,40,Launceston
+40T All Terrain Tadano,35m,6.5T,18.0,3.4,40,Launceston
+55T Grove,43m,6.6T,18.0,4.1,55,Launceston
+,43m,11.5T C/W,18.0,5.4,9999,Unknown
+100T Grove,60m,4.5T C/W,18.0,6.9,100,Launceston
+,60m,26.2T,18.0,13.7,9999,Unknown
+150T Grove,60m,1T,18.0,6.7,150,Launceston
+150T Grove,60m,26.3T,18.0,16.4,150,Launceston
+150T Grove,60m,44.56T,18.0,22.0,150,Launceston
+250T Grove,78.5m,0T,18.0,8.3,250,Launceston
+250T Grove,78.5m,16.5T,18.0,15.0,250,Launceston
+250T Grove,78.5m,40T,18.0,24.5,250,Launceston
+250T Grove,78.5m,50T,18.0,27.5,250,Launceston
+250T Grove,78.5,70T,18.0,34.0,250,Launceston
+250T Grove,78.5m,80T,18.0,36.5,250,Launceston
+300T Grove,80m,16.5T,18.0,18.3,300,Launceston
+300T Grove,80m,35.5T,18.0,26.0,300,Launceston
+300T Grove,80m,54.5T,18.0,33.0,300,Launceston
+300T Grove,80m,74.5T,18.0,40.0,300,Launceston
+300T Grove,80m,92.5T,18.0,45.5,300,Launceston
+,,,18.0,,9999,Unknown
+2.8T Maeda,8.5m,0,18.0,,2,Hobart
+4T Maeda,16.4m,0,18.0,,4,Hobart
+13T Kato,24m,0,18.0,0.68,13,Launceston
+25T    Kato,31m,0,18.0,2.2,25,Hobart
+25T Kato City,29m,0,18.0,1.8,25,Hobart
+35T Demag,37.4m,2.5T,18.0,2.0,35,Hobart
+35T Demag,37.4m,5.5T,18.0,2.8,35,Hobart
+40T Franna,Static,,18.0,,40,Hobart
+40T Franna,Mobile,,18.0,,40,Hobart
+40T Franna,,,18.0,,40,Hobart
+60T Demag,44m,4.6T,18.0,4.0,60,Hobart
+60T Demag,44m,11.6T,18.0,6.2,60,Hobart
+60T Demag #2,50m,4.7T,18.0,4.4,60,Hobart
+60T Demag #2,50m,12.1T,18.0,6.5,60,Hobart
+100T Liehbherr,52m,11.5T,18.0,8.9,100,Hobart
+100T Liehbherr,52m,35T,18.0,14.7,100,Hobart
+220T Tadano,68m,0T,18.0,9.2,220,Hobart
+220T Tadano,68m,23.5T,18.0,17.9,220,Hobart
+220T Tadano,68m,47T,18.0,27.4,220,Hobart
+220T Tadano,68m,71T,18.0,34.1,220,Hobart
+250T Grove #2,70m,0T,18.0,7.9,250,Hobart
+250T Grove #2,70m,16.5T,18.0,14.8,250,Hobart
+250T Grove #2,70m,40T,18.0,23.0,250,Hobart
+250T Grove #2,70m,80T,18.0,36.0,250,Hobart
+300T Grove,80m,16.5T,18.0,18.3,300,Launceston
+300T Grove,80m,35.5T,18.0,26.0,300,Launceston
+300T Grove,80m,54.5T,18.0,33.0,300,Launceston
+300T Grove,80m,74.5T,18.0,40.0,300,Launceston
+300T Grove,80m,92.5T,18.0,45.5,300,Launceston
+7T Tadpole,21m,,19.0,0.25,7,Launceston
+13T Kato,24m,,19.0,0.58,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,19.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,19.0,,40,Launceston
+55T Grove,43m,6.6T,19.0,,55,Launceston
+,43m,11.5T C/W,19.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,19.0,,100,Launceston
+,60m,26.2T,19.0,,9999,Unknown
+150T Grove,60m,1T,19.0,,150,Launceston
+150T Grove,60m,26.3T,19.0,,150,Launceston
+150T Grove,60m,44.56T,19.0,,150,Launceston
+250T Grove,78.5m,0T,19.0,,250,Launceston
+250T Grove,78.5m,16.5T,19.0,,250,Launceston
+250T Grove,78.5m,40T,19.0,,250,Launceston
+250T Grove,78.5m,50T,19.0,,250,Launceston
+250T Grove,78.5,70T,19.0,,250,Launceston
+250T Grove,78.5m,80T,19.0,,250,Launceston
+300T Grove,80m,16.5T,19.0,,300,Launceston
+300T Grove,80m,35.5T,19.0,,300,Launceston
+300T Grove,80m,54.5T,19.0,,300,Launceston
+300T Grove,80m,74.5T,19.0,,300,Launceston
+300T Grove,80m,92.5T,19.0,,300,Launceston
+,,,19.0,,9999,Unknown
+2.8T Maeda,8.5m,0,19.0,,2,Hobart
+4T Maeda,16.4m,0,19.0,,4,Hobart
+13T Kato,24m,0,19.0,0.58,13,Launceston
+25T    Kato,31m,0,19.0,2.0,25,Hobart
+25T Kato City,29m,0,19.0,1.55,25,Hobart
+35T Demag,37.4m,2.5T,19.0,1.8,35,Hobart
+35T Demag,37.4m,5.5T,19.0,2.6,35,Hobart
+40T Franna,Static,,19.0,,40,Hobart
+40T Franna,Mobile,,19.0,,40,Hobart
+40T Franna,,,19.0,,40,Hobart
+60T Demag,44m,4.6T,19.0,,60,Hobart
+60T Demag,44m,11.6T,19.0,,60,Hobart
+60T Demag #2,50m,4.7T,19.0,,60,Hobart
+60T Demag #2,50m,12.1T,19.0,,60,Hobart
+100T Liehbherr,52m,11.5T,19.0,,100,Hobart
+100T Liehbherr,52m,35T,19.0,,100,Hobart
+220T Tadano,68m,0T,19.0,,220,Hobart
+220T Tadano,68m,23.5T,19.0,,220,Hobart
+220T Tadano,68m,47T,19.0,,220,Hobart
+220T Tadano,68m,71T,19.0,,220,Hobart
+250T Grove #2,70m,0T,19.0,,250,Hobart
+250T Grove #2,70m,16.5T,19.0,,250,Hobart
+250T Grove #2,70m,40T,19.0,,250,Hobart
+250T Grove #2,70m,80T,19.0,,250,Hobart
+300T Grove,80m,16.5T,19.0,,300,Launceston
+300T Grove,80m,35.5T,19.0,,300,Launceston
+300T Grove,80m,54.5T,19.0,,300,Launceston
+300T Grove,80m,74.5T,19.0,,300,Launceston
+300T Grove,80m,92.5T,19.0,,300,Launceston
+7T Tadpole,21m,,20.0,0.2,7,Launceston
+13T Kato,24m,,20.0,0.48,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,20.0,1.6,40,Launceston
+40T All Terrain Tadano,35m,6.5T,20.0,2.8,40,Launceston
+55T Grove,43m,6.6T,20.0,3.6,55,Launceston
+,43m,11.5T C/W,20.0,4.5,9999,Unknown
+100T Grove,60m,4.5T C/W,20.0,5.6,100,Launceston
+,60m,26.2T,20.0,11.5,9999,Unknown
+150T Grove,60m,1T,20.0,5.5,150,Launceston
+150T Grove,60m,26.3T,20.0,13.9,150,Launceston
+150T Grove,60m,44.56T,20.0,18.9,150,Launceston
+250T Grove,78.5m,0T,20.0,6.7,250,Launceston
+250T Grove,78.5m,16.5T,20.0,12.4,250,Launceston
+250T Grove,78.5m,40T,20.0,21.0,250,Launceston
+250T Grove,78.5m,50T,20.0,23.5,250,Launceston
+250T Grove,78.5,70T,20.0,29.0,250,Launceston
+250T Grove,78.5m,80T,20.0,32.0,250,Launceston
+300T Grove,80m,16.5T,20.0,15.6,300,Launceston
+300T Grove,80m,35.5T,20.0,22.0,300,Launceston
+300T Grove,80m,54.5T,20.0,29.0,300,Launceston
+300T Grove,80m,74.5T,20.0,34.5,300,Launceston
+300T Grove,80m,92.5T,20.0,40.5,300,Launceston
+,,,20.0,,9999,Unknown
+2.8T Maeda,8.5m,0,20.0,,2,Hobart
+4T Maeda,16.4m,0,20.0,,4,Hobart
+13T Kato,24m,0,20.0,0.48,13,Launceston
+25T    Kato,31m,0,20.0,1.7,25,Hobart
+25T Kato City,29m,0,20.0,1.4,25,Hobart
+35T Demag,37.4m,2.5T,20.0,1.7,35,Hobart
+35T Demag,37.4m,5.5T,20.0,2.5,35,Hobart
+40T Franna,Static,,20.0,,40,Hobart
+40T Franna,Mobile,,20.0,,40,Hobart
+40T Franna,,,20.0,,40,Hobart
+60T Demag,44m,4.6T,20.0,3.2,60,Hobart
+60T Demag,44m,11.6T,20.0,5.1,60,Hobart
+60T Demag #2,50m,4.7T,20.0,3.6,60,Hobart
+60T Demag #2,50m,12.1T,20.0,5.5,60,Hobart
+100T Liehbherr,52m,11.5T,20.0,7.4,100,Hobart
+100T Liehbherr,52m,35T,20.0,12.7,100,Hobart
+220T Tadano,68m,0T,20.0,7.9,220,Hobart
+220T Tadano,68m,23.5T,20.0,15.7,220,Hobart
+220T Tadano,68m,47T,20.0,23.3,220,Hobart
+220T Tadano,68m,71T,20.0,30.4,220,Hobart
+250T Grove #2,70m,0T,20.0,6.3,250,Hobart
+250T Grove #2,70m,16.5T,20.0,12.6,250,Hobart
+250T Grove #2,70m,40T,20.0,20.5,250,Hobart
+250T Grove #2,70m,80T,20.0,31.5,250,Hobart
+300T Grove,80m,16.5T,20.0,15.6,300,Launceston
+300T Grove,80m,35.5T,20.0,22.0,300,Launceston
+300T Grove,80m,54.5T,20.0,29.0,300,Launceston
+300T Grove,80m,74.5T,20.0,34.5,300,Launceston
+300T Grove,80m,92.5T,20.0,40.5,300,Launceston
+7T Tadpole,21m,,22.0,,7,Launceston
+13T Kato,24m,,22.0,0.35,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,22.0,1.2,40,Launceston
+40T All Terrain Tadano,35m,6.5T,22.0,2.4,40,Launceston
+55T Grove,43m,6.6T,22.0,3.0,55,Launceston
+,43m,11.5T C/W,22.0,3.5,9999,Unknown
+100T Grove,60m,4.5T C/W,22.0,4.5,100,Launceston
+,60m,26.2T,22.0,10.1,9999,Unknown
+150T Grove,60m,1T,22.0,4.4,150,Launceston
+150T Grove,60m,26.3T,22.0,11.8,150,Launceston
+150T Grove,60m,44.56T,22.0,16.2,150,Launceston
+250T Grove,78.5m,0T,22.0,5.3,250,Launceston
+250T Grove,78.5m,16.5T,22.0,10.8,250,Launceston
+250T Grove,78.5m,40T,22.0,17.8,250,Launceston
+250T Grove,78.5m,50T,22.0,21.0,250,Launceston
+250T Grove,78.5,70T,22.0,26.0,250,Launceston
+250T Grove,78.5m,80T,22.0,28.5,250,Launceston
+300T Grove,80m,16.5T,22.0,13.0,300,Launceston
+300T Grove,80m,35.5T,22.0,19.0,300,Launceston
+300T Grove,80m,54.5T,22.0,24.5,300,Launceston
+300T Grove,80m,74.5T,22.0,30.0,300,Launceston
+300T Grove,80m,92.5T,22.0,34.5,300,Launceston
+,,,22.0,,9999,Unknown
+2.8T Maeda,8.5m,0,22.0,,2,Hobart
+4T Maeda,16.4m,0,22.0,,4,Hobart
+13T Kato,24m,0,22.0,0.35,13,Launceston
+25T    Kato,31m,0,22.0,1.35,25,Hobart
+25T Kato City,29m,0,22.0,1.05,25,Hobart
+35T Demag,37.4m,2.5T,22.0,1.3,35,Hobart
+35T Demag,37.4m,5.5T,22.0,2.0,35,Hobart
+40T Franna,Static,,22.0,,40,Hobart
+40T Franna,Mobile,,22.0,,40,Hobart
+40T Franna,,,22.0,,40,Hobart
+60T Demag,44m,4.6T,22.0,2.6,60,Hobart
+60T Demag,44m,11.6T,22.0,4.4,60,Hobart
+60T Demag #2,50m,4.7T,22.0,3.0,60,Hobart
+60T Demag #2,50m,12.1T,22.0,4.7,60,Hobart
+100T Liehbherr,52m,11.5T,22.0,6.3,100,Hobart
+100T Liehbherr,52m,35T,22.0,11.1,100,Hobart
+220T Tadano,68m,0T,22.0,6.4,220,Hobart
+220T Tadano,68m,23.5T,22.0,13.6,220,Hobart
+220T Tadano,68m,47T,22.0,20.2,220,Hobart
+220T Tadano,68m,71T,22.0,27.0,220,Hobart
+250T Grove #2,70m,0T,22.0,5.1,250,Hobart
+250T Grove #2,70m,16.5T,22.0,10.7,250,Hobart
+250T Grove #2,70m,40T,22.0,17.4,250,Hobart
+250T Grove #2,70m,80T,22.0,28.0,250,Hobart
+300T Grove,80m,16.5T,22.0,13.0,300,Launceston
+300T Grove,80m,35.5T,22.0,19.0,300,Launceston
+300T Grove,80m,54.5T,22.0,24.5,300,Launceston
+300T Grove,80m,74.5T,22.0,30.0,300,Launceston
+300T Grove,80m,92.5T,22.0,34.5,300,Launceston
+7T Tadpole,21m,,24.0,,7,Launceston
+13T Kato,24m,,24.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,24.0,0.9,40,Launceston
+40T All Terrain Tadano,35m,6.5T,24.0,2.0,40,Launceston
+55T Grove,43m,6.6T,24.0,2.5,55,Launceston
+,43m,11.5T C/W,24.0,3.3,9999,Unknown
+100T Grove,60m,4.5T C/W,24.0,3.7,100,Launceston
+,60m,26.2T,24.0,8.8,9999,Unknown
+150T Grove,60m,1T,24.0,3.5,150,Launceston
+150T Grove,60m,26.3T,24.0,10.4,150,Launceston
+150T Grove,60m,44.56T,24.0,14.7,150,Launceston
+250T Grove,78.5m,0T,24.0,4.3,250,Launceston
+250T Grove,78.5m,16.5T,24.0,9.3,250,Launceston
+250T Grove,78.5m,40T,24.0,15.3,250,Launceston
+250T Grove,78.5m,50T,24.0,18.2,250,Launceston
+250T Grove,78.5,70T,24.0,22.5,250,Launceston
+250T Grove,78.5m,80T,24.0,24.5,250,Launceston
+300T Grove,80m,16.5T,24.0,10.9,300,Launceston
+300T Grove,80m,35.5T,24.0,16.7,300,Launceston
+300T Grove,80m,54.5T,24.0,21.5,300,Launceston
+300T Grove,80m,74.5T,24.0,27.0,300,Launceston
+300T Grove,80m,92.5T,24.0,31.5,300,Launceston
+,,,24.0,,9999,Unknown
+2.8T Maeda,8.5m,0,24.0,,2,Hobart
+4T Maeda,16.4m,0,24.0,,4,Hobart
+13T Kato,24m,0,24.0,,13,Launceston
+25T    Kato,31m,0,24.0,1.0,25,Hobart
+25T Kato City,29m,0,24.0,0.8,25,Hobart
+35T Demag,37.4m,2.5T,24.0,1.0,35,Hobart
+35T Demag,37.4m,5.5T,24.0,1.7,35,Hobart
+40T Franna,Static,,24.0,,40,Hobart
+40T Franna,Mobile,,24.0,,40,Hobart
+40T Franna,,,24.0,,40,Hobart
+60T Demag,44m,4.6T,24.0,2.1,60,Hobart
+60T Demag,44m,11.6T,24.0,3.7,60,Hobart
+60T Demag #2,50m,4.7T,24.0,2.5,60,Hobart
+60T Demag #2,50m,12.1T,24.0,4.1,60,Hobart
+100T Liehbherr,52m,11.5T,24.0,5.4,100,Hobart
+100T Liehbherr,52m,35T,24.0,9.7,100,Hobart
+220T Tadano,68m,0T,24.0,5.3,220,Hobart
+220T Tadano,68m,23.5T,24.0,11.8,220,Hobart
+220T Tadano,68m,47T,24.0,17.4,220,Hobart
+220T Tadano,68m,71T,24.0,24.1,220,Hobart
+250T Grove #2,70m,0T,24.0,3.9,250,Hobart
+250T Grove #2,70m,16.5T,24.0,9.1,250,Hobart
+250T Grove #2,70m,40T,24.0,15.0,250,Hobart
+250T Grove #2,70m,80T,24.0,25.5,250,Hobart
+300T Grove,80m,16.5T,24.0,10.9,300,Launceston
+300T Grove,80m,35.5T,24.0,16.7,300,Launceston
+300T Grove,80m,54.5T,24.0,21.5,300,Launceston
+300T Grove,80m,74.5T,24.0,27.0,300,Launceston
+300T Grove,80m,92.5T,24.0,31.5,300,Launceston
+7T Tadpole,21m,,26.0,,7,Launceston
+13T Kato,24m,,26.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,26.0,0.6,40,Launceston
+40T All Terrain Tadano,35m,6.5T,26.0,1.7,40,Launceston
+55T Grove,43m,6.6T,26.0,1.8,55,Launceston
+,43m,11.5T C/W,26.0,2.9,9999,Unknown
+100T Grove,60m,4.5T C/W,26.0,3.0,100,Launceston
+,60m,26.2T,26.0,7.8,9999,Unknown
+150T Grove,60m,1T,26.0,2.7,150,Launceston
+150T Grove,60m,26.3T,26.0,9.0,150,Launceston
+150T Grove,60m,44.56T,26.0,12.9,150,Launceston
+250T Grove,78.5m,0T,26.0,3.3,250,Launceston
+250T Grove,78.5m,16.5T,26.0,7.9,250,Launceston
+250T Grove,78.5m,40T,26.0,13.9,250,Launceston
+250T Grove,78.5m,50T,26.0,16.1,250,Launceston
+250T Grove,78.5,70T,26.0,20.5,250,Launceston
+250T Grove,78.5m,80T,26.0,22.5,250,Launceston
+300T Grove,80m,16.5T,26.0,9.2,300,Launceston
+300T Grove,80m,35.5T,26.0,14.7,300,Launceston
+300T Grove,80m,54.5T,26.0,18.9,300,Launceston
+300T Grove,80m,74.5T,26.0,23.5,300,Launceston
+300T Grove,80m,92.5T,26.0,27.5,300,Launceston
+,,,26.0,,9999,Unknown
+2.8T Maeda,8.5m,0,26.0,,2,Hobart
+4T Maeda,16.4m,0,26.0,,4,Hobart
+13T Kato,24m,0,26.0,,13,Launceston
+25T    Kato,31m,0,26.0,,25,Hobart
+25T Kato City,29m,0,26.0,0.55,25,Hobart
+35T Demag,37.4m,2.5T,26.0,0.8,35,Hobart
+35T Demag,37.4m,5.5T,26.0,1.4,35,Hobart
+40T Franna,Static,,26.0,,40,Hobart
+40T Franna,Mobile,,26.0,,40,Hobart
+40T Franna,,,26.0,,40,Hobart
+60T Demag,44m,4.6T,26.0,1.6,60,Hobart
+60T Demag,44m,11.6T,26.0,3.2,60,Hobart
+60T Demag #2,50m,4.7T,26.0,2.0,60,Hobart
+60T Demag #2,50m,12.1T,26.0,3.5,60,Hobart
+100T Liehbherr,52m,11.5T,26.0,4.6,100,Hobart
+100T Liehbherr,52m,35T,26.0,8.5,100,Hobart
+220T Tadano,68m,0T,26.0,4.2,220,Hobart
+220T Tadano,68m,23.5T,26.0,10.3,220,Hobart
+220T Tadano,68m,47T,26.0,15.3,220,Hobart
+220T Tadano,68m,71T,26.0,21.5,220,Hobart
+250T Grove #2,70m,0T,26.0,3.0,250,Hobart
+250T Grove #2,70m,16.5T,26.0,7.7,250,Hobart
+250T Grove #2,70m,40T,26.0,13.0,250,Hobart
+250T Grove #2,70m,80T,26.0,22.5,250,Hobart
+300T Grove,80m,16.5T,26.0,9.2,300,Launceston
+300T Grove,80m,35.5T,26.0,14.7,300,Launceston
+300T Grove,80m,54.5T,26.0,18.9,300,Launceston
+300T Grove,80m,74.5T,26.0,23.5,300,Launceston
+300T Grove,80m,92.5T,26.0,27.5,300,Launceston
+7T Tadpole,21m,,28.0,,7,Launceston
+13T Kato,24m,,28.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,28.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,28.0,1.4,40,Launceston
+55T Grove,43m,6.6T,28.0,1.5,55,Launceston
+,43m,11.5T C/W,28.0,2.4,9999,Unknown
+100T Grove,60m,4.5T C/W,28.0,2.4,100,Launceston
+,60m,26.2T,28.0,6.9,9999,Unknown
+150T Grove,60m,1T,28.0,2.1,150,Launceston
+150T Grove,60m,26.3T,28.0,7.9,150,Launceston
+150T Grove,60m,44.56T,28.0,11.4,150,Launceston
+250T Grove,78.5m,0T,28.0,2.6,250,Launceston
+250T Grove,78.5m,16.5T,28.0,6.8,250,Launceston
+250T Grove,78.5m,40T,28.0,12.2,250,Launceston
+250T Grove,78.5m,50T,28.0,14.2,250,Launceston
+250T Grove,78.5,70T,28.0,18.3,250,Launceston
+250T Grove,78.5m,80T,28.0,20.0,250,Launceston
+300T Grove,80m,16.5T,28.0,7.7,300,Launceston
+300T Grove,80m,35.5T,28.0,12.8,300,Launceston
+300T Grove,80m,54.5T,28.0,16.7,300,Launceston
+300T Grove,80m,74.5T,28.0,21.5,300,Launceston
+300T Grove,80m,92.5T,28.0,24.5,300,Launceston
+,,,28.0,,9999,Unknown
+2.8T Maeda,8.5m,0,28.0,,2,Hobart
+4T Maeda,16.4m,0,28.0,,4,Hobart
+13T Kato,24m,0,28.0,,13,Launceston
+25T    Kato,31m,0,28.0,0.5,25,Hobart
+25T Kato City,29m,0,28.0,,25,Hobart
+35T Demag,37.4m,2.5T,28.0,0.7,35,Hobart
+35T Demag,37.4m,5.5T,28.0,1.2,35,Hobart
+40T Franna,Static,,28.0,,40,Hobart
+40T Franna,Mobile,,28.0,,40,Hobart
+40T Franna,,,28.0,,40,Hobart
+60T Demag,44m,4.6T,28.0,1.3,60,Hobart
+60T Demag,44m,11.6T,28.0,2.7,60,Hobart
+60T Demag #2,50m,4.7T,28.0,1.7,60,Hobart
+60T Demag #2,50m,12.1T,28.0,3.1,60,Hobart
+100T Liehbherr,52m,11.5T,28.0,4.0,100,Hobart
+100T Liehbherr,52m,35T,28.0,7.7,100,Hobart
+220T Tadano,68m,0T,28.0,3.5,220,Hobart
+220T Tadano,68m,23.5T,28.0,9.0,220,Hobart
+220T Tadano,68m,47T,28.0,13.4,220,Hobart
+220T Tadano,68m,71T,28.0,18.7,220,Hobart
+250T Grove #2,70m,0T,28.0,2.3,250,Hobart
+250T Grove #2,70m,16.5T,28.0,7.1,250,Hobart
+250T Grove #2,70m,40T,28.0,11.4,250,Hobart
+250T Grove #2,70m,80T,28.0,19.8,250,Hobart
+300T Grove,80m,16.5T,28.0,7.7,300,Launceston
+300T Grove,80m,35.5T,28.0,12.8,300,Launceston
+300T Grove,80m,54.5T,28.0,16.7,300,Launceston
+300T Grove,80m,74.5T,28.0,21.5,300,Launceston
+300T Grove,80m,92.5T,28.0,24.5,300,Launceston
+7T Tadpole,21m,,30.0,,7,Launceston
+13T Kato,24m,,30.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,30.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,30.0,1.2,40,Launceston
+55T Grove,43m,6.6T,30.0,1.2,55,Launceston
+,43m,11.5T C/W,30.0,2.1,9999,Unknown
+100T Grove,60m,4.5T C/W,30.0,2.0,100,Launceston
+,60m,26.2T,30.0,5.7,9999,Unknown
+150T Grove,60m,1T,30.0,1.6,150,Launceston
+150T Grove,60m,26.3T,30.0,7.2,150,Launceston
+150T Grove,60m,44.56T,30.0,10.6,150,Launceston
+250T Grove,78.5m,0T,30.0,1.9,250,Launceston
+250T Grove,78.5m,16.5T,30.0,5.8,250,Launceston
+250T Grove,78.5m,40T,30.0,10.8,250,Launceston
+250T Grove,78.5m,50T,30.0,12.8,250,Launceston
+250T Grove,78.5,70T,30.0,16.3,250,Launceston
+250T Grove,78.5m,80T,30.0,18.0,250,Launceston
+300T Grove,80m,16.5T,30.0,6.5,300,Launceston
+300T Grove,80m,35.5T,30.0,11.4,300,Launceston
+300T Grove,80m,54.5T,30.0,15.0,300,Launceston
+300T Grove,80m,74.5T,30.0,19.3,300,Launceston
+300T Grove,80m,92.5T,30.0,22.5,300,Launceston
+,,,30.0,,9999,Unknown
+2.8T Maeda,8.5m,0,30.0,,2,Hobart
+4T Maeda,16.4m,0,30.0,,4,Hobart
+13T Kato,24m,0,30.0,,13,Launceston
+25T    Kato,31m,0,30.0,,25,Hobart
+25T Kato City,29m,0,30.0,,25,Hobart
+35T Demag,37.4m,2.5T,30.0,,35,Hobart
+35T Demag,37.4m,5.5T,30.0,1.0,35,Hobart
+40T Franna,Static,,30.0,,40,Hobart
+40T Franna,Mobile,,30.0,,40,Hobart
+40T Franna,,,30.0,,40,Hobart
+60T Demag,44m,4.6T,30.0,1.0,60,Hobart
+60T Demag,44m,11.6T,30.0,2.3,60,Hobart
+60T Demag #2,50m,4.7T,30.0,1.2,60,Hobart
+60T Demag #2,50m,12.1T,30.0,2.5,60,Hobart
+100T Liehbherr,52m,11.5T,30.0,3.3,100,Hobart
+100T Liehbherr,52m,35T,30.0,6.9,100,Hobart
+220T Tadano,68m,0T,30.0,2.9,220,Hobart
+220T Tadano,68m,23.5T,30.0,7.9,220,Hobart
+220T Tadano,68m,47T,30.0,11.9,220,Hobart
+220T Tadano,68m,71T,30.0,16.8,220,Hobart
+250T Grove #2,70m,0T,30.0,1.7,250,Hobart
+250T Grove #2,70m,16.5T,30.0,5.5,250,Hobart
+250T Grove #2,70m,40T,30.0,10.3,250,Hobart
+250T Grove #2,70m,80T,30.0,17.7,250,Hobart
+300T Grove,80m,16.5T,30.0,6.5,300,Launceston
+300T Grove,80m,35.5T,30.0,11.4,300,Launceston
+300T Grove,80m,54.5T,30.0,15.0,300,Launceston
+300T Grove,80m,74.5T,30.0,19.3,300,Launceston
+300T Grove,80m,92.5T,30.0,22.5,300,Launceston
+7T Tadpole,21m,,32.0,,7,Launceston
+13T Kato,24m,,32.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,32.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,32.0,1.0,40,Launceston
+55T Grove,43m,6.6T,32.0,1.0,55,Launceston
+,43m,11.5T C/W,32.0,1.8,9999,Unknown
+100T Grove,60m,4.5T C/W,32.0,1.6,100,Launceston
+,60m,26.2T,32.0,5.0,9999,Unknown
+150T Grove,60m,1T,32.0,1.1,150,Launceston
+150T Grove,60m,26.3T,32.0,6.2,150,Launceston
+150T Grove,60m,44.56T,32.0,9.5,150,Launceston
+250T Grove,78.5m,0T,32.0,1.4,250,Launceston
+250T Grove,78.5m,16.5T,32.0,5.0,250,Launceston
+250T Grove,78.5m,40T,32.0,9.6,250,Launceston
+250T Grove,78.5m,50T,32.0,11.9,250,Launceston
+250T Grove,78.5,70T,32.0,14.7,250,Launceston
+250T Grove,78.5m,80T,32.0,16.8,250,Launceston
+300T Grove,80m,16.5T,32.0,5.4,300,Launceston
+300T Grove,80m,35.5T,32.0,10.3,300,Launceston
+300T Grove,80m,54.5T,32.0,13.8,300,Launceston
+300T Grove,80m,74.5T,32.0,17.3,300,Launceston
+300T Grove,80m,92.5T,32.0,20.5,300,Launceston
+,,,32.0,,9999,Unknown
+2.8T Maeda,8.5m,0,32.0,,2,Hobart
+4T Maeda,16.4m,0,32.0,,4,Hobart
+13T Kato,24m,0,32.0,,13,Launceston
+25T    Kato,31m,0,32.0,,25,Hobart
+25T Kato City,29m,0,32.0,,25,Hobart
+35T Demag,37.4m,2.5T,32.0,,35,Hobart
+35T Demag,37.4m,5.5T,32.0,0.6,35,Hobart
+40T Franna,Static,,32.0,,40,Hobart
+40T Franna,Mobile,,32.0,,40,Hobart
+40T Franna,,,32.0,,40,Hobart
+60T Demag,44m,4.6T,32.0,0.7,60,Hobart
+60T Demag,44m,11.6T,32.0,1.9,60,Hobart
+60T Demag #2,50m,4.7T,32.0,1.0,60,Hobart
+60T Demag #2,50m,12.1T,32.0,2.2,60,Hobart
+100T Liehbherr,52m,11.5T,32.0,2.7,100,Hobart
+100T Liehbherr,52m,35T,32.0,6.1,100,Hobart
+220T Tadano,68m,0T,32.0,2.1,220,Hobart
+220T Tadano,68m,23.5T,32.0,6.8,220,Hobart
+220T Tadano,68m,47T,32.0,10.8,220,Hobart
+220T Tadano,68m,71T,32.0,15.0,220,Hobart
+250T Grove #2,70m,0T,32.0,1.1,250,Hobart
+250T Grove #2,70m,16.5T,32.0,4.7,250,Hobart
+250T Grove #2,70m,40T,32.0,9.5,250,Hobart
+250T Grove #2,70m,80T,32.0,16.1,250,Hobart
+300T Grove,80m,16.5T,32.0,5.4,300,Launceston
+300T Grove,80m,35.5T,32.0,10.3,300,Launceston
+300T Grove,80m,54.5T,32.0,13.8,300,Launceston
+300T Grove,80m,74.5T,32.0,17.3,300,Launceston
+300T Grove,80m,92.5T,32.0,20.5,300,Launceston
+7T Tadpole,21m,,34.0,,7,Launceston
+13T Kato,24m,,34.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,34.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,34.0,,40,Launceston
+55T Grove,43m,6.6T,34.0,0.7,55,Launceston
+,43m,11.5T C/W,34.0,1.4,9999,Unknown
+100T Grove,60m,4.5T C/W,34.0,1.1,100,Launceston
+,60m,26.2T,34.0,4.6,9999,Unknown
+150T Grove,60m,1T,34.0,,150,Launceston
+150T Grove,60m,26.3T,34.0,5.5,150,Launceston
+150T Grove,60m,44.56T,34.0,8.2,150,Launceston
+250T Grove,78.5m,0T,34.0,0.9,250,Launceston
+250T Grove,78.5m,16.5T,34.0,4.2,250,Launceston
+250T Grove,78.5m,40T,34.0,8.6,250,Launceston
+250T Grove,78.5m,50T,34.0,10.1,250,Launceston
+250T Grove,78.5,70T,34.0,13.8,250,Launceston
+250T Grove,78.5m,80T,34.0,15.2,250,Launceston
+300T Grove,80m,16.5T,34.0,4.5,300,Launceston
+300T Grove,80m,35.5T,34.0,9.1,300,Launceston
+300T Grove,80m,54.5T,34.0,12.4,300,Launceston
+300T Grove,80m,74.5T,34.0,14.9,300,Launceston
+300T Grove,80m,92.5T,34.0,18.6,300,Launceston
+,,,34.0,,9999,Unknown
+2.8T Maeda,8.5m,0,34.0,,2,Hobart
+4T Maeda,16.4m,0,34.0,,4,Hobart
+13T Kato,24m,0,34.0,,13,Launceston
+25T    Kato,31m,0,34.0,,25,Hobart
+25T Kato City,29m,0,34.0,,25,Hobart
+35T Demag,37.4m,2.5T,34.0,,35,Hobart
+35T Demag,37.4m,5.5T,34.0,,35,Hobart
+40T Franna,Static,,34.0,,40,Hobart
+40T Franna,Mobile,,34.0,,40,Hobart
+40T Franna,,,34.0,,40,Hobart
+60T Demag,44m,4.6T,34.0,,60,Hobart
+60T Demag,44m,11.6T,34.0,1.4,60,Hobart
+60T Demag #2,50m,4.7T,34.0,,60,Hobart
+60T Demag #2,50m,12.1T,34.0,1.7,60,Hobart
+100T Liehbherr,52m,11.5T,34.0,2.3,100,Hobart
+100T Liehbherr,52m,35T,34.0,5.4,100,Hobart
+220T Tadano,68m,0T,34.0,1.7,220,Hobart
+220T Tadano,68m,23.5T,34.0,6.1,220,Hobart
+220T Tadano,68m,47T,34.0,9.8,220,Hobart
+220T Tadano,68m,71T,34.0,13.6,220,Hobart
+250T Grove #2,70m,0T,34.0,,250,Hobart
+250T Grove #2,70m,16.5T,34.0,4.0,250,Hobart
+250T Grove #2,70m,40T,34.0,8.7,250,Hobart
+250T Grove #2,70m,80T,34.0,14.3,250,Hobart
+300T Grove,80m,16.5T,34.0,4.5,300,Launceston
+300T Grove,80m,35.5T,34.0,9.1,300,Launceston
+300T Grove,80m,54.5T,34.0,12.4,300,Launceston
+300T Grove,80m,74.5T,34.0,14.9,300,Launceston
+300T Grove,80m,92.5T,34.0,18.6,300,Launceston
+7T Tadpole,21m,,36.0,,7,Launceston
+13T Kato,24m,,36.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,36.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,36.0,,40,Launceston
+55T Grove,43m,6.6T,36.0,,55,Launceston
+,43m,11.5T C/W,36.0,1.0,9999,Unknown
+100T Grove,60m,4.5T C/W,36.0,,100,Launceston
+,60m,26.2T,36.0,3.9,9999,Unknown
+150T Grove,60m,1T,36.0,,150,Launceston
+150T Grove,60m,26.3T,36.0,4.8,150,Launceston
+150T Grove,60m,44.56T,36.0,7.4,150,Launceston
+250T Grove,78.5m,0T,36.0,,250,Launceston
+250T Grove,78.5m,16.5T,36.0,3.5,250,Launceston
+250T Grove,78.5m,40T,36.0,7.6,250,Launceston
+250T Grove,78.5m,50T,36.0,9.0,250,Launceston
+250T Grove,78.5,70T,36.0,12.5,250,Launceston
+250T Grove,78.5m,80T,36.0,13.8,250,Launceston
+300T Grove,80m,16.5T,36.0,3.7,300,Launceston
+300T Grove,80m,35.5T,36.0,8.1,300,Launceston
+300T Grove,80m,54.5T,36.0,11.1,300,Launceston
+300T Grove,80m,74.5T,36.0,14.3,300,Launceston
+300T Grove,80m,92.5T,36.0,16.9,300,Launceston
+,,,36.0,,9999,Unknown
+2.8T Maeda,8.5m,0,36.0,,2,Hobart
+4T Maeda,16.4m,0,36.0,,4,Hobart
+13T Kato,24m,0,36.0,,13,Launceston
+25T    Kato,31m,0,36.0,,25,Hobart
+25T Kato City,29m,0,36.0,,25,Hobart
+35T Demag,37.4m,2.5T,36.0,,35,Hobart
+35T Demag,37.4m,5.5T,36.0,,35,Hobart
+40T Franna,Static,,36.0,,40,Hobart
+40T Franna,Mobile,,36.0,,40,Hobart
+40T Franna,,,36.0,,40,Hobart
+60T Demag,44m,4.6T,36.0,,60,Hobart
+60T Demag,44m,11.6T,36.0,1.0,60,Hobart
+60T Demag #2,50m,4.7T,36.0,,60,Hobart
+60T Demag #2,50m,12.1T,36.0,1.5,60,Hobart
+100T Liehbherr,52m,11.5T,36.0,1.7,100,Hobart
+100T Liehbherr,52m,35T,36.0,4.7,100,Hobart
+220T Tadano,68m,0T,36.0,1.1,220,Hobart
+220T Tadano,68m,23.5T,36.0,5.2,220,Hobart
+220T Tadano,68m,47T,36.0,9.2,220,Hobart
+220T Tadano,68m,71T,36.0,12.4,220,Hobart
+250T Grove #2,70m,0T,36.0,,250,Hobart
+250T Grove #2,70m,16.5T,36.0,3.4,250,Hobart
+250T Grove #2,70m,40T,36.0,7.8,250,Hobart
+250T Grove #2,70m,80T,36.0,12.9,250,Hobart
+300T Grove,80m,16.5T,36.0,3.7,300,Launceston
+300T Grove,80m,35.5T,36.0,8.1,300,Launceston
+300T Grove,80m,54.5T,36.0,11.1,300,Launceston
+300T Grove,80m,74.5T,36.0,14.3,300,Launceston
+300T Grove,80m,92.5T,36.0,16.9,300,Launceston
+7T Tadpole,21m,,38.0,,7,Launceston
+13T Kato,24m,,38.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,38.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,38.0,,40,Launceston
+55T Grove,43m,6.6T,38.0,,55,Launceston
+,43m,11.5T C/W,38.0,0.7,9999,Unknown
+100T Grove,60m,4.5T C/W,38.0,,100,Launceston
+,60m,26.2T,38.0,3.7,9999,Unknown
+150T Grove,60m,1T,38.0,,150,Launceston
+150T Grove,60m,26.3T,38.0,4.3,150,Launceston
+150T Grove,60m,44.56T,38.0,6.7,150,Launceston
+250T Grove,78.5m,0T,38.0,,250,Launceston
+250T Grove,78.5m,16.5T,38.0,3.0,250,Launceston
+250T Grove,78.5m,40T,38.0,6.8,250,Launceston
+250T Grove,78.5m,50T,38.0,8.3,250,Launceston
+250T Grove,78.5,70T,38.0,11.4,250,Launceston
+250T Grove,78.5m,80T,38.0,12.8,250,Launceston
+300T Grove,80m,16.5T,38.0,3.0,300,Launceston
+300T Grove,80m,35.5T,38.0,7.2,300,Launceston
+300T Grove,80m,54.5T,38.0,10.0,300,Launceston
+300T Grove,80m,74.5T,38.0,13.0,300,Launceston
+300T Grove,80m,92.5T,38.0,14.8,300,Launceston
+,,,38.0,,9999,Unknown
+2.8T Maeda,8.5m,0,38.0,,2,Hobart
+4T Maeda,16.4m,0,38.0,,4,Hobart
+13T Kato,24m,0,38.0,,13,Launceston
+25T    Kato,31m,0,38.0,,25,Hobart
+25T Kato City,29m,0,38.0,,25,Hobart
+35T Demag,37.4m,2.5T,38.0,,35,Hobart
+35T Demag,37.4m,5.5T,38.0,,35,Hobart
+40T Franna,Static,,38.0,,40,Hobart
+40T Franna,Mobile,,38.0,,40,Hobart
+40T Franna,,,38.0,,40,Hobart
+60T Demag,44m,4.6T,38.0,,60,Hobart
+60T Demag,44m,11.6T,38.0,0.7,60,Hobart
+60T Demag #2,50m,4.7T,38.0,,60,Hobart
+60T Demag #2,50m,12.1T,38.0,1.3,60,Hobart
+100T Liehbherr,52m,11.5T,38.0,1.3,100,Hobart
+100T Liehbherr,52m,35T,38.0,4.3,100,Hobart
+220T Tadano,68m,0T,38.0,,220,Hobart
+220T Tadano,68m,23.5T,38.0,4.6,220,Hobart
+220T Tadano,68m,47T,38.0,8.7,220,Hobart
+220T Tadano,68m,71T,38.0,11.3,220,Hobart
+250T Grove #2,70m,0T,38.0,,250,Hobart
+250T Grove #2,70m,16.5T,38.0,2.9,250,Hobart
+250T Grove #2,70m,40T,38.0,7.0,250,Hobart
+250T Grove #2,70m,80T,38.0,11.7,250,Hobart
+300T Grove,80m,16.5T,38.0,3.0,300,Launceston
+300T Grove,80m,35.5T,38.0,7.2,300,Launceston
+300T Grove,80m,54.5T,38.0,10.0,300,Launceston
+300T Grove,80m,74.5T,38.0,13.0,300,Launceston
+300T Grove,80m,92.5T,38.0,14.8,300,Launceston
+7T Tadpole,21m,,40.0,,7,Launceston
+13T Kato,24m,,40.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,40.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,40.0,,40,Launceston
+55T Grove,43m,6.6T,40.0,,55,Launceston
+,43m,11.5T C/W,40.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,40.0,,100,Launceston
+,60m,26.2T,40.0,3.3,9999,Unknown
+150T Grove,60m,1T,40.0,,150,Launceston
+150T Grove,60m,26.3T,40.0,3.8,150,Launceston
+150T Grove,60m,44.56T,40.0,6.1,150,Launceston
+250T Grove,78.5m,0T,40.0,,250,Launceston
+250T Grove,78.5m,16.5T,40.0,2.5,250,Launceston
+250T Grove,78.5m,40T,40.0,6.1,250,Launceston
+250T Grove,78.5m,50T,40.0,7.9,250,Launceston
+250T Grove,78.5,70T,40.0,10.4,250,Launceston
+250T Grove,78.5m,80T,40.0,12.0,250,Launceston
+300T Grove,80m,16.5T,40.0,2.3,300,Launceston
+300T Grove,80m,35.5T,40.0,6.2,300,Launceston
+300T Grove,80m,54.5T,40.0,8.7,300,Launceston
+300T Grove,80m,74.5T,40.0,11.8,300,Launceston
+300T Grove,80m,92.5T,40.0,13.9,300,Launceston
+,,,40.0,,9999,Unknown
+2.8T Maeda,8.5m,0,40.0,,2,Hobart
+4T Maeda,16.4m,0,40.0,,4,Hobart
+13T Kato,24m,0,40.0,,13,Launceston
+25T    Kato,31m,0,40.0,,25,Hobart
+25T Kato City,29m,0,40.0,,25,Hobart
+35T Demag,37.4m,2.5T,40.0,,35,Hobart
+35T Demag,37.4m,5.5T,40.0,,35,Hobart
+40T Franna,Static,,40.0,,40,Hobart
+40T Franna,Mobile,,40.0,,40,Hobart
+40T Franna,,,40.0,,40,Hobart
+60T Demag,44m,4.6T,40.0,,60,Hobart
+60T Demag,44m,11.6T,40.0,0.5,60,Hobart
+60T Demag #2,50m,4.7T,40.0,,60,Hobart
+60T Demag #2,50m,12.1T,40.0,0.8,60,Hobart
+100T Liehbherr,52m,11.5T,40.0,,100,Hobart
+100T Liehbherr,52m,35T,40.0,3.7,100,Hobart
+220T Tadano,68m,0T,40.0,,220,Hobart
+220T Tadano,68m,23.5T,40.0,3.8,220,Hobart
+220T Tadano,68m,47T,40.0,7.8,220,Hobart
+220T Tadano,68m,71T,40.0,10.6,220,Hobart
+250T Grove #2,70m,0T,40.0,,250,Hobart
+250T Grove #2,70m,16.5T,40.0,2.2,250,Hobart
+250T Grove #2,70m,40T,40.0,6.4,250,Hobart
+250T Grove #2,70m,80T,40.0,10.1,250,Hobart
+300T Grove,80m,16.5T,40.0,2.3,300,Launceston
+300T Grove,80m,35.5T,40.0,6.2,300,Launceston
+300T Grove,80m,54.5T,40.0,8.7,300,Launceston
+300T Grove,80m,74.5T,40.0,11.8,300,Launceston
+300T Grove,80m,92.5T,40.0,13.9,300,Launceston
+7T Tadpole,21m,,42.0,,7,Launceston
+13T Kato,24m,,42.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,42.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,42.0,,40,Launceston
+55T Grove,43m,6.6T,42.0,,55,Launceston
+,43m,11.5T C/W,42.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,42.0,,100,Launceston
+,60m,26.2T,42.0,2.9,9999,Unknown
+150T Grove,60m,1T,42.0,,150,Launceston
+150T Grove,60m,26.3T,42.0,3.3,150,Launceston
+150T Grove,60m,44.56T,42.0,5.5,150,Launceston
+250T Grove,78.5m,0T,42.0,,250,Launceston
+250T Grove,78.5m,16.5T,42.0,2.1,250,Launceston
+250T Grove,78.5m,40T,42.0,5.5,250,Launceston
+250T Grove,78.5m,50T,42.0,6.5,250,Launceston
+250T Grove,78.5,70T,42.0,9.1,250,Launceston
+250T Grove,78.5m,80T,42.0,10.3,250,Launceston
+300T Grove,80m,16.5T,42.0,1.8,300,Launceston
+300T Grove,80m,35.5T,42.0,5.5,300,Launceston
+300T Grove,80m,54.5T,42.0,8.1,300,Launceston
+300T Grove,80m,74.5T,42.0,10.8,300,Launceston
+300T Grove,80m,92.5T,42.0,12.7,300,Launceston
+,,,42.0,,9999,Unknown
+2.8T Maeda,8.5m,0,42.0,,2,Hobart
+4T Maeda,16.4m,0,42.0,,4,Hobart
+13T Kato,24m,0,42.0,,13,Launceston
+25T    Kato,31m,0,42.0,,25,Hobart
+25T Kato City,29m,0,42.0,,25,Hobart
+35T Demag,37.4m,2.5T,42.0,,35,Hobart
+35T Demag,37.4m,5.5T,42.0,,35,Hobart
+40T Franna,Static,,42.0,,40,Hobart
+40T Franna,Mobile,,42.0,,40,Hobart
+40T Franna,,,42.0,,40,Hobart
+60T Demag,44m,4.6T,42.0,,60,Hobart
+60T Demag,44m,11.6T,42.0,,60,Hobart
+60T Demag #2,50m,4.7T,42.0,,60,Hobart
+60T Demag #2,50m,12.1T,42.0,,60,Hobart
+100T Liehbherr,52m,11.5T,42.0,,100,Hobart
+100T Liehbherr,52m,35T,42.0,,100,Hobart
+220T Tadano,68m,0T,42.0,,220,Hobart
+220T Tadano,68m,23.5T,42.0,3.3,220,Hobart
+220T Tadano,68m,47T,42.0,7.1,220,Hobart
+220T Tadano,68m,71T,42.0,9.8,220,Hobart
+250T Grove #2,70m,0T,42.0,,250,Hobart
+250T Grove #2,70m,16.5T,42.0,1.5,250,Hobart
+250T Grove #2,70m,40T,42.0,5.4,250,Hobart
+250T Grove #2,70m,80T,42.0,9.0,250,Hobart
+300T Grove,80m,16.5T,42.0,1.8,300,Launceston
+300T Grove,80m,35.5T,42.0,5.5,300,Launceston
+300T Grove,80m,54.5T,42.0,8.1,300,Launceston
+300T Grove,80m,74.5T,42.0,10.8,300,Launceston
+300T Grove,80m,92.5T,42.0,12.7,300,Launceston
+7T Tadpole,21m,,44.0,,7,Launceston
+13T Kato,24m,,44.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,44.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,44.0,,40,Launceston
+55T Grove,43m,6.6T,44.0,,55,Launceston
+,43m,11.5T C/W,44.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,44.0,,100,Launceston
+,60m,26.2T,44.0,2.6,9999,Unknown
+150T Grove,60m,1T,44.0,,150,Launceston
+150T Grove,60m,26.3T,44.0,2.7,150,Launceston
+150T Grove,60m,44.56T,44.0,5.0,150,Launceston
+250T Grove,78.5m,0T,44.0,,250,Launceston
+250T Grove,78.5m,16.5T,44.0,1.7,250,Launceston
+250T Grove,78.5m,40T,44.0,4.9,250,Launceston
+250T Grove,78.5m,50T,44.0,6.1,250,Launceston
+250T Grove,78.5,70T,44.0,8.3,250,Launceston
+250T Grove,78.5m,80T,44.0,9.4,250,Launceston
+300T Grove,80m,16.5T,44.0,,300,Launceston
+300T Grove,80m,35.5T,44.0,4.6,300,Launceston
+300T Grove,80m,54.5T,44.0,7.3,300,Launceston
+300T Grove,80m,74.5T,44.0,9.3,300,Launceston
+300T Grove,80m,92.5T,44.0,11.6,300,Launceston
+,,,44.0,,9999,Unknown
+2.8T Maeda,8.5m,0,44.0,,2,Hobart
+4T Maeda,16.4m,0,44.0,,4,Hobart
+13T Kato,24m,0,44.0,,13,Launceston
+25T    Kato,31m,0,44.0,,25,Hobart
+25T Kato City,29m,0,44.0,,25,Hobart
+35T Demag,37.4m,2.5T,44.0,,35,Hobart
+35T Demag,37.4m,5.5T,44.0,,35,Hobart
+40T Franna,Static,,44.0,,40,Hobart
+40T Franna,Mobile,,44.0,,40,Hobart
+40T Franna,,,44.0,,40,Hobart
+60T Demag,44m,4.6T,44.0,,60,Hobart
+60T Demag,44m,11.6T,44.0,,60,Hobart
+60T Demag #2,50m,4.7T,44.0,,60,Hobart
+60T Demag #2,50m,12.1T,44.0,,60,Hobart
+100T Liehbherr,52m,11.5T,44.0,,100,Hobart
+100T Liehbherr,52m,35T,44.0,2.8,100,Hobart
+220T Tadano,68m,0T,44.0,,220,Hobart
+220T Tadano,68m,23.5T,44.0,2.9,220,Hobart
+220T Tadano,68m,47T,44.0,6.6,220,Hobart
+220T Tadano,68m,71T,44.0,8.3,220,Hobart
+250T Grove #2,70m,0T,44.0,,250,Hobart
+250T Grove #2,70m,16.5T,44.0,1.2,250,Hobart
+250T Grove #2,70m,40T,44.0,4.9,250,Hobart
+250T Grove #2,70m,80T,44.0,8.7,250,Hobart
+300T Grove,80m,16.5T,44.0,,300,Launceston
+300T Grove,80m,35.5T,44.0,4.6,300,Launceston
+300T Grove,80m,54.5T,44.0,7.3,300,Launceston
+300T Grove,80m,74.5T,44.0,9.3,300,Launceston
+300T Grove,80m,92.5T,44.0,11.6,300,Launceston
+7T Tadpole,21m,,46.0,,7,Launceston
+13T Kato,24m,,46.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,46.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,46.0,,40,Launceston
+55T Grove,43m,6.6T,46.0,,55,Launceston
+,43m,11.5T C/W,46.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,46.0,,100,Launceston
+,60m,26.2T,46.0,2.0,9999,Unknown
+150T Grove,60m,1T,46.0,,150,Launceston
+150T Grove,60m,26.3T,46.0,2.3,150,Launceston
+150T Grove,60m,44.56T,46.0,4.4,150,Launceston
+250T Grove,78.5m,0T,46.0,,250,Launceston
+250T Grove,78.5m,16.5T,46.0,1.3,250,Launceston
+250T Grove,78.5m,40T,46.0,4.6,250,Launceston
+250T Grove,78.5m,50T,46.0,5.5,250,Launceston
+250T Grove,78.5,70T,46.0,7.5,250,Launceston
+250T Grove,78.5m,80T,46.0,8.3,250,Launceston
+300T Grove,80m,16.5T,46.0,,300,Launceston
+300T Grove,80m,35.5T,46.0,4.0,300,Launceston
+300T Grove,80m,54.5T,46.0,6.7,300,Launceston
+300T Grove,80m,74.5T,46.0,8.5,300,Launceston
+300T Grove,80m,92.5T,46.0,10.6,300,Launceston
+,,,46.0,,9999,Unknown
+2.8T Maeda,8.5m,0,46.0,,2,Hobart
+4T Maeda,16.4m,0,46.0,,4,Hobart
+13T Kato,24m,0,46.0,,13,Launceston
+25T    Kato,31m,0,46.0,,25,Hobart
+25T Kato City,29m,0,46.0,,25,Hobart
+35T Demag,37.4m,2.5T,46.0,,35,Hobart
+35T Demag,37.4m,5.5T,46.0,,35,Hobart
+40T Franna,Static,,46.0,,40,Hobart
+40T Franna,Mobile,,46.0,,40,Hobart
+40T Franna,,,46.0,,40,Hobart
+60T Demag,44m,4.6T,46.0,,60,Hobart
+60T Demag,44m,11.6T,46.0,,60,Hobart
+60T Demag #2,50m,4.7T,46.0,,60,Hobart
+60T Demag #2,50m,12.1T,46.0,,60,Hobart
+100T Liehbherr,52m,11.5T,46.0,,100,Hobart
+100T Liehbherr,52m,35T,46.0,2.5,100,Hobart
+220T Tadano,68m,0T,46.0,,220,Hobart
+220T Tadano,68m,23.5T,46.0,2.2,220,Hobart
+220T Tadano,68m,47T,46.0,5.7,220,Hobart
+220T Tadano,68m,71T,46.0,7.6,220,Hobart
+250T Grove #2,70m,0T,46.0,,250,Hobart
+250T Grove #2,70m,16.5T,46.0,,250,Hobart
+250T Grove #2,70m,40T,46.0,4.3,250,Hobart
+250T Grove #2,70m,80T,46.0,8.1,250,Hobart
+300T Grove,80m,16.5T,46.0,,300,Launceston
+300T Grove,80m,35.5T,46.0,4.0,300,Launceston
+300T Grove,80m,54.5T,46.0,6.7,300,Launceston
+300T Grove,80m,74.5T,46.0,8.5,300,Launceston
+300T Grove,80m,92.5T,46.0,10.6,300,Launceston
+7T Tadpole,21m,,48.0,,7,Launceston
+13T Kato,24m,,48.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,48.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,48.0,,40,Launceston
+55T Grove,43m,6.6T,48.0,,55,Launceston
+,43m,11.5T C/W,48.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,48.0,,100,Launceston
+,60m,26.2T,48.0,1.7,9999,Unknown
+150T Grove,60m,1T,48.0,,150,Launceston
+150T Grove,60m,26.3T,48.0,2.0,150,Launceston
+150T Grove,60m,44.56T,48.0,4.0,150,Launceston
+250T Grove,78.5m,0T,48.0,,250,Launceston
+250T Grove,78.5m,16.5T,48.0,,250,Launceston
+250T Grove,78.5m,40T,48.0,4.1,250,Launceston
+250T Grove,78.5m,50T,48.0,4.9,250,Launceston
+250T Grove,78.5,70T,48.0,6.9,250,Launceston
+250T Grove,78.5m,80T,48.0,8.0,250,Launceston
+300T Grove,80m,16.5T,48.0,,300,Launceston
+300T Grove,80m,35.5T,48.0,3.5,300,Launceston
+300T Grove,80m,54.5T,48.0,6.4,300,Launceston
+300T Grove,80m,74.5T,48.0,7.8,300,Launceston
+300T Grove,80m,92.5T,48.0,9.5,300,Launceston
+,,,48.0,,9999,Unknown
+2.8T Maeda,8.5m,0,48.0,,2,Hobart
+4T Maeda,16.4m,0,48.0,,4,Hobart
+13T Kato,24m,0,48.0,,13,Launceston
+25T    Kato,31m,0,48.0,,25,Hobart
+25T Kato City,29m,0,48.0,,25,Hobart
+35T Demag,37.4m,2.5T,48.0,,35,Hobart
+35T Demag,37.4m,5.5T,48.0,,35,Hobart
+40T Franna,Static,,48.0,,40,Hobart
+40T Franna,Mobile,,48.0,,40,Hobart
+40T Franna,,,48.0,,40,Hobart
+60T Demag,44m,4.6T,48.0,,60,Hobart
+60T Demag,44m,11.6T,48.0,,60,Hobart
+60T Demag #2,50m,4.7T,48.0,,60,Hobart
+60T Demag #2,50m,12.1T,48.0,,60,Hobart
+100T Liehbherr,52m,11.5T,48.0,,100,Hobart
+100T Liehbherr,52m,35T,48.0,2.2,100,Hobart
+220T Tadano,68m,0T,48.0,,220,Hobart
+220T Tadano,68m,23.5T,48.0,1.9,220,Hobart
+220T Tadano,68m,47T,48.0,5.2,220,Hobart
+220T Tadano,68m,71T,48.0,7.1,220,Hobart
+250T Grove #2,70m,0T,48.0,,250,Hobart
+250T Grove #2,70m,16.5T,48.0,,250,Hobart
+250T Grove #2,70m,40T,48.0,3.6,250,Hobart
+250T Grove #2,70m,80T,48.0,7.8,250,Hobart
+300T Grove,80m,16.5T,48.0,,300,Launceston
+300T Grove,80m,35.5T,48.0,3.5,300,Launceston
+300T Grove,80m,54.5T,48.0,6.4,300,Launceston
+300T Grove,80m,74.5T,48.0,7.8,300,Launceston
+300T Grove,80m,92.5T,48.0,9.5,300,Launceston
+7T Tadpole,21m,,50.0,,7,Launceston
+13T Kato,24m,,50.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,50.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,50.0,,40,Launceston
+55T Grove,43m,6.6T,50.0,,55,Launceston
+,43m,11.5T C/W,50.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,50.0,,100,Launceston
+,60m,26.2T,50.0,1.2,9999,Unknown
+150T Grove,60m,1T,50.0,,150,Launceston
+150T Grove,60m,26.3T,50.0,1.3,150,Launceston
+150T Grove,60m,44.56T,50.0,3.7,150,Launceston
+250T Grove,78.5m,0T,50.0,,250,Launceston
+250T Grove,78.5m,16.5T,50.0,,250,Launceston
+250T Grove,78.5m,40T,50.0,3.7,250,Launceston
+250T Grove,78.5m,50T,50.0,4.6,250,Launceston
+250T Grove,78.5,70T,50.0,5.8,250,Launceston
+250T Grove,78.5m,80T,50.0,6.5,250,Launceston
+300T Grove,80m,16.5T,50.0,,300,Launceston
+300T Grove,80m,35.5T,50.0,2.5,300,Launceston
+300T Grove,80m,54.5T,50.0,5.5,300,Launceston
+300T Grove,80m,74.5T,50.0,7.1,300,Launceston
+300T Grove,80m,92.5T,50.0,9.1,300,Launceston
+,,,50.0,,9999,Unknown
+2.8T Maeda,8.5m,0,50.0,,2,Hobart
+4T Maeda,16.4m,0,50.0,,4,Hobart
+13T Kato,24m,0,50.0,,13,Launceston
+25T    Kato,31m,0,50.0,,25,Hobart
+25T Kato City,29m,0,50.0,,25,Hobart
+35T Demag,37.4m,2.5T,50.0,,35,Hobart
+35T Demag,37.4m,5.5T,50.0,,35,Hobart
+40T Franna,Static,,50.0,,40,Hobart
+40T Franna,Mobile,,50.0,,40,Hobart
+40T Franna,,,50.0,,40,Hobart
+60T Demag,44m,4.6T,50.0,,60,Hobart
+60T Demag,44m,11.6T,50.0,,60,Hobart
+60T Demag #2,50m,4.7T,50.0,,60,Hobart
+60T Demag #2,50m,12.1T,50.0,,60,Hobart
+100T Liehbherr,52m,11.5T,50.0,,100,Hobart
+100T Liehbherr,52m,35T,50.0,,100,Hobart
+220T Tadano,68m,0T,50.0,,220,Hobart
+220T Tadano,68m,23.5T,50.0,,220,Hobart
+220T Tadano,68m,47T,50.0,4.3,220,Hobart
+220T Tadano,68m,71T,50.0,6.7,220,Hobart
+250T Grove #2,70m,0T,50.0,,250,Hobart
+250T Grove #2,70m,16.5T,50.0,,250,Hobart
+250T Grove #2,70m,40T,50.0,3.1,250,Hobart
+250T Grove #2,70m,80T,50.0,7.4,250,Hobart
+300T Grove,80m,16.5T,50.0,,300,Launceston
+300T Grove,80m,35.5T,50.0,2.5,300,Launceston
+300T Grove,80m,54.5T,50.0,5.5,300,Launceston
+300T Grove,80m,74.5T,50.0,7.1,300,Launceston
+300T Grove,80m,92.5T,50.0,9.1,300,Launceston
+7T Tadpole,21m,,52.0,,7,Launceston
+13T Kato,24m,,52.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,52.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,52.0,,40,Launceston
+55T Grove,43m,6.6T,52.0,,55,Launceston
+,43m,11.5T C/W,52.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,52.0,,100,Launceston
+,60m,26.2T,52.0,0.9,9999,Unknown
+150T Grove,60m,1T,52.0,,150,Launceston
+150T Grove,60m,26.3T,52.0,1.0,150,Launceston
+150T Grove,60m,44.56T,52.0,3.3,150,Launceston
+250T Grove,78.5m,0T,52.0,,250,Launceston
+250T Grove,78.5m,16.5T,52.0,,250,Launceston
+250T Grove,78.5m,40T,52.0,3.0,250,Launceston
+250T Grove,78.5m,50T,52.0,4.2,250,Launceston
+250T Grove,78.5,70T,52.0,5.3,250,Launceston
+250T Grove,78.5m,80T,52.0,6.1,250,Launceston
+300T Grove,80m,16.5T,52.0,,300,Launceston
+300T Grove,80m,35.5T,52.0,2.0,300,Launceston
+300T Grove,80m,54.5T,52.0,4.9,300,Launceston
+300T Grove,80m,74.5T,52.0,6.5,300,Launceston
+300T Grove,80m,92.5T,52.0,8.7,300,Launceston
+,,,52.0,,9999,Unknown
+2.8T Maeda,8.5m,0,52.0,,2,Hobart
+4T Maeda,16.4m,0,52.0,,4,Hobart
+13T Kato,24m,0,52.0,,13,Launceston
+25T    Kato,31m,0,52.0,,25,Hobart
+25T Kato City,29m,0,52.0,,25,Hobart
+35T Demag,37.4m,2.5T,52.0,,35,Hobart
+35T Demag,37.4m,5.5T,52.0,,35,Hobart
+40T Franna,Static,,52.0,,40,Hobart
+40T Franna,Mobile,,52.0,,40,Hobart
+40T Franna,,,52.0,,40,Hobart
+60T Demag,44m,4.6T,52.0,,60,Hobart
+60T Demag,44m,11.6T,52.0,,60,Hobart
+60T Demag #2,50m,4.7T,52.0,,60,Hobart
+60T Demag #2,50m,12.1T,52.0,,60,Hobart
+100T Liehbherr,52m,11.5T,52.0,,100,Hobart
+100T Liehbherr,52m,35T,52.0,,100,Hobart
+220T Tadano,68m,0T,52.0,,220,Hobart
+220T Tadano,68m,23.5T,52.0,,220,Hobart
+220T Tadano,68m,47T,52.0,3.9,220,Hobart
+220T Tadano,68m,71T,52.0,6.2,220,Hobart
+250T Grove #2,70m,0T,52.0,,250,Hobart
+250T Grove #2,70m,16.5T,52.0,,250,Hobart
+250T Grove #2,70m,40T,52.0,2.7,250,Hobart
+250T Grove #2,70m,80T,52.0,6.6,250,Hobart
+300T Grove,80m,16.5T,52.0,,300,Launceston
+300T Grove,80m,35.5T,52.0,2.0,300,Launceston
+300T Grove,80m,54.5T,52.0,4.9,300,Launceston
+300T Grove,80m,74.5T,52.0,6.5,300,Launceston
+300T Grove,80m,92.5T,52.0,8.7,300,Launceston
+7T Tadpole,21m,,54.0,,7,Launceston
+13T Kato,24m,,54.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,54.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,54.0,,40,Launceston
+55T Grove,43m,6.6T,54.0,,55,Launceston
+,43m,11.5T C/W,54.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,54.0,,100,Launceston
+,60m,26.2T,54.0,,9999,Unknown
+150T Grove,60m,1T,54.0,,150,Launceston
+150T Grove,60m,26.3T,54.0,,150,Launceston
+150T Grove,60m,44.56T,54.0,2.7,150,Launceston
+250T Grove,78.5m,0T,54.0,,250,Launceston
+250T Grove,78.5m,16.5T,54.0,,250,Launceston
+250T Grove,78.5m,40T,54.0,2.7,250,Launceston
+250T Grove,78.5m,50T,54.0,3.9,250,Launceston
+250T Grove,78.5,70T,54.0,5.0,250,Launceston
+250T Grove,78.5m,80T,54.0,5.2,250,Launceston
+300T Grove,80m,16.5T,54.0,,300,Launceston
+300T Grove,80m,35.5T,54.0,1.6,300,Launceston
+300T Grove,80m,54.5T,54.0,4.4,300,Launceston
+300T Grove,80m,74.5T,54.0,6.3,300,Launceston
+300T Grove,80m,92.5T,54.0,6.9,300,Launceston
+,,,54.0,,9999,Unknown
+2.8T Maeda,8.5m,0,54.0,,2,Hobart
+4T Maeda,16.4m,0,54.0,,4,Hobart
+13T Kato,24m,0,54.0,,13,Launceston
+25T    Kato,31m,0,54.0,,25,Hobart
+25T Kato City,29m,0,54.0,,25,Hobart
+35T Demag,37.4m,2.5T,54.0,,35,Hobart
+35T Demag,37.4m,5.5T,54.0,,35,Hobart
+40T Franna,Static,,54.0,,40,Hobart
+40T Franna,Mobile,,54.0,,40,Hobart
+40T Franna,,,54.0,,40,Hobart
+60T Demag,44m,4.6T,54.0,,60,Hobart
+60T Demag,44m,11.6T,54.0,,60,Hobart
+60T Demag #2,50m,4.7T,54.0,,60,Hobart
+60T Demag #2,50m,12.1T,54.0,,60,Hobart
+100T Liehbherr,52m,11.5T,54.0,,100,Hobart
+100T Liehbherr,52m,35T,54.0,,100,Hobart
+220T Tadano,68m,0T,54.0,,220,Hobart
+220T Tadano,68m,23.5T,54.0,,220,Hobart
+220T Tadano,68m,47T,54.0,3.0,220,Hobart
+220T Tadano,68m,71T,54.0,5.7,220,Hobart
+250T Grove #2,70m,0T,54.0,,250,Hobart
+250T Grove #2,70m,16.5T,54.0,,250,Hobart
+250T Grove #2,70m,40T,54.0,2.0,250,Hobart
+250T Grove #2,70m,80T,54.0,6.3,250,Hobart
+300T Grove,80m,16.5T,54.0,,300,Launceston
+300T Grove,80m,35.5T,54.0,1.6,300,Launceston
+300T Grove,80m,54.5T,54.0,4.4,300,Launceston
+300T Grove,80m,74.5T,54.0,6.3,300,Launceston
+300T Grove,80m,92.5T,54.0,6.9,300,Launceston
+7T Tadpole,21m,,56.0,,7,Launceston
+13T Kato,24m,,56.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,56.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,56.0,,40,Launceston
+55T Grove,43m,6.6T,56.0,,55,Launceston
+,43m,11.5T C/W,56.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,56.0,,100,Launceston
+,60m,26.2T,56.0,,9999,Unknown
+150T Grove,60m,1T,56.0,,150,Launceston
+150T Grove,60m,26.3T,56.0,,150,Launceston
+150T Grove,60m,44.56T,56.0,2.3,150,Launceston
+250T Grove,78.5m,0T,56.0,,250,Launceston
+250T Grove,78.5m,16.5T,56.0,,250,Launceston
+250T Grove,78.5m,40T,56.0,2.3,250,Launceston
+250T Grove,78.5m,50T,56.0,3.2,250,Launceston
+250T Grove,78.5,70T,56.0,4.7,250,Launceston
+250T Grove,78.5m,80T,56.0,4.9,250,Launceston
+300T Grove,80m,16.5T,56.0,,300,Launceston
+300T Grove,80m,35.5T,56.0,,300,Launceston
+300T Grove,80m,54.5T,56.0,3.5,300,Launceston
+300T Grove,80m,74.5T,56.0,5.9,300,Launceston
+300T Grove,80m,92.5T,56.0,6.6,300,Launceston
+,,,56.0,,9999,Unknown
+2.8T Maeda,8.5m,0,56.0,,2,Hobart
+4T Maeda,16.4m,0,56.0,,4,Hobart
+13T Kato,24m,0,56.0,,13,Launceston
+25T    Kato,31m,0,56.0,,25,Hobart
+25T Kato City,29m,0,56.0,,25,Hobart
+35T Demag,37.4m,2.5T,56.0,,35,Hobart
+35T Demag,37.4m,5.5T,56.0,,35,Hobart
+40T Franna,Static,,56.0,,40,Hobart
+40T Franna,Mobile,,56.0,,40,Hobart
+40T Franna,,,56.0,,40,Hobart
+60T Demag,44m,4.6T,56.0,,60,Hobart
+60T Demag,44m,11.6T,56.0,,60,Hobart
+60T Demag #2,50m,4.7T,56.0,,60,Hobart
+60T Demag #2,50m,12.1T,56.0,,60,Hobart
+100T Liehbherr,52m,11.5T,56.0,,100,Hobart
+100T Liehbherr,52m,35T,56.0,,100,Hobart
+220T Tadano,68m,0T,56.0,,220,Hobart
+220T Tadano,68m,23.5T,56.0,,220,Hobart
+220T Tadano,68m,47T,56.0,2.7,220,Hobart
+220T Tadano,68m,71T,56.0,5.3,220,Hobart
+250T Grove #2,70m,0T,56.0,,250,Hobart
+250T Grove #2,70m,16.5T,56.0,,250,Hobart
+250T Grove #2,70m,40T,56.0,1.7,250,Hobart
+250T Grove #2,70m,80T,56.0,5.8,250,Hobart
+300T Grove,80m,16.5T,56.0,,300,Launceston
+300T Grove,80m,35.5T,56.0,,300,Launceston
+300T Grove,80m,54.5T,56.0,3.5,300,Launceston
+300T Grove,80m,74.5T,56.0,5.9,300,Launceston
+300T Grove,80m,92.5T,56.0,6.6,300,Launceston
+7T Tadpole,21m,,58.0,,7,Launceston
+13T Kato,24m,,58.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,58.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,58.0,,40,Launceston
+55T Grove,43m,6.6T,58.0,,55,Launceston
+,43m,11.5T C/W,58.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,58.0,,100,Launceston
+,60m,26.2T,58.0,,9999,Unknown
+150T Grove,60m,1T,58.0,,150,Launceston
+150T Grove,60m,26.3T,58.0,,150,Launceston
+150T Grove,60m,44.56T,58.0,,150,Launceston
+250T Grove,78.5m,0T,58.0,,250,Launceston
+250T Grove,78.5m,16.5T,58.0,,250,Launceston
+250T Grove,78.5m,40T,58.0,1.6,250,Launceston
+250T Grove,78.5m,50T,58.0,2.8,250,Launceston
+250T Grove,78.5,70T,58.0,4.3,250,Launceston
+250T Grove,78.5m,80T,58.0,4.6,250,Launceston
+300T Grove,80m,16.5T,58.0,,300,Launceston
+300T Grove,80m,35.5T,58.0,,300,Launceston
+300T Grove,80m,54.5T,58.0,3.0,300,Launceston
+300T Grove,80m,74.5T,58.0,5.5,300,Launceston
+300T Grove,80m,92.5T,58.0,6.4,300,Launceston
+,,,58.0,,9999,Unknown
+2.8T Maeda,8.5m,0,58.0,,2,Hobart
+4T Maeda,16.4m,0,58.0,,4,Hobart
+13T Kato,24m,0,58.0,,13,Launceston
+25T    Kato,31m,0,58.0,,25,Hobart
+25T Kato City,29m,0,58.0,,25,Hobart
+35T Demag,37.4m,2.5T,58.0,,35,Hobart
+35T Demag,37.4m,5.5T,58.0,,35,Hobart
+40T Franna,Static,,58.0,,40,Hobart
+40T Franna,Mobile,,58.0,,40,Hobart
+40T Franna,,,58.0,,40,Hobart
+60T Demag,44m,4.6T,58.0,,60,Hobart
+60T Demag,44m,11.6T,58.0,,60,Hobart
+60T Demag #2,50m,4.7T,58.0,,60,Hobart
+60T Demag #2,50m,12.1T,58.0,,60,Hobart
+100T Liehbherr,52m,11.5T,58.0,,100,Hobart
+100T Liehbherr,52m,35T,58.0,,100,Hobart
+220T Tadano,68m,0T,58.0,,220,Hobart
+220T Tadano,68m,23.5T,58.0,,220,Hobart
+220T Tadano,68m,47T,58.0,1.8,220,Hobart
+220T Tadano,68m,71T,58.0,4.3,220,Hobart
+250T Grove #2,70m,0T,58.0,,250,Hobart
+250T Grove #2,70m,16.5T,58.0,,250,Hobart
+250T Grove #2,70m,40T,58.0,,250,Hobart
+250T Grove #2,70m,80T,58.0,5.1,250,Hobart
+300T Grove,80m,16.5T,58.0,,300,Launceston
+300T Grove,80m,35.5T,58.0,,300,Launceston
+300T Grove,80m,54.5T,58.0,3.0,300,Launceston
+300T Grove,80m,74.5T,58.0,5.5,300,Launceston
+300T Grove,80m,92.5T,58.0,6.4,300,Launceston
+7T Tadpole,21m,,60.0,,7,Launceston
+13T Kato,24m,,60.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,60.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,60.0,,40,Launceston
+55T Grove,43m,6.6T,60.0,,55,Launceston
+,43m,11.5T C/W,60.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,60.0,,100,Launceston
+,60m,26.2T,60.0,,9999,Unknown
+150T Grove,60m,1T,60.0,,150,Launceston
+150T Grove,60m,26.3T,60.0,,150,Launceston
+150T Grove,60m,44.56T,60.0,,150,Launceston
+250T Grove,78.5m,0T,60.0,,250,Launceston
+250T Grove,78.5m,16.5T,60.0,,250,Launceston
+250T Grove,78.5m,40T,60.0,1.3,250,Launceston
+250T Grove,78.5m,50T,60.0,2.5,250,Launceston
+250T Grove,78.5,70T,60.0,3.9,250,Launceston
+250T Grove,78.5m,80T,60.0,4.3,250,Launceston
+300T Grove,80m,16.5T,60.0,,300,Launceston
+300T Grove,80m,35.5T,60.0,,300,Launceston
+300T Grove,80m,54.5T,60.0,2.0,300,Launceston
+300T Grove,80m,74.5T,60.0,4.4,300,Launceston
+300T Grove,80m,92.5T,60.0,5.9,300,Launceston
+,,,60.0,,9999,Unknown
+2.8T Maeda,8.5m,0,60.0,,2,Hobart
+4T Maeda,16.4m,0,60.0,,4,Hobart
+13T Kato,24m,0,60.0,,13,Launceston
+25T    Kato,31m,0,60.0,,25,Hobart
+25T Kato City,29m,0,60.0,,25,Hobart
+35T Demag,37.4m,2.5T,60.0,,35,Hobart
+35T Demag,37.4m,5.5T,60.0,,35,Hobart
+40T Franna,Static,,60.0,,40,Hobart
+40T Franna,Mobile,,60.0,,40,Hobart
+40T Franna,,,60.0,,40,Hobart
+60T Demag,44m,4.6T,60.0,,60,Hobart
+60T Demag,44m,11.6T,60.0,,60,Hobart
+60T Demag #2,50m,4.7T,60.0,,60,Hobart
+60T Demag #2,50m,12.1T,60.0,,60,Hobart
+100T Liehbherr,52m,11.5T,60.0,,100,Hobart
+100T Liehbherr,52m,35T,60.0,,100,Hobart
+220T Tadano,68m,0T,60.0,,220,Hobart
+220T Tadano,68m,23.5T,60.0,,220,Hobart
+220T Tadano,68m,47T,60.0,1.5,220,Hobart
+220T Tadano,68m,71T,60.0,3.9,220,Hobart
+250T Grove #2,70m,0T,60.0,,250,Hobart
+250T Grove #2,70m,16.5T,60.0,,250,Hobart
+250T Grove #2,70m,40T,60.0,,250,Hobart
+250T Grove #2,70m,80T,60.0,4.7,250,Hobart
+300T Grove,80m,16.5T,60.0,,300,Launceston
+300T Grove,80m,35.5T,60.0,,300,Launceston
+300T Grove,80m,54.5T,60.0,2.0,300,Launceston
+300T Grove,80m,74.5T,60.0,4.4,300,Launceston
+300T Grove,80m,92.5T,60.0,5.9,300,Launceston
+7T Tadpole,21m,,62.0,,7,Launceston
+13T Kato,24m,,62.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,62.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,62.0,,40,Launceston
+55T Grove,43m,6.6T,62.0,,55,Launceston
+,43m,11.5T C/W,62.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,62.0,,100,Launceston
+,60m,26.2T,62.0,,9999,Unknown
+150T Grove,60m,1T,62.0,,150,Launceston
+150T Grove,60m,26.3T,62.0,,150,Launceston
+150T Grove,60m,44.56T,62.0,,150,Launceston
+250T Grove,78.5m,0T,62.0,,250,Launceston
+250T Grove,78.5m,16.5T,62.0,,250,Launceston
+250T Grove,78.5m,40T,62.0,,250,Launceston
+250T Grove,78.5m,50T,62.0,1.7,250,Launceston
+250T Grove,78.5,70T,62.0,3.5,250,Launceston
+250T Grove,78.5m,80T,62.0,4.0,250,Launceston
+300T Grove,80m,16.5T,62.0,,300,Launceston
+300T Grove,80m,35.5T,62.0,,300,Launceston
+300T Grove,80m,54.5T,62.0,1.6,300,Launceston
+300T Grove,80m,74.5T,62.0,4.0,300,Launceston
+300T Grove,80m,92.5T,62.0,5.7,300,Launceston
+,,,62.0,,9999,Unknown
+2.8T Maeda,8.5m,0,62.0,,2,Hobart
+4T Maeda,16.4m,0,62.0,,4,Hobart
+13T Kato,24m,0,62.0,,13,Launceston
+25T    Kato,31m,0,62.0,,25,Hobart
+25T Kato City,29m,0,62.0,,25,Hobart
+35T Demag,37.4m,2.5T,62.0,,35,Hobart
+35T Demag,37.4m,5.5T,62.0,,35,Hobart
+40T Franna,Static,,62.0,,40,Hobart
+40T Franna,Mobile,,62.0,,40,Hobart
+40T Franna,,,62.0,,40,Hobart
+60T Demag,44m,4.6T,62.0,,60,Hobart
+60T Demag,44m,11.6T,62.0,,60,Hobart
+60T Demag #2,50m,4.7T,62.0,,60,Hobart
+60T Demag #2,50m,12.1T,62.0,,60,Hobart
+100T Liehbherr,52m,11.5T,62.0,,100,Hobart
+100T Liehbherr,52m,35T,62.0,,100,Hobart
+220T Tadano,68m,0T,62.0,,220,Hobart
+220T Tadano,68m,23.5T,62.0,,220,Hobart
+220T Tadano,68m,47T,62.0,1.2,220,Hobart
+220T Tadano,68m,71T,62.0,3.5,220,Hobart
+250T Grove #2,70m,0T,62.0,,250,Hobart
+250T Grove #2,70m,16.5T,62.0,,250,Hobart
+250T Grove #2,70m,40T,62.0,,250,Hobart
+250T Grove #2,70m,80T,62.0,4.3,250,Hobart
+300T Grove,80m,16.5T,62.0,,300,Launceston
+300T Grove,80m,35.5T,62.0,,300,Launceston
+300T Grove,80m,54.5T,62.0,1.6,300,Launceston
+300T Grove,80m,74.5T,62.0,4.0,300,Launceston
+300T Grove,80m,92.5T,62.0,5.7,300,Launceston
+7T Tadpole,21m,,64.0,,7,Launceston
+13T Kato,24m,,64.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,64.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,64.0,,40,Launceston
+55T Grove,43m,6.6T,64.0,,55,Launceston
+,43m,11.5T C/W,64.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,64.0,,100,Launceston
+,60m,26.2T,64.0,,9999,Unknown
+150T Grove,60m,1T,64.0,,150,Launceston
+150T Grove,60m,26.3T,64.0,,150,Launceston
+150T Grove,60m,44.56T,64.0,,150,Launceston
+250T Grove,78.5m,0T,64.0,,250,Launceston
+250T Grove,78.5m,16.5T,64.0,,250,Launceston
+250T Grove,78.5m,40T,64.0,,250,Launceston
+250T Grove,78.5m,50T,64.0,1.5,250,Launceston
+250T Grove,78.5,70T,64.0,3.2,250,Launceston
+250T Grove,78.5m,80T,64.0,3.7,250,Launceston
+300T Grove,80m,16.5T,64.0,,300,Launceston
+300T Grove,80m,35.5T,64.0,,300,Launceston
+300T Grove,80m,54.5T,64.0,1.2,300,Launceston
+300T Grove,80m,74.5T,64.0,3.6,300,Launceston
+300T Grove,80m,92.5T,64.0,4.5,300,Launceston
+,,,64.0,,9999,Unknown
+2.8T Maeda,8.5m,0,64.0,,2,Hobart
+4T Maeda,16.4m,0,64.0,,4,Hobart
+13T Kato,24m,0,64.0,,13,Launceston
+25T    Kato,31m,0,64.0,,25,Hobart
+25T Kato City,29m,0,64.0,,25,Hobart
+35T Demag,37.4m,2.5T,64.0,,35,Hobart
+35T Demag,37.4m,5.5T,64.0,,35,Hobart
+40T Franna,Static,,64.0,,40,Hobart
+40T Franna,Mobile,,64.0,,40,Hobart
+40T Franna,,,64.0,,40,Hobart
+60T Demag,44m,4.6T,64.0,,60,Hobart
+60T Demag,44m,11.6T,64.0,,60,Hobart
+60T Demag #2,50m,4.7T,64.0,,60,Hobart
+60T Demag #2,50m,12.1T,64.0,,60,Hobart
+100T Liehbherr,52m,11.5T,64.0,,100,Hobart
+100T Liehbherr,52m,35T,64.0,,100,Hobart
+220T Tadano,68m,0T,64.0,,220,Hobart
+220T Tadano,68m,23.5T,64.0,,220,Hobart
+220T Tadano,68m,47T,64.0,0.9,220,Hobart
+220T Tadano,68m,71T,64.0,3.2,220,Hobart
+250T Grove #2,70m,0T,64.0,,250,Hobart
+250T Grove #2,70m,16.5T,64.0,,250,Hobart
+250T Grove #2,70m,40T,64.0,,250,Hobart
+250T Grove #2,70m,80T,64.0,3.7,250,Hobart
+300T Grove,80m,16.5T,64.0,,300,Launceston
+300T Grove,80m,35.5T,64.0,,300,Launceston
+300T Grove,80m,54.5T,64.0,1.2,300,Launceston
+300T Grove,80m,74.5T,64.0,3.6,300,Launceston
+300T Grove,80m,92.5T,64.0,4.5,300,Launceston
+7T Tadpole,21m,,66.0,,7,Launceston
+13T Kato,24m,,66.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,66.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,66.0,,40,Launceston
+55T Grove,43m,6.6T,66.0,,55,Launceston
+,43m,11.5T C/W,66.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,66.0,,100,Launceston
+,60m,26.2T,66.0,,9999,Unknown
+150T Grove,60m,1T,66.0,,150,Launceston
+150T Grove,60m,26.3T,66.0,,150,Launceston
+150T Grove,60m,44.56T,66.0,,150,Launceston
+250T Grove,78.5m,0T,66.0,,250,Launceston
+250T Grove,78.5m,16.5T,66.0,,250,Launceston
+250T Grove,78.5m,40T,66.0,,250,Launceston
+250T Grove,78.5m,50T,66.0,,250,Launceston
+250T Grove,78.5,70T,66.0,2.9,250,Launceston
+250T Grove,78.5m,80T,66.0,3.4,250,Launceston
+300T Grove,80m,16.5T,66.0,,300,Launceston
+300T Grove,80m,35.5T,66.0,,300,Launceston
+300T Grove,80m,54.5T,66.0,,300,Launceston
+300T Grove,80m,74.5T,66.0,2.6,300,Launceston
+300T Grove,80m,92.5T,66.0,4.2,300,Launceston
+,,,66.0,,9999,Unknown
+2.8T Maeda,8.5m,0,66.0,,2,Hobart
+4T Maeda,16.4m,0,66.0,,4,Hobart
+13T Kato,24m,0,66.0,,13,Launceston
+25T    Kato,31m,0,66.0,,25,Hobart
+25T Kato City,29m,0,66.0,,25,Hobart
+35T Demag,37.4m,2.5T,66.0,,35,Hobart
+35T Demag,37.4m,5.5T,66.0,,35,Hobart
+40T Franna,Static,,66.0,,40,Hobart
+40T Franna,Mobile,,66.0,,40,Hobart
+40T Franna,,,66.0,,40,Hobart
+60T Demag,44m,4.6T,66.0,,60,Hobart
+60T Demag,44m,11.6T,66.0,,60,Hobart
+60T Demag #2,50m,4.7T,66.0,,60,Hobart
+60T Demag #2,50m,12.1T,66.0,,60,Hobart
+100T Liehbherr,52m,11.5T,66.0,,100,Hobart
+100T Liehbherr,52m,35T,66.0,,100,Hobart
+220T Tadano,68m,0T,66.0,,220,Hobart
+220T Tadano,68m,23.5T,66.0,,220,Hobart
+220T Tadano,68m,47T,66.0,,220,Hobart
+220T Tadano,68m,71T,66.0,,220,Hobart
+250T Grove #2,70m,0T,66.0,,250,Hobart
+250T Grove #2,70m,16.5T,66.0,,250,Hobart
+250T Grove #2,70m,40T,66.0,,250,Hobart
+250T Grove #2,70m,80T,66.0,,250,Hobart
+300T Grove,80m,16.5T,66.0,,300,Launceston
+300T Grove,80m,35.5T,66.0,,300,Launceston
+300T Grove,80m,54.5T,66.0,,300,Launceston
+300T Grove,80m,74.5T,66.0,2.6,300,Launceston
+300T Grove,80m,92.5T,66.0,4.2,300,Launceston
+7T Tadpole,21m,,68.0,,7,Launceston
+13T Kato,24m,,68.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,68.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,68.0,,40,Launceston
+55T Grove,43m,6.6T,68.0,,55,Launceston
+,43m,11.5T C/W,68.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,68.0,,100,Launceston
+,60m,26.2T,68.0,,9999,Unknown
+150T Grove,60m,1T,68.0,,150,Launceston
+150T Grove,60m,26.3T,68.0,,150,Launceston
+150T Grove,60m,44.56T,68.0,,150,Launceston
+250T Grove,78.5m,0T,68.0,,250,Launceston
+250T Grove,78.5m,16.5T,68.0,,250,Launceston
+250T Grove,78.5m,40T,68.0,,250,Launceston
+250T Grove,78.5m,50T,68.0,,250,Launceston
+250T Grove,78.5,70T,68.0,2.2,250,Launceston
+250T Grove,78.5m,80T,68.0,3.1,250,Launceston
+300T Grove,80m,16.5T,68.0,,300,Launceston
+300T Grove,80m,35.5T,68.0,,300,Launceston
+300T Grove,80m,54.5T,68.0,,300,Launceston
+300T Grove,80m,74.5T,68.0,2.3,300,Launceston
+300T Grove,80m,92.5T,68.0,4.0,300,Launceston
+,,,68.0,,9999,Unknown
+2.8T Maeda,8.5m,0,68.0,,2,Hobart
+4T Maeda,16.4m,0,68.0,,4,Hobart
+13T Kato,24m,0,68.0,,13,Launceston
+25T    Kato,31m,0,68.0,,25,Hobart
+25T Kato City,29m,0,68.0,,25,Hobart
+35T Demag,37.4m,2.5T,68.0,,35,Hobart
+35T Demag,37.4m,5.5T,68.0,,35,Hobart
+40T Franna,Static,,68.0,,40,Hobart
+40T Franna,Mobile,,68.0,,40,Hobart
+40T Franna,,,68.0,,40,Hobart
+60T Demag,44m,4.6T,68.0,,60,Hobart
+60T Demag,44m,11.6T,68.0,,60,Hobart
+60T Demag #2,50m,4.7T,68.0,,60,Hobart
+60T Demag #2,50m,12.1T,68.0,,60,Hobart
+100T Liehbherr,52m,11.5T,68.0,,100,Hobart
+100T Liehbherr,52m,35T,68.0,,100,Hobart
+220T Tadano,68m,0T,68.0,,220,Hobart
+220T Tadano,68m,23.5T,68.0,,220,Hobart
+220T Tadano,68m,47T,68.0,,220,Hobart
+220T Tadano,68m,71T,68.0,,220,Hobart
+250T Grove #2,70m,0T,68.0,,250,Hobart
+250T Grove #2,70m,16.5T,68.0,,250,Hobart
+250T Grove #2,70m,40T,68.0,,250,Hobart
+250T Grove #2,70m,80T,68.0,,250,Hobart
+300T Grove,80m,16.5T,68.0,,300,Launceston
+300T Grove,80m,35.5T,68.0,,300,Launceston
+300T Grove,80m,54.5T,68.0,,300,Launceston
+300T Grove,80m,74.5T,68.0,2.3,300,Launceston
+300T Grove,80m,92.5T,68.0,4.0,300,Launceston
+7T Tadpole,21m,,70.0,,7,Launceston
+13T Kato,24m,,70.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,70.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,70.0,,40,Launceston
+55T Grove,43m,6.6T,70.0,,55,Launceston
+,43m,11.5T C/W,70.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,70.0,,100,Launceston
+,60m,26.2T,70.0,,9999,Unknown
+150T Grove,60m,1T,70.0,,150,Launceston
+150T Grove,60m,26.3T,70.0,,150,Launceston
+150T Grove,60m,44.56T,70.0,,150,Launceston
+250T Grove,78.5m,0T,70.0,,250,Launceston
+250T Grove,78.5m,16.5T,70.0,,250,Launceston
+250T Grove,78.5m,40T,70.0,,250,Launceston
+250T Grove,78.5m,50T,70.0,,250,Launceston
+250T Grove,78.5,70T,70.0,1.8,250,Launceston
+250T Grove,78.5m,80T,70.0,2.8,250,Launceston
+300T Grove,80m,16.5T,70.0,,300,Launceston
+300T Grove,80m,35.5T,70.0,,300,Launceston
+300T Grove,80m,54.5T,70.0,,300,Launceston
+300T Grove,80m,74.5T,70.0,1.9,300,Launceston
+300T Grove,80m,92.5T,70.0,2.9,300,Launceston
+,,,70.0,,9999,Unknown
+2.8T Maeda,8.5m,0,70.0,,2,Hobart
+4T Maeda,16.4m,0,70.0,,4,Hobart
+13T Kato,24m,0,70.0,,13,Launceston
+25T    Kato,31m,0,70.0,,25,Hobart
+25T Kato City,29m,0,70.0,,25,Hobart
+35T Demag,37.4m,2.5T,70.0,,35,Hobart
+35T Demag,37.4m,5.5T,70.0,,35,Hobart
+40T Franna,Static,,70.0,,40,Hobart
+40T Franna,Mobile,,70.0,,40,Hobart
+40T Franna,,,70.0,,40,Hobart
+60T Demag,44m,4.6T,70.0,,60,Hobart
+60T Demag,44m,11.6T,70.0,,60,Hobart
+60T Demag #2,50m,4.7T,70.0,,60,Hobart
+60T Demag #2,50m,12.1T,70.0,,60,Hobart
+100T Liehbherr,52m,11.5T,70.0,,100,Hobart
+100T Liehbherr,52m,35T,70.0,,100,Hobart
+220T Tadano,68m,0T,70.0,,220,Hobart
+220T Tadano,68m,23.5T,70.0,,220,Hobart
+220T Tadano,68m,47T,70.0,,220,Hobart
+220T Tadano,68m,71T,70.0,,220,Hobart
+250T Grove #2,70m,0T,70.0,,250,Hobart
+250T Grove #2,70m,16.5T,70.0,,250,Hobart
+250T Grove #2,70m,40T,70.0,,250,Hobart
+250T Grove #2,70m,80T,70.0,,250,Hobart
+300T Grove,80m,16.5T,70.0,,300,Launceston
+300T Grove,80m,35.5T,70.0,,300,Launceston
+300T Grove,80m,54.5T,70.0,,300,Launceston
+300T Grove,80m,74.5T,70.0,1.9,300,Launceston
+300T Grove,80m,92.5T,70.0,2.9,300,Launceston
+7T Tadpole,21m,,72.0,,7,Launceston
+13T Kato,24m,,72.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,72.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,72.0,,40,Launceston
+55T Grove,43m,6.6T,72.0,,55,Launceston
+,43m,11.5T C/W,72.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,72.0,,100,Launceston
+,60m,26.2T,72.0,,9999,Unknown
+150T Grove,60m,1T,72.0,,150,Launceston
+150T Grove,60m,26.3T,72.0,,150,Launceston
+150T Grove,60m,44.56T,72.0,,150,Launceston
+250T Grove,78.5m,0T,72.0,,250,Launceston
+250T Grove,78.5m,16.5T,72.0,,250,Launceston
+250T Grove,78.5m,40T,72.0,,250,Launceston
+250T Grove,78.5m,50T,72.0,,250,Launceston
+250T Grove,78.5,70T,72.0,1.5,250,Launceston
+250T Grove,78.5m,80T,72.0,2.4,250,Launceston
+300T Grove,80m,16.5T,72.0,,300,Launceston
+300T Grove,80m,35.5T,72.0,,300,Launceston
+300T Grove,80m,54.5T,72.0,,300,Launceston
+300T Grove,80m,74.5T,72.0,,300,Launceston
+300T Grove,80m,92.5T,72.0,2.5,300,Launceston
+,,,72.0,,9999,Unknown
+2.8T Maeda,8.5m,0,72.0,,2,Hobart
+4T Maeda,16.4m,0,72.0,,4,Hobart
+13T Kato,24m,0,72.0,,13,Launceston
+25T    Kato,31m,0,72.0,,25,Hobart
+25T Kato City,29m,0,72.0,,25,Hobart
+35T Demag,37.4m,2.5T,72.0,,35,Hobart
+35T Demag,37.4m,5.5T,72.0,,35,Hobart
+40T Franna,Static,,72.0,,40,Hobart
+40T Franna,Mobile,,72.0,,40,Hobart
+40T Franna,,,72.0,,40,Hobart
+60T Demag,44m,4.6T,72.0,,60,Hobart
+60T Demag,44m,11.6T,72.0,,60,Hobart
+60T Demag #2,50m,4.7T,72.0,,60,Hobart
+60T Demag #2,50m,12.1T,72.0,,60,Hobart
+100T Liehbherr,52m,11.5T,72.0,,100,Hobart
+100T Liehbherr,52m,35T,72.0,,100,Hobart
+220T Tadano,68m,0T,72.0,,220,Hobart
+220T Tadano,68m,23.5T,72.0,,220,Hobart
+220T Tadano,68m,47T,72.0,,220,Hobart
+220T Tadano,68m,71T,72.0,,220,Hobart
+250T Grove #2,70m,0T,72.0,,250,Hobart
+250T Grove #2,70m,16.5T,72.0,,250,Hobart
+250T Grove #2,70m,40T,72.0,,250,Hobart
+250T Grove #2,70m,80T,72.0,,250,Hobart
+300T Grove,80m,16.5T,72.0,,300,Launceston
+300T Grove,80m,35.5T,72.0,,300,Launceston
+300T Grove,80m,54.5T,72.0,,300,Launceston
+300T Grove,80m,74.5T,72.0,,300,Launceston
+300T Grove,80m,92.5T,72.0,2.5,300,Launceston
+7T Tadpole,21m,,74.0,,7,Launceston
+13T Kato,24m,,74.0,,13,Launceston
+40T All Terrain Tadano,35m,1.4T ,74.0,,40,Launceston
+40T All Terrain Tadano,35m,6.5T,74.0,,40,Launceston
+55T Grove,43m,6.6T,74.0,,55,Launceston
+,43m,11.5T C/W,74.0,,9999,Unknown
+100T Grove,60m,4.5T C/W,74.0,,100,Launceston
+,60m,26.2T,74.0,,9999,Unknown
+150T Grove,60m,1T,74.0,,150,Launceston
+150T Grove,60m,26.3T,74.0,,150,Launceston
+150T Grove,60m,44.56T,74.0,,150,Launceston
+250T Grove,78.5m,0T,74.0,,250,Launceston
+250T Grove,78.5m,16.5T,74.0,,250,Launceston
+250T Grove,78.5m,40T,74.0,,250,Launceston
+250T Grove,78.5m,50T,74.0,,250,Launceston
+250T Grove,78.5,70T,74.0,1.1,250,Launceston
+250T Grove,78.5m,80T,74.0,1.3,250,Launceston
+300T Grove,80m,16.5T,74.0,,300,Launceston
+300T Grove,80m,35.5T,74.0,,300,Launceston
+300T Grove,80m,54.5T,74.0,,300,Launceston
+300T Grove,80m,74.5T,74.0,,300,Launceston
+300T Grove,80m,92.5T,74.0,1.7,300,Launceston
+,,,74.0,,9999,Unknown
+2.8T Maeda,8.5m,0,74.0,,2,Hobart
+4T Maeda,16.4m,0,74.0,,4,Hobart
+13T Kato,24m,0,74.0,,13,Launceston
+25T    Kato,31m,0,74.0,,25,Hobart
+25T Kato City,29m,0,74.0,,25,Hobart
+35T Demag,37.4m,2.5T,74.0,,35,Hobart
+35T Demag,37.4m,5.5T,74.0,,35,Hobart
+40T Franna,Static,,74.0,,40,Hobart
+40T Franna,Mobile,,74.0,,40,Hobart
+40T Franna,,,74.0,,40,Hobart
+60T Demag,44m,4.6T,74.0,,60,Hobart
+60T Demag,44m,11.6T,74.0,,60,Hobart
+60T Demag #2,50m,4.7T,74.0,,60,Hobart
+60T Demag #2,50m,12.1T,74.0,,60,Hobart
+100T Liehbherr,52m,11.5T,74.0,,100,Hobart
+100T Liehbherr,52m,35T,74.0,,100,Hobart
+220T Tadano,68m,0T,74.0,,220,Hobart
+220T Tadano,68m,23.5T,74.0,,220,Hobart
+220T Tadano,68m,47T,74.0,,220,Hobart
+220T Tadano,68m,71T,74.0,,220,Hobart
+250T Grove #2,70m,0T,74.0,,250,Hobart
+250T Grove #2,70m,16.5T,74.0,,250,Hobart
+250T Grove #2,70m,40T,74.0,,250,Hobart
+250T Grove #2,70m,80T,74.0,,250,Hobart
+300T Grove,80m,16.5T,74.0,,300,Launceston
+300T Grove,80m,35.5T,74.0,,300,Launceston
+300T Grove,80m,54.5T,74.0,,300,Launceston
+300T Grove,80m,74.5T,74.0,,300,Launceston
+300T Grove,80m,92.5T,74.0,1.7,300,Launceston
