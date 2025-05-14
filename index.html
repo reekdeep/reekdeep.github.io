@@ -229,21 +229,24 @@ function updateRadiusSlider(val) {
   tbody.innerHTML = "";
 
   if (singleCrane.length > 0) {
-  tbody.innerHTML += `<tr><td colspan="5"><strong>Top Crane Options</strong></td></tr>`;
-  singleCrane.slice(0, 2).forEach(c => {
-    tbody.innerHTML += `<tr>
-      <td>${c.crane}</td>
-      <td>${c.location}</td>
-      <td>${c.radius}</td>
-      <td>${c.lift}t</td>
-      <td>${c.cwt ?? 'N/A'}</td>
-    </tr>`;
-  });
-} else {
-  tbody.innerHTML = `<tr><td colspan="5">No crane available for that load at that radius.</td></tr>`;
-}
-table.style.display = "table";
+    tbody.innerHTML += `<tr><td colspan="5"><strong>Top Crane Options</strong></td></tr>`;
+    singleCrane.slice(0, 2).forEach(c => {
+      tbody.innerHTML += `<tr>
+        <td>${c.crane}</td>
+        <td>${c.location}</td>
+        <td>${c.radius}</td>
+        <td>${c.lift}t</td>
+        <td>${c.cwt ?? 'N/A'}</td>
+      </tr>`;
+    });
+    table.style.display = "table";
+    return;
+    
+  }
+  
 
+  table.style.display = "table";
+}
 
     </script>
     
