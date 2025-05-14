@@ -241,8 +241,11 @@ function updateRadiusSlider(val) {
     });
     table.style.display = "table";
     return;
-  }
-
+    
+    if (singleCrane.length > 0) {
+  // ...
+} else {
+  tbody.innerHTML = `<tr><td colspan="5">No crane available for that load at that radius.</td></tr>`;
   table.style.display = "table";
 }
 
