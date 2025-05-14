@@ -140,15 +140,23 @@
     let craneData = [];
     
     fetch("crane_data.json")
-      .then(res => res.json())
-      .then(data => {
-        craneData = data;
-        console.log("Crane data loaded:", craneData.length);
-      })
-      .catch(err => {
-        alert("Failed to load crane data.");
-        console.error("Crane data load error:", err);
-      });
+  .then(res => res.json())
+  .then(data => {
+    // ✅ Move 300T Grove to Hobart
+    data.forEach(c => {
+      if (typeof c.crane === 'string' && c.crane.includes("300T Grove")) {
+        c.location = "Hobart";
+      }
+    });
+
+    craneData = data;
+    console.log("Crane data loaded and 300T Grove moved to Hobart:", craneData.length);
+  })
+  .catch(err => {
+    alert("Failed to load crane data.");
+    console.error("Crane data load error:", err);
+  });
+
     
       function findCrane() {
   const radius = parseFloat(document.getElementById("radius").value);
