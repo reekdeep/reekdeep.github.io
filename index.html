@@ -159,13 +159,14 @@
     
       // Filter and map lift to number
       const filtered = craneData
-        .map(c => ({ ...c, lift: parseFloat(c.lift ?? 'NaN') }))
-        .filter(c =>
-          c.crane &&
-          !isNaN(c.lift) &&
-          Math.abs(c.radius - radius) <= 1 &&
-          (location === 'Any' || c.location === location)
-        );
+            .filter(c =>
+            c.crane &&
+        !isNaN(c.lift) &&
+        Math.abs(c.radius - radius) <= 1 &&
+        (location === 'Any' || c.location === location) &&
+        !(c.crane.trim().startsWith("25T") && c.crane.includes("Kato") && c.location === "Hobart")
+)
+
     
       // Deduplicate by crane name using highest lift
       const uniqueCraneMap = {};
@@ -233,6 +234,7 @@
         table.style.display = "table";
         return;
       }
+      
     
       tbody.innerHTML = `<tr><td colspan="5">No crane or crane team available for that load at that radius.</td></tr>`;
       table.style.display = "table";
