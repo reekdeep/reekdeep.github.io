@@ -101,12 +101,11 @@
   <input type="number" id="radiusVal" min="1" max="80" value="10" step="1" oninput="radius.value = this.value" style="width: 80px; display: inline-block; margin-left: 10px;">
 </label>
 
-<label>
+<label id="weightLabel">
     Weight (kg):
-    <input type="range" id="weight" min="50" max="300000" step="50" value="5000" oninput="weightVal.value = this.value">
-    <input type="number" id="weightVal" min="50" max="300000" step="50" value="5000" oninput="weight.value = this.value" style="width: 100px; display: inline-block; margin-left: 10px;">
-  </label>
-  
+    <input type="range" id="weight" min="50" max="1500" step="50" value="500" oninput="syncWeightInputs()">
+    <input type="number" id="weightVal" min="50" max="1500" step="50" value="500" oninput="syncWeightInputs()" style="width: 100px; display: inline-block; margin-left: 10px;">
+</label>  
 
 <label>
   Location:
@@ -212,6 +211,45 @@
   }
 
   table.style.display = "table";
+}
+function syncWeightInputs() {
+  const slider = document.getElementById("weight");
+  const input = document.getElementById("weightVal");
+  const label = document.getElementById("weightLabel");
+
+  let value = parseFloat(slider.value);
+
+  if (value >= 1500 && slider.max !== "300000") {
+    // Switch to tonnes
+    slider.min = 1.5;
+    slider.max = 300;
+    slider.step = 0.1;
+    slider.value = (value / 1000).toFixed(1);
+
+    input.min = 1.5;
+    input.max = 300;
+    input.step = 0.1;
+    input.value = slider.value;
+
+    label.innerHTML = `Weight (t):
+      <input type="range" id="weight" min="1.5" max="300" step="0.1" value="${slider.value}" oninput="syncWeightInputs()">
+      <input type="number" id="weightVal" min="1.5" max="300" step="0.1" value="${slider.value}" oninput="syncWeightInputs()" style="width: 100px; display: inline-block; margin-left: 10px;">`;
+  } else if (value < 1.5 && slider.max !== "1500") {
+    // Switch to kg
+    slider.min = 50;
+    slider.max = 1500;
+    slider.step = 50;
+    slider.value = Math.round(value * 1000);
+
+    input.min = 50;
+    input.max = 1500;
+    input.step = 50;
+    input.value = slider.value;
+
+    label.innerHTML = `Weight (kg):
+      <input type="range" id="weight" min="50" max="1500" step="50" value="${slider.value}" oninput="syncWeightInputs()">
+      <input type="number" id="weightVal" min="50" max="1500" step="50" value="${slider.value}" oninput="syncWeightInputs()" style="width: 100px; display: inline-block; margin-left: 10px;">`;
+  }
 }
 
     </script>
