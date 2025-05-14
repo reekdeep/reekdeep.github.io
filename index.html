@@ -159,11 +159,10 @@
     
       // Filter and map lift to number
       const filtered = craneData
-  .map(c => ({
-    ...c,
-    lift: parseFloat(c.lift ?? 'NaN'),
-    crane: typeof c.crane === 'string' ? c.crane.trim().replace(/\s+/g, ' ') : null
-  }))
+  .map(c => {
+    const craneName = typeof c.crane === 'string' ? c.crane.trim().replace(/\s+/g, ' ') : null;
+    return { ...c, lift: parseFloat(c.lift ?? 'NaN'), crane: craneName };
+  })
   .filter(c =>
     c.crane &&
     !isNaN(c.lift) &&
