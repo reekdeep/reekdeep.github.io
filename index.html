@@ -15,23 +15,19 @@
       padding: 20px;
       margin: 0;
     }
-
     h2 {
       color: #0071bc;
       font-size: 2rem;
       margin-bottom: 1rem;
     }
-
     label {
       display: block;
       margin: 20px 0 10px;
       font-weight: 600;
     }
-
     input[type="range"], input[type="number"], select {
       width: 100%;
     }
-
     button {
       background-color: #0071bc;
       color: #fff;
@@ -42,11 +38,9 @@
       cursor: pointer;
       margin-top: 20px;
     }
-
     button:hover {
       background-color: #005a99;
     }
-
     table {
       width: 100%;
       overflow-x: auto;
@@ -56,23 +50,19 @@
       background-color: #fff;
       box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
-
     th {
       background-color: #0071bc;
       color: #fff;
       text-align: left;
       padding: 12px;
     }
-
     td {
       padding: 12px;
       border-bottom: 1px solid #eee;
     }
-
     tr:nth-child(even) td {
       background-color: #f2f2f2;
     }
-
     @media (max-width: 600px) {
       label {
         font-size: 0.95rem;
@@ -97,8 +87,8 @@
 
 <label>
   Radius (m):
-  <input type="range" id="radius" min="1" max="80" step="0.1" value="10" oninput="updateRadiusSlider(this.value)">
-  <input type="number" id="radiusVal" min="1" max="80" step="0.1" value="10" oninput="updateRadiusSlider(this.value)" style="width: 80px; display: inline-block; margin-left: 10px;">
+  <input type="range" id="radius" min="1" max="80" value="10" step="0.1" oninput="updateRadiusSlider(this.value)">
+  <input type="number" id="radiusVal" min="1" max="80" value="10" step="0.1" oninput="updateRadiusSlider(this.value)" style="width: 80px; display: inline-block; margin-left: 10px;">
 </label>
 
 <label>
@@ -137,18 +127,16 @@
 </table>
 
 <script>
-    let craneData = [];
-    
-    fetch("crane_data.json")
+let craneData = [];
+
+fetch("crane_data.json")
   .then(res => res.json())
   .then(data => {
-    // ✅ Move 300T Grove to Hobart
     data.forEach(c => {
       if (typeof c.crane === 'string' && c.crane.includes("300T Grove")) {
         c.location = "Hobart";
       }
     });
-
     craneData = data;
     console.log("Crane data loaded and 300T Grove moved to Hobart:", craneData.length);
   })
@@ -157,13 +145,12 @@
     console.error("Crane data load error:", err);
   });
 
-  function updateWeightSlider(val) {
+function updateWeightSlider(val) {
   const weightInput = document.getElementById("weight");
   const numberInput = document.getElementById("weightVal");
 
   val = parseFloat(val);
-  let step = 0.05; // default step
-
+  let step = 0.05;
   if (val < 1.5) {
     step = 0.05;
   } else if (val < 10) {
@@ -176,6 +163,10 @@
   numberInput.step = step;
   weightInput.value = val;
   numberInput.value = val;
+
+  const displayVal = val < 1 ? `${Math.round(val * 1000)} kg` : `${val} t`;
+  weightInput.title = displayVal;
+  numberInput.title = displayVal;
 }
 
 function updateRadiusSlider(val) {
@@ -191,7 +182,7 @@ function updateRadiusSlider(val) {
   numberInput.value = val;
 }
 
-      function findCrane() {
+function findCrane() {
   const radius = parseFloat(document.getElementById("radius").value);
   const weight = parseFloat(document.getElementById("weight").value);
   const safetyPercent = parseFloat(document.getElementById("safetyFactor").value) || 0;
@@ -239,17 +230,13 @@ function updateRadiusSlider(val) {
         <td>${c.cwt ?? 'N/A'}</td>
       </tr>`;
     });
-    table.style.display = "table";
-    return;
-    
+  } else {
+    tbody.innerHTML = `<tr><td colspan="5">No crane available for that load at that radius.</td></tr>`;
   }
-  
 
   table.style.display = "table";
 }
-
-    </script>
-    
+</script>
 
 </body>
 </html>
