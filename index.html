@@ -206,43 +206,43 @@
       }
     
       // Try combinations of 2 or 3 cranes
-    //   const multiCandidates = [];
-    //   for (let i = 0; i < uniqueCranes.length; i++) {
-    //     for (let j = i + 1; j < uniqueCranes.length; j++) {
-    //       const sum2 = uniqueCranes[i].lift + uniqueCranes[j].lift;
-    //       if (sum2 >= adjustedWeight) {
-    //         multiCandidates.push([uniqueCranes[i], uniqueCranes[j]]);
-    //       }
-    //       for (let k = j + 1; k < uniqueCranes.length; k++) {
-    //         const sum3 = sum2 + uniqueCranes[k].lift;
-    //         if (sum3 >= adjustedWeight) {
-    //           multiCandidates.push([uniqueCranes[i], uniqueCranes[j], uniqueCranes[k]]);
-    //         }
-    //       }
-    //     }
-    //   }
+      const multiCandidates = [];
+      for (let i = 0; i < uniqueCranes.length; i++) {
+        for (let j = i + 1; j < uniqueCranes.length; j++) {
+          const sum2 = uniqueCranes[i].lift + uniqueCranes[j].lift;
+          if (sum2 >= adjustedWeight) {
+            multiCandidates.push([uniqueCranes[i], uniqueCranes[j]]);
+          }
+          for (let k = j + 1; k < uniqueCranes.length; k++) {
+            const sum3 = sum2 + uniqueCranes[k].lift;
+            if (sum3 >= adjustedWeight) {
+              multiCandidates.push([uniqueCranes[i], uniqueCranes[j], uniqueCranes[k]]);
+            }
+          }
+        }
+      }
     
-    //   if (multiCandidates.length > 0) {
-    //     const bestCombo = multiCandidates.sort((a, b) =>
-    //       a.reduce((sum, c) => sum + c.capacity, 0) -
-    //       b.reduce((sum, c) => sum + c.capacity, 0)
-    //     )[0];
-    //     tbody.innerHTML += `<tr><td colspan="5"><strong>Multi-Crane Lift</strong></td></tr>`;
-    //     bestCombo.forEach(c => {
-    //       tbody.innerHTML += `<tr>
-    //         <td>${c.crane}</td>
-    //         <td>${c.location}</td>
-    //         <td>${c.radius}</td>
-    //         <td>${c.lift}t</td>
-    //         <td>${c.cwt ?? 'N/A'}</td>
-    //       </tr>`;
-    //     });
-    //     table.style.display = "table";
-    //     return;
-    //   }
+      if (multiCandidates.length > 0) {
+        const bestCombo = multiCandidates.sort((a, b) =>
+          a.reduce((sum, c) => sum + c.capacity, 0) -
+          b.reduce((sum, c) => sum + c.capacity, 0)
+        )[0];
+        tbody.innerHTML += `<tr><td colspan="5"><strong>Multi-Crane Lift</strong></td></tr>`;
+        bestCombo.forEach(c => {
+          tbody.innerHTML += `<tr>
+            <td>${c.crane}</td>
+            <td>${c.location}</td>
+            <td>${c.radius}</td>
+            <td>${c.lift}t</td>
+            <td>${c.cwt ?? 'N/A'}</td>
+          </tr>`;
+        });
+        table.style.display = "table";
+        return;
+      }
     
-    //   tbody.innerHTML = `<tr><td colspan="5">No crane or crane team available for that load at that radius.</td></tr>`;
-    //   table.style.display = "table";
+      tbody.innerHTML = `<tr><td colspan="5">No crane or crane team available for that load at that radius.</td></tr>`;
+      table.style.display = "table";
     }
     </script>
     
