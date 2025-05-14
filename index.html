@@ -118,6 +118,26 @@
 
 <label>
   Safety Factor (%):
+  <label>
+    Minimum Boom Length (m):
+    <input type="number" id="minBoom" min="0" step="0.1" value="0">
+  </label>
+  
+  <label>
+    Crane Type Filter:
+    <select id="craneType">
+      <option value="Any">Any</option>
+      <option value="All Terrain">All Terrain</option>
+      <option value="Franna">Franna</option>
+      <option value="Maeda">Maeda</option>
+      <option value="Grove">Grove</option>
+      <option value="Kato">Kato</option>
+      <option value="Demag">Demag</option>
+      <option value="Liehbherr">Liehbherr</option>
+      <option value="Tadano">Tadano</option>
+    </select>
+  </label>
+  
   <input type="number" id="safetyFactor" min="0" max="100" value="0"> (add extra buffer above actual load)
 </label>
 
