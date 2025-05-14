@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Crane Selector</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      padding: 20px;
+      margin: 0;
+    }
+
+    h2 {
+      color: #0071bc;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    label {
+      display: block;
+      margin: 20px 0 10px;
+      font-weight: 600;
+    }
+
+    input[type="range"], input[type="number"], select {
+      width: 100%;
+    }
+
+    button {
+      background-color: #0071bc;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #005a99;
+    }
+
+    table {
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      margin-top: 20px;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    th {
+      background-color: #0071bc;
+      color: #fff;
+      text-align: left;
+      padding: 12px;
+    }
+
+    td {
+      padding: 12px;
+      border-bottom: 1px solid #eee;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #f2f2f2;
+    }
+
+    @media (max-width: 600px) {
+      label {
+        font-size: 0.95rem;
+      }
+      input[type=range], input[type=number], select {
+        width: 100% !important;
+        margin-top: 5px;
+      }
+      button {
+        width: 100%;
+      }
+      th, td {
+        font-size: 0.9rem;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h2>Crane Selector</h2>
+
+<label>
+  Radius (m):
+  <input type="range" id="radius" min="1" max="80" step="0.1" value="10" oninput="updateRadiusSlider(this.value)">
+  <input type="number" id="radiusVal" min="1" max="80" step="0.1" value="10" oninput="updateRadiusSlider(this.value)" style="width: 80px; display: inline-block; margin-left: 10px;">
+</label>
+
+<label>
+  Weight (t):
+  <input type="range" id="weight" min="0.05" max="300" step="0.05" value="0.05" oninput="updateWeightSlider(this.value)">
+  <input type="number" id="weightVal" min="0.05" max="300" step="0.05" value="0.05" oninput="updateWeightSlider(this.value)" style="width: 80px; display: inline-block; margin-left: 10px;">
+</label>
+
+<label>
+  Location:
+  <select id="location">
+    <option value="Any">Any</option>
+    <option value="Launceston">Launceston</option>
+    <option value="Hobart">Hobart</option>
+  </select>
+</label>
+
+<label>
+  Safety Factor (%):
+  <input type="number" id="safetyFactor" min="0" max="100" value="0"> (add extra buffer above actual load)
+</label>
+
+<button onclick="findCrane()">Find Crane</button>
+
+<table id="resultTable" style="display:none;">
+  <thead>
+    <tr>
+      <th>Crane</th>
+      <th>Location</th>
+      <th>Radius (m)</th>
+      <th>Lift Capacity</th>
+      <th>Counterweight</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script>
+    let craneData = [];
+    
+    fetch("crane_data.json")
+  .then(res => res.json())
+  .then(data => {
+    // ✅ Move 300T Grove to Hobart
+    data.forEach(c => {
+      if (typeof c.crane === 'string' && c.crane.includes("300T Grove")) {
+        c.location = "Hobart";
+      }
+    });
+
+    craneData = data;
+    console.log("Crane data loaded and 300T Grove moved to Hobart:", craneData.length);
+  })
+  .catch(err => {
+    alert("Failed to load crane data.");
+    console.error("Crane data load error:", err);
+  });
+
+  function updateWeightSlider(val) {
+  const weightInput = document.getElementById("weight");
+  const numberInput = document.getElementById("weightVal");
+
+  val = parseFloat(val);
+  let step = 0.05; // default step
+
+  if (val < 1.5) {
+    step = 0.05;
+  } else if (val < 10) {
+    step = 0.1;
+  } else {
+    step = 0.5;
+  }
+
+  weightInput.step = step;
+  numberInput.step = step;
+  weightInput.value = val;
+  numberInput.value = val;
+}
+
+function updateRadiusSlider(val) {
+  const radiusInput = document.getElementById("radius");
+  const numberInput = document.getElementById("radiusVal");
+
+  val = parseFloat(val);
+  const step = val < 10 ? 0.1 : 0.5;
+
+  radiusInput.step = step;
+  numberInput.step = step;
+  radiusInput.value = val;
+  numberInput.value = val;
+}
+
+      function findCrane() {
+  const radius = parseFloat(document.getElementById("radius").value);
+  const weight = parseFloat(document.getElementById("weight").value);
+  const safetyPercent = parseFloat(document.getElementById("safetyFactor").value) || 0;
+  const adjustedWeight = weight * (1 + safetyPercent / 100);
+  const location = document.getElementById("location").value;
+
+  const filtered = craneData
+    .map(c => {
+      const craneName = typeof c.crane === 'string' ? c.crane.trim().replace(/\s+/g, ' ') : null;
+      return { ...c, lift: parseFloat(c.lift ?? 'NaN'), crane: craneName };
+    })
+    .filter(c =>
+      c.crane &&
+      !isNaN(c.lift) &&
+      Math.abs(c.radius - radius) <= 1 &&
+      (location === 'Any' || c.location === location) &&
+      !(c.crane === "25T Kato" && c.location === "Hobart")
+    );
+
+  const uniqueMap = {};
+  filtered.forEach(c => {
+    if (!uniqueMap[c.crane] || uniqueMap[c.crane].lift < c.lift) {
+      uniqueMap[c.crane] = c;
+    }
+  });
+
+  const uniqueCranes = Object.values(uniqueMap);
+
+  const singleCrane = uniqueCranes
+    .filter(c => c.lift >= adjustedWeight)
+    .sort((a, b) => a.capacity - b.capacity);
+
+  const table = document.getElementById("resultTable");
+  const tbody = table.querySelector("tbody");
+  tbody.innerHTML = "";
+
+  if (singleCrane.length > 0) {
+    tbody.innerHTML += `<tr><td colspan="5"><strong>Top Crane Options</strong></td></tr>`;
+    singleCrane.slice(0, 2).forEach(c => {
+      tbody.innerHTML += `<tr>
+        <td>${c.crane}</td>
+        <td>${c.location}</td>
+        <td>${c.radius}</td>
+        <td>${c.lift}t</td>
+        <td>${c.cwt ?? 'N/A'}</td>
+      </tr>`;
+    });
+    table.style.display = "table";
+    return;
+    
+  }
+  
+
+  table.style.display = "table";
+}
+
+    </script>
+    
+
+</body>
+</html>
