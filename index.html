@@ -28,7 +28,7 @@
       font-weight: 600;
     }
 
-    input[type="range"], input[type="number"] {
+    input[type="range"], input[type="number"], select {
       width: 100%;
     }
 
@@ -72,7 +72,8 @@
     tr:nth-child(even) td {
       background-color: #f2f2f2;
     }
-      @media (max-width: 600px) {
+
+    @media (max-width: 600px) {
       label {
         font-size: 0.95rem;
       }
@@ -99,13 +100,11 @@
   <input type="range" id="radius" min="1" max="80" value="10" oninput="radiusVal.value = this.value">
   <input type="number" id="radiusVal" min="1" max="80" value="10" step="1" oninput="radius.value = this.value" style="width: 80px; display: inline-block; margin-left: 10px;">
 </label>
-</label>
 
 <label>
   Weight (t):
   <input type="range" id="weight" min="0.1" max="300" step="0.1" value="5" oninput="weightVal.value = this.value">
   <input type="number" id="weightVal" min="0.1" max="300" step="0.1" value="5" oninput="weight.value = this.value" style="width: 80px; display: inline-block; margin-left: 10px;">
-</label>
 </label>
 
 <label>
@@ -128,8 +127,10 @@
   <thead>
     <tr>
       <th>Crane</th>
-      <th>Counterweight</th>
+      <th>Location</th>
+      <th>Radius (m)</th>
       <th>Lift Capacity</th>
+      <th>Counterweight</th>
     </tr>
   </thead>
   <tbody></tbody>
@@ -140,8 +141,14 @@ let craneData = [];
 
 fetch("crane_data.json")
   .then(res => res.json())
-  .then(data => craneData = data)
-  .catch(err => console.error("Failed to load crane data:", err));
+  .then(data => {
+    craneData = data;
+    console.log("Crane data loaded:", craneData.length);
+  })
+  .catch(err => {
+    alert("Failed to load crane data.");
+    console.error("Crane data load error:", err);
+  });
 
 function findCrane() {
   const radius = parseFloat(document.getElementById("radius").value);
@@ -151,33 +158,34 @@ function findCrane() {
   const location = document.getElementById("location").value;
 
   const candidates = craneData
-    .map(c => ({ ...c, lift: parseFloat(c.lift) }))
+    .map(c => ({ ...c, lift: parseFloat(c.lift ?? 'NaN') }))
     .filter(c =>
       c.crane &&
       !isNaN(c.lift) &&
       !isNaN(c.capacity) &&
-      c.lift >= adjustedWeight && (location === 'Any' || c.location === location) &&
+      c.lift >= adjustedWeight &&
+      (location === 'Any' || c.location === location) &&
       Math.abs(c.radius - radius) <= 1
     )
     .sort((a, b) => a.capacity - b.capacity);
-
-  console.log("Candidates found:", candidates.length);
 
   const table = document.getElementById("resultTable");
   const tbody = table.querySelector("tbody");
   tbody.innerHTML = "";
 
   if (candidates.length > 0) {
-    const best = candidates[0];
-    tbody.innerHTML = `<tr>
-      <td>${best.crane}</td>
-      <td>${best.cwt}</td>
-      <td>${best.lift}t</td>
-    </tr>`;
+    candidates.slice(0, 3).forEach(c => {
+      tbody.innerHTML += `<tr>
+        <td>${c.crane}</td>
+        <td>${c.location}</td>
+        <td>${c.radius}</td>
+        <td>${c.lift}t</td>
+        <td>${c.cwt ?? 'N/A'}</td>
+      </tr>`;
+    });
     table.style.display = "table";
   } else {
-    alert("No matching cranes found. Try adjusting radius, weight, or safety factor.");
-    tbody.innerHTML = `<tr><td colspan="3">No crane available for that load at that radius.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="5">No crane available for that load at that radius.</td></tr>`;
     table.style.display = "table";
   }
 }
