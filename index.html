@@ -119,6 +119,11 @@
 <label>
   Safety Factor (%):
   <label>
+  Minimum Boom Length (m):
+  <input type="number" id="minBoom" min="0" step="0.1" value="0">
+</label>
+
+<label>
     Minimum Boom Length (m):
     <input type="number" id="minBoom" min="0" step="0.1" value="0">
   </label>
@@ -138,6 +143,22 @@
     </select>
   </label>
   
+
+<label>
+  Crane Type Filter:
+  <select id="craneType">
+    <option value="Any">Any</option>
+    <option value="All Terrain">All Terrain</option>
+    <option value="Franna">Franna</option>
+    <option value="Maeda">Maeda</option>
+    <option value="Grove">Grove</option>
+    <option value="Kato">Kato</option>
+    <option value="Demag">Demag</option>
+    <option value="Liehbherr">Liehbherr</option>
+    <option value="Tadano">Tadano</option>
+  </select>
+</label>
+
   <input type="number" id="safetyFactor" min="0" max="100" value="0"> (add extra buffer above actual load)
 </label>
 
@@ -171,6 +192,8 @@
       });
     
     function findCrane() {
+      const minBoom = parseFloat(document.getElementById("minBoom").value) || 0;
+      const craneType = document.getElementById("craneType").value;
       const radius = parseFloat(document.getElementById("radius").value);
       const weight = parseFloat(document.getElementById("weight").value);
       const safetyPercent = parseFloat(document.getElementById("safetyFactor").value) || 0;
@@ -179,12 +202,16 @@
     
       // Filter and map lift to number
       const filtered = craneData
-            .filter(c =>
-            c.crane &&
-        !isNaN(c.lift) &&
-        Math.abs(c.radius - radius) <= 1 &&
-        (location === 'Any' || c.location === location) &&
-        !(c.crane.trim().startsWith("25T") && c.crane.includes("Kato") && c.location === "Hobart")
+      .filter(c =>
+  c.crane &&
+  !isNaN(c.lift) &&
+  (!c.boom || parseFloat(c.boom) >= minBoom) &&
+  Math.abs(c.radius - radius) <= 1 &&
+  (location === 'Any' || c.location === location) &&
+  (craneType === 'Any' || c.crane.includes(craneType)) &&
+  !(c.crane.trim().startsWith("25T") && c.crane.includes("Kato") && c.location === "Hobart")
+)
+
 )
 
     
@@ -255,7 +282,9 @@
         return;
       }
       
-    
+       tbody.innerHTML += `<tr><td colspan="5" style="color: #a00; font-weight: bold;">
+         ⚠️ Multi-crane lifts involve complex coordination, ground prep, and synchronized control. Always consult a qualified lift engineer for planning and approvals.
+         </td></tr>`;
       tbody.innerHTML = `<tr><td colspan="5">No crane or crane team available for that load at that radius.</td></tr>`;
       table.style.display = "table";
     }
