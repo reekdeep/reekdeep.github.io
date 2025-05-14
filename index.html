@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <title>Crane Selector</title>
   <style>
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
     body {
       font-family: 'Helvetica Neue', sans-serif;
       background-color: #f8f9fa;
@@ -13,17 +15,23 @@
       padding: 20px;
       margin: 0;
     }
+
     h2 {
       color: #0071bc;
       font-size: 2rem;
       margin-bottom: 1rem;
     }
+
     label {
       display: block;
       margin: 20px 0 10px;
       font-weight: 600;
     }
-    input[type="range"], input[type="number"], select { width: 100%; }
+
+    input[type="range"], input[type="number"], select {
+      width: 100%;
+    }
+
     button {
       background-color: #0071bc;
       color: #fff;
@@ -34,7 +42,11 @@
       cursor: pointer;
       margin-top: 20px;
     }
-    button:hover { background-color: #005a99; }
+
+    button:hover {
+      background-color: #005a99;
+    }
+
     table {
       width: 100%;
       overflow-x: auto;
@@ -44,22 +56,38 @@
       background-color: #fff;
       box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
+
     th {
       background-color: #0071bc;
       color: #fff;
       text-align: left;
       padding: 12px;
     }
+
     td {
       padding: 12px;
       border-bottom: 1px solid #eee;
     }
-    tr:nth-child(even) td { background-color: #f2f2f2; }
+
+    tr:nth-child(even) td {
+      background-color: #f2f2f2;
+    }
+
     @media (max-width: 600px) {
-      label { font-size: 0.95rem; }
-      input[type=range], input[type=number], select { width: 100% !important; margin-top: 5px; }
-      button { width: 100%; }
-      th, td { font-size: 0.9rem; padding: 10px; }
+      label {
+        font-size: 0.95rem;
+      }
+      input[type=range], input[type=number], select {
+        width: 100% !important;
+        margin-top: 5px;
+      }
+      button {
+        width: 100%;
+      }
+      th, td {
+        font-size: 0.9rem;
+        padding: 10px;
+      }
     }
   </style>
 </head>
@@ -91,26 +119,6 @@
 <label>
   Safety Factor (%):
   <input type="number" id="safetyFactor" min="0" max="100" value="0"> (add extra buffer above actual load)
-</label>
-
-<label>
-  Minimum Boom Length (m):
-  <input type="number" id="minBoom" min="0" step="0.1" value="0">
-</label>
-
-<label>
-  Crane Type Filter:
-  <select id="craneType">
-    <option value="Any">Any</option>
-    <option value="All Terrain">All Terrain</option>
-    <option value="Franna">Franna</option>
-    <option value="Maeda">Maeda</option>
-    <option value="Grove">Grove</option>
-    <option value="Kato">Kato</option>
-    <option value="Demag">Demag</option>
-    <option value="Liehbherr">Liehbherr</option>
-    <option value="Tadano">Tadano</option>
-  </select>
 </label>
 
 <button onclick="findCrane()">Find Crane</button>
@@ -148,42 +156,25 @@ function findCrane() {
   const safetyPercent = parseFloat(document.getElementById("safetyFactor").value) || 0;
   const adjustedWeight = weight * (1 + safetyPercent / 100);
   const location = document.getElementById("location").value;
-  const minBoom = parseFloat(document.getElementById("minBoom").value) || 0;
-  const craneType = document.getElementById("craneType").value;
 
-  const filtered = craneData
-    .map(c => ({
-      ...c,
-      lift: parseFloat(c.lift ?? 'NaN'),
-      boomNum: parseFloat((c.boom || "").replace(/[^\d.]/g, '')) || 0
-    }))
+  const candidates = craneData
+    .map(c => ({ ...c, lift: parseFloat(c.lift ?? 'NaN') }))
     .filter(c =>
       c.crane &&
       !isNaN(c.lift) &&
-      c.boomNum >= minBoom &&
-      Math.abs(c.radius - radius) <= 1 &&
+      !isNaN(c.capacity) &&
+      c.lift >= adjustedWeight &&
       (location === 'Any' || c.location === location) &&
-      (craneType === 'Any' || c.crane.includes(craneType)) &&
-      !(c.crane.trim().startsWith("25T") && c.crane.includes("Kato") && c.location === "Hobart")
-    );
-
-  const uniqueMap = {};
-  filtered.forEach(c => {
-    if (!uniqueMap[c.crane] || uniqueMap[c.crane].lift < c.lift) {
-      uniqueMap[c.crane] = c;
-    }
-  });
-  const uniqueCranes = Object.values(uniqueMap);
-
-  const singleCrane = uniqueCranes.filter(c => c.lift >= adjustedWeight).sort((a, b) => a.capacity - b.capacity);
+      Math.abs(c.radius - radius) <= 1
+    )
+    .sort((a, b) => a.capacity - b.capacity);
 
   const table = document.getElementById("resultTable");
   const tbody = table.querySelector("tbody");
   tbody.innerHTML = "";
 
-  if (singleCrane.length >= 2) {
-    tbody.innerHTML += `<tr><td colspan="5"><strong>Top Single Cranes</strong></td></tr>`;
-    singleCrane.slice(0, 2).forEach(c => {
+  if (candidates.length > 0) {
+    candidates.slice(0, 3).forEach(c => {
       tbody.innerHTML += `<tr>
         <td>${c.crane}</td>
         <td>${c.location}</td>
@@ -193,48 +184,10 @@ function findCrane() {
       </tr>`;
     });
     table.style.display = "table";
-    return;
-  }
-
-  const multiCandidates = [];
-  for (let i = 0; i < uniqueCranes.length; i++) {
-    for (let j = i + 1; j < uniqueCranes.length; j++) {
-      const sum2 = uniqueCranes[i].lift + uniqueCranes[j].lift;
-      if (sum2 >= adjustedWeight) {
-        multiCandidates.push([uniqueCranes[i], uniqueCranes[j]]);
-      }
-      for (let k = j + 1; k < uniqueCranes.length; k++) {
-        const sum3 = sum2 + uniqueCranes[k].lift;
-        if (sum3 >= adjustedWeight) {
-          multiCandidates.push([uniqueCranes[i], uniqueCranes[j], uniqueCranes[k]]);
-        }
-      }
-    }
-  }
-
-  if (multiCandidates.length > 0) {
-    const bestCombo = multiCandidates.sort((a, b) =>
-      a.reduce((sum, c) => sum + c.capacity, 0) -
-      b.reduce((sum, c) => sum + c.capacity, 0)
-    )[0];
-    tbody.innerHTML += `<tr><td colspan="5" style="color: #a00; font-weight: bold;">
-    ⚠️ Multi-crane lifts involve complex coordination, ground prep, and synchronized control. Always consult a qualified lift engineer for planning and approvals.
-    </td></tr>`;
-    bestCombo.forEach(c => {
-      tbody.innerHTML += `<tr>
-        <td>${c.crane}</td>
-        <td>${c.location}</td>
-        <td>${c.radius}</td>
-        <td>${c.lift}t</td>
-        <td>${c.cwt ?? 'N/A'}</td>
-      </tr>`;
-    });
+  } else {
+    tbody.innerHTML = `<tr><td colspan="5">No crane available for that load at that radius.</td></tr>`;
     table.style.display = "table";
-    return;
   }
-
-  tbody.innerHTML = `<tr><td colspan="5">No crane or crane team available for that load at that radius.</td></tr>`;
-  table.style.display = "table";
 }
 </script>
 
