@@ -162,10 +162,7 @@
   const numberInput = document.getElementById("weightVal");
 
   val = parseFloat(val);
-  let displayVal = val < 1 ? `${Math.round(val * 1000)} kg` : `${val} t`;
-document.getElementById("weight").title = displayVal;
-document.getElementById("weightVal").title = displayVal;
-
+  
   let step = 0.05; // default step
 
   if (val < 1.5) {
