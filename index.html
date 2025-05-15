@@ -1,241 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
-  <title>Crane Selector</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crane Selector Tool</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Helvetica Neue', sans-serif;
-      background-color: #f8f9fa;
-      color: #333;
-      padding: 20px;
-      margin: 0;
-    }
-    h2 {
-      color: #0071bc;
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-    label {
-      display: block;
-      margin: 20px 0 10px;
-      font-weight: 600;
-    }
-    input[type="range"], input[type="number"], select {
-      width: 100%;
-    }
-    button {
-      background-color: #0071bc;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 4px;
-      font-size: 1rem;
-      cursor: pointer;
-      margin-top: 20px;
-    }
-    button:hover {
-      background-color: #005a99;
-    }
-    table {
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      margin-top: 20px;
-      border-collapse: collapse;
-      background-color: #fff;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-    th {
-      background-color: #0071bc;
-      color: #fff;
-      text-align: left;
-      padding: 12px;
-    }
-    td {
-      padding: 12px;
-      border-bottom: 1px solid #eee;
-    }
-    tr:nth-child(even) td {
-      background-color: #f2f2f2;
-    }
-    @media (max-width: 600px) {
-      label {
-        font-size: 0.95rem;
-      }
-      input[type=range], input[type=number], select {
-        width: 100% !important;
-        margin-top: 5px;
-      }
-      button {
-        width: 100%;
-      }
-      th, td {
-        font-size: 0.9rem;
-        padding: 10px;
-      }
-    }
+    body { font-family: sans-serif; background: #f8f9fa; padding: 30px; }
+    .crane-selector { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
   </style>
 </head>
 <body>
 
-<h2>Crane Selector</h2>
+<section class="crane-selector container">
+  <h2 class="h2 text-primary text-center mb-4">Crane Selector Tool</h2>
 
-<label>
-  Radius (m):
-  <input type="range" id="radius" min="1" max="80" value="10" step="0.1" oninput="updateRadiusSlider(this.value)">
-  <input type="number" id="radiusVal" min="1" max="80" value="10" step="0.1" oninput="updateRadiusSlider(this.value)" style="width: 80px; display: inline-block; margin-left: 10px;">
-</label>
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <label>Radius (m):</label>
+      <input type="range" id="radius" min="1" max="80" value="10" step="0.1" class="form-range" oninput="radiusVal.value = this.value">
+      <input type="number" id="radiusVal" class="form-control mt-1" value="10" step="0.1" oninput="radius.value = this.value">
+    </div>
+    <div class="col-md-6">
+      <label>Weight (t):</label>
+      <input type="range" id="weight" min="0.05" max="300" value="0.05" step="0.05" class="form-range" oninput="weightVal.value = this.value">
+      <input type="number" id="weightVal" class="form-control mt-1" value="0.05" step="0.05" oninput="weight.value = this.value">
+    </div>
+  </div>
 
-<label>
-  Weight (t):
-  <input type="range" id="weight" min="0.05" max="300" step="0.05" value="0.05" oninput="updateWeightSlider(this.value)">
-  <input type="number" id="weightVal" min="0.05" max="300" step="0.05" value="0.05" oninput="updateWeightSlider(this.value)" style="width: 80px; display: inline-block; margin-left: 10px;">
-</label>
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <label>Location:</label>
+      <select id="location" class="form-control">
+        <option value="Any">Any</option>
+        <option value="Launceston">Launceston</option>
+        <option value="Hobart">Hobart</option>
+      </select>
+    </div>
+    <div class="col-md-6">
+      <label>Safety Factor (%):</label>
+      <input type="number" id="safetyFactor" class="form-control" min="0" max="100" value="0">
+    </div>
+  </div>
 
-<label>
-  Location:
-  <select id="location">
-    <option value="Any">Any</option>
-    <option value="Launceston">Launceston</option>
-    <option value="Hobart">Hobart</option>
-  </select>
-</label>
+  <button onclick="findCrane()" class="btn btn-primary w-100">Find Crane</button>
 
-<label>
-  Safety Factor (%):
-  <input type="number" id="safetyFactor" min="0" max="100" value="0"> (add extra buffer above actual load)
-</label>
-
-<button onclick="findCrane()">Find Crane</button>
-
-<table id="resultTable" style="display:none;">
-  <thead>
-    <tr>
-      <th>Crane</th>
-      <th>Location</th>
-      <th>Radius (m)</th>
-      <th>Lift Capacity</th>
-      <th>Counterweight</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
+  <div class="table-responsive mt-4">
+    <table class="table" id="resultTable" style="display:none;">
+      <thead>
+        <tr>
+          <th>Crane</th>
+          <th>Location</th>
+          <th>Radius</th>
+          <th>Lift Capacity</th>
+          <th>Counterweight</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</section>
 
 <script>
 let craneData = [];
 
 fetch("crane_data.json")
   .then(res => res.json())
-  .then(data => {
-    data.forEach(c => {
-      if (typeof c.crane === 'string' && c.crane.includes("300T Grove")) {
-        c.location = "Hobart";
-      }
-    });
-    craneData = data;
-    console.log("Crane data loaded and 300T Grove moved to Hobart:", craneData.length);
-  })
-  .catch(err => {
-    alert("Failed to load crane data.");
-    console.error("Crane data load error:", err);
-  });
-
-function updateWeightSlider(val) {
-  const weightInput = document.getElementById("weight");
-  const numberInput = document.getElementById("weightVal");
-
-  val = parseFloat(val);
-  let step = 0.05;
-  if (val < 1.5) {
-    step = 0.05;
-  } else if (val < 10) {
-    step = 0.1;
-  } else {
-    step = 0.5;
-  }
-
-  weightInput.step = step;
-  numberInput.step = step;
-  weightInput.value = val;
-  numberInput.value = val;
-
-  const displayVal = val < 1 ? `${Math.round(val * 1000)} kg` : `${val} t`;
-  weightInput.title = displayVal;
-  numberInput.title = displayVal;
-}
-
-function updateRadiusSlider(val) {
-  const radiusInput = document.getElementById("radius");
-  const numberInput = document.getElementById("radiusVal");
-
-  val = parseFloat(val);
-  const step = val < 10 ? 0.1 : 0.5;
-
-  radiusInput.step = step;
-  numberInput.step = step;
-  radiusInput.value = val;
-  numberInput.value = val;
-}
+  .then(data => { craneData = data; });
 
 function findCrane() {
   const radius = parseFloat(document.getElementById("radius").value);
   const weight = parseFloat(document.getElementById("weight").value);
-  const safetyPercent = parseFloat(document.getElementById("safetyFactor").value) || 0;
-  const adjustedWeight = weight * (1 + safetyPercent / 100);
+  const safety = parseFloat(document.getElementById("safetyFactor").value) || 0;
+  const adjustedWeight = weight * (1 + safety / 100);
   const location = document.getElementById("location").value;
 
-  const filtered = craneData
-    .map(c => {
-      const craneName = typeof c.crane === 'string' ? c.crane.trim().replace(/\s+/g, ' ') : null;
-      return { ...c, lift: parseFloat(c.lift ?? 'NaN'), crane: craneName };
-    })
+  const results = craneData
+    .map(c => ({ ...c, lift: parseFloat(c.lift ?? 'NaN'), crane: c.crane?.trim().replace(/\s+/g, ' ') }))
     .filter(c =>
       c.crane &&
       !isNaN(c.lift) &&
       Math.abs(c.radius - radius) <= 1 &&
-      (location === 'Any' || c.location === location) &&
+      (location === "Any" || c.location === location) &&
       !(c.crane === "25T Kato" && c.location === "Hobart")
     );
 
-  const uniqueMap = {};
-  filtered.forEach(c => {
-    if (!uniqueMap[c.crane] || uniqueMap[c.crane].lift < c.lift) {
-      uniqueMap[c.crane] = c;
+  const deduped = {};
+  results.forEach(c => {
+    if (!deduped[c.crane] || deduped[c.crane].lift < c.lift) {
+      deduped[c.crane] = c;
     }
   });
 
-  const uniqueCranes = Object.values(uniqueMap);
-
-  const singleCrane = uniqueCranes
+  const top = Object.values(deduped)
     .filter(c => c.lift >= adjustedWeight)
-    .sort((a, b) => a.capacity - b.capacity);
+    .sort((a, b) => a.capacity - b.capacity)
+    .slice(0, 2);
 
   const table = document.getElementById("resultTable");
   const tbody = table.querySelector("tbody");
   tbody.innerHTML = "";
 
-  if (singleCrane.length > 0) {
-    tbody.innerHTML += `<tr><td colspan="5"><strong>Top Crane Options</strong></td></tr>`;
-    singleCrane.slice(0, 2).forEach(c => {
+  if (top.length) {
+    top.forEach(c => {
       tbody.innerHTML += `<tr>
         <td>${c.crane}</td>
         <td>${c.location}</td>
         <td>${c.radius}</td>
         <td>${c.lift}t</td>
-        <td>${c.cwt ?? 'N/A'}</td>
+        <td>${c.cwt ?? "N/A"}</td>
       </tr>`;
     });
   } else {
-    tbody.innerHTML = `<tr><td colspan="5">Multiple cranes needed for that load at that radius.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="5">No crane found for that load/radius.</td></tr>`;
   }
 
   table.style.display = "table";
 }
+
+document.getElementById('radius').addEventListener('input', e => {
+  document.getElementById('radiusVal').value = e.target.value;
+});
+document.getElementById('radiusVal').addEventListener('input', e => {
+  document.getElementById('radius').value = e.target.value;
+});
+document.getElementById('weight').addEventListener('input', e => {
+  document.getElementById('weightVal').value = e.target.value;
+});
+document.getElementById('weightVal').addEventListener('input', e => {
+  document.getElementById('weight').value = e.target.value;
+});
 </script>
 
 </body>
